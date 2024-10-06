@@ -1,0 +1,8 @@
+site_name: Slabserver Wiki
+site_url: https://slabserver.github.io
+theme:
+  name: material
+
+markdown_extensions:
+- toc:
+    permalink: true
