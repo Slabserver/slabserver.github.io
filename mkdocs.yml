@@ -1,54 +1,41 @@
-site_name: Slabserver Nexus
+site_name: Slabserver | The Etho Community
 site_url: https://slabserver.github.io
+site_author: DaUltraMarine
+site_description: >-
+  Welcome to <b>Slabserver</b> – the heart of everything Etho. Founded in 2014, our community is a friendly, energetic, and inclusive space where fans of Etho can come to chat, connect, and create together.
+
+# Home to all things Etho, Slabserver is a friendly, welcoming, and inclusive community for all fans.
+
 theme:
+  favicon: assets/images/favicon.png
+  logo: assets/images/icon.png
   features:
     - navigation.tabs
   name: material
   custom_dir: overrides
   palette:
 
-    # # Palette toggle for automatic mode
-    # - media: "(prefers-color-scheme)"
-    #   toggle:
-    #     icon: material/brightness-auto
-    #     name: Switch to light mode
-
-    # # Palette toggle for light mode
-    # - media: "(prefers-color-scheme: light)"
-    #   scheme: default 
-    #   toggle:
-    #     icon: material/brightness-7
-    #     name: Switch to dark mode
-
-    # # Palette toggle for dark mode
-    # - media: "(prefers-color-scheme: dark)"
-    #   scheme: slate
-    #   primary: black
-    #   toggle:
-    #     icon: material/brightness-4
-    #     name: Switch to system preference
-
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
       toggle:
         icon: material/link
-        name: Switch to light mode
+        name: Switch to Light Mode
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: indigo
+      primary: white
       accent: indigo
       toggle:
-        icon: material/toggle-switch
-        name: Switch to dark mode
+        icon: material/toggle-switch-off
+        name: Switch to Dark Mode
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: black
       accent: indigo
       toggle:
-        icon: material/toggle-switch-off
-        name: Switch to system preference
+        icon: material/toggle-switch
+        name: Switch to System Preference
 
 markdown_extensions:
 - attr_list
@@ -68,3 +55,6 @@ nav:
   - Transparency Reports: transparency/index.md
   - History: history/index.md
   - Community Wiki: https://mediawiki.slabserver.org
+
+extra_css:
+  - assets/stylesheets/extra.css

@@ -1,12 +1,11 @@
 ---
 template: home.html
-title: Material for MkDocs
-social:
-  cards_layout_options:
-    title: Documentation that simply works
+title:
+# social:
+#   cards_layout_options:
+#     title: Documentation that simply works
 ---
 
-Welcome to Material for MkDocs.
 <!-- # Welcome to MkDocs
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).

@@ -1,23 +1,36 @@
 {% extends "main.html" %}
 {% block tabs %}
   {{ super() }}
-  <style>.md-header{position:initial}.md-main__inner{margin:0}.md-content{display:none}@media screen and (min-width:60em){.md-sidebar--secondary{display:none}}@media screen and (min-width:76.25em){.md-sidebar--primary{display:none}}</style>
+  <!-- <style>.md-header{position:initial}.md-content{display:none}@media screen and (min-width:60em){.md-sidebar--secondary{display:none}}@media screen and (min-width:76.25em){.md-sidebar--primary{display:none}}</style> -->
   <section class="mdx-container">
     <div class="md-grid md-typeset">
       <div class="mdx-hero">
         <div class="mdx-hero__image">
-          <img src="assets/images/hero.png" alt="" width="1659" height="1200" draggable="false">
+          <img src="assets/images/hero.png" alt="" draggable="false">
         </div>
         <div class="mdx-hero__content">
-          <h1>Lorum ipsum dolor sit amet</h1>
-          <p>{{ config.site_description }}. Lorum ipsum dolor sit amet.</p>
-          <a href="{{ page.next_page.url | url }}" title="{{ page.next_page.title | e }}" class="md-button md-button--primary">
-            Lorum Ipsum
+          <img src="assets/images/logo.png" alt="" draggable="false">
+          <h1>Welcome to the Etho Community! We hope you've got your snacks...</h1>
+          <p>{{ config.site_description }}
+            <br><br>
+            Whether joining the conversation on Discord, playing on our Minecraft servers, or simply meeting like-minded friends and fans, Slabserver has it all.
+            <br><br>
+            Join us below, and be a part of the community!</p>
+            <a href="https://slabserver.org/discord" title="Join our Discord" class="md-button md-button--primary">
+            <span class="twemoji discord">
+              {% include ".icons/simple/discord.svg" %}
+            </span>
+            Join our Discord
+          </a>
+          <a href="{{ page.next_page.url | url }}" title="Join our servers" class="md-button md-button--primary">
+            <span class="twemoji discord">
+              {% include ".icons/material/minecraft.svg" %}
+            </span>
+            Join our servers
           </a>
         </div>
       </div>
     </div>
   </section>
 {% endblock %}
-{% block content %}{% endblock %}
 {% block footer %}{% endblock %}
