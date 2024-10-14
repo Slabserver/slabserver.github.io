@@ -35,6 +35,11 @@
 
     <!-- Additional styles for landing page -->
     <style>    
+                .md-main {
+              height: 0;
+              width:0;
+              overflow:hidden
+            }
         @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Lato&family=Nunito&family=Playfair+Display:ital@1&family=Prata&family=Raleway:ital,wght@1,100&family=Roboto&family=Roboto+Condensed&family=Teko&display=swap');
         @media (min-width: 1220px) {
             .md-main {
@@ -84,13 +89,11 @@
         /**/
         /*Adjusting Mobile UI */
         /**/
-        @media screen and (max-width: 30em) {
-            .tx-hero h1 {
-                font-size: 1.4rem
-            }
+        @media screen and (max-width:  29.984375em) {
             .md-main {
-                /* display: none; */
-                /* height: 1; */
+              height: 0;
+              width:0;
+              overflow:hidden
             }
         }
     
@@ -100,8 +103,9 @@
             }
 
             .md-main {
-              height: 0px;
-              max-height: 0px;
+              height: 0;
+              width:0;
+              overflow:hidden
             }
         }
     
