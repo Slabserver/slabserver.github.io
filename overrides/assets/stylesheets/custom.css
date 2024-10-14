@@ -14,10 +14,10 @@ body, html {
       );
     width: 100vw;
     height: 100%;
-    min-height: auto;
-    box-sizing: border-box;
+    /* min-height: auto; */
+    /* box-sizing: border-box;
     overflow-x: hidden;
-    overflow-y: hidden;
+    overflow-y: hidden; */
 }
 [data-md-color-scheme="slate"] .mdx-container {
 background:
@@ -36,7 +36,7 @@ background:
 .mdx-hero h1 {
   color: currentcolor;
   font-weight: 700;
-  margin-bottom: 1rem;
+  /* margin-bottom: 1rem; */
   font-size: 1.2rem;
   padding-left: 0.5em;
 }
@@ -72,6 +72,13 @@ background:
   .mdx-hero__image {
     transform: translateX(7.5rem);
   }
+  .mdx-container {
+    height: 94.5%;
+    /* min-height: auto; */
+    /* box-sizing: border-box;
+    overflow-x: hidden;
+    overflow-y: hidden; */
+}
 }
 .mdx-hero .md-button {
   color: var(--md-primary-bg-color);
