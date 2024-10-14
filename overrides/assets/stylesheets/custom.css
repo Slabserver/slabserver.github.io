@@ -4,6 +4,10 @@ body, html {
   margin: 0;
 }
 
+.md-tabs {
+  overflow: visible;
+}
+
 .mdx-container {
     background: 
       linear-gradient(
@@ -72,13 +76,6 @@ background:
   .mdx-hero__image {
     transform: translateX(7.5rem);
   }
-  .mdx-container {
-    height: 94.5%;
-    /* min-height: auto; */
-    /* box-sizing: border-box;
-    overflow-x: hidden;
-    overflow-y: hidden; */
-}
 }
 .mdx-hero .md-button {
   color: var(--md-primary-bg-color);
