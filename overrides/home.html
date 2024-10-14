@@ -32,5 +32,99 @@
       </div>
     </div>
   </section>
+
+    <!-- Additional styles for landing page -->
+    <style>    
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Lato&family=Nunito&family=Playfair+Display:ital@1&family=Prata&family=Raleway:ital,wght@1,100&family=Roboto&family=Roboto+Condensed&family=Teko&display=swap');
+        @media (min-width: 1220px) {
+            .md-main {
+              visibility: hidden;
+              height: 0;
+              width:0;
+              overflow:hidden
+            }
+    
+            /* .md-header__title .md-header__ellipsis .md-header__topic{
+                background-image: url(../assets/images/header.png);
+                height: 59px;
+                width: 300px;
+                background-repeat: no-repeat;
+                margin-top: 10px;
+            } */
+    
+            /* .md-header__topic .md-ellipsis {
+                display: none;
+            } */
+        }
+    
+        /* @media (min-width: 960px) and (max-width: 1219px)  {
+  
+        }
+    
+        @media (min-width: 720px) and (max-width: 959px) {
+
+        }
+    
+         @media (min-width: 540px) and (max-width: 719px) {
+   
+        } */
+
+        /* .md-header {
+            position: initial
+        }
+    
+        .md-main__inner {
+            margin: 0
+        }
+    
+        .md-content {
+            display: none
+        } */
+      
+        /**/
+        /*Adjusting Mobile UI */
+        /**/
+        @media screen and (max-width: 30em) {
+            .tx-hero h1 {
+                font-size: 1.4rem
+            }
+            .md-main {
+                /* display: none; */
+                /* height: 1; */
+            }
+        }
+    
+        @media screen and (min-width: 60em) {
+            .md-sidebar--secondary {
+                display: none
+            }
+
+            .md-main {
+              height: 0px;
+              max-height: 0px;
+            }
+        }
+    
+        @media screen and (min-width: 76.25em) {
+            /* .md-sidebar--primary {
+                display: none
+            }
+            .md-main {
+                display: none;
+            }
+
+            .md-main__inner {
+              height: 1px;
+              max-height: 1px;
+            }
+
+            .md-grid {
+              height: 1px;
+              max-height: 1px;
+            } */
+        }
+    </style>
+    
+    
 {% endblock %}
 {% block footer %}{% endblock %}
