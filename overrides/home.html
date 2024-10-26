@@ -1,7 +1,6 @@
 {% extends "main.html" %}
 {% block tabs %}
   {{ super() }}
-  <!-- <style>.md-header{position:initial}.md-content{display:none}@media screen and (min-width:60em){.md-sidebar--secondary{display:none}}@media screen and (min-width:76.25em){.md-sidebar--primary{display:none}}</style> -->
   <section class="mdx-container">
     <div class="md-grid md-typeset">
       <div class="mdx-hero">
@@ -16,14 +15,14 @@
             Whether joining the conversation on Discord, playing on our Minecraft servers, or simply meeting like-minded friends and fans, Slabserver has it all.
             <br><br>
             Join us below, and be a part of the community!</p>
-            <a href="https://slabserver.org/discord" title="Join our Discord" class="md-button md-button--primary">
+            <a href="https://slabserver.org/discord" title="Join our Discord" class="md-button md-button--discord">
             <span class="twemoji discord">
               {% include ".icons/simple/discord.svg" %}
             </span>
             Join our Discord
           </a>
-          <a href="{{ page.next_page.url | url }}" title="Join our servers" class="md-button md-button--primary">
-            <span class="twemoji discord">
+          <a href="https://slabserver.org/discord" title="Join our servers" class="md-button md-button--minecraft">
+            <span class="twemoji minecraft">
               {% include ".icons/material/minecraft.svg" %}
             </span>
             Join our servers
@@ -48,43 +47,7 @@
               width:0;
               overflow:hidden
             }
-    
-            /* .md-header__title .md-header__ellipsis .md-header__topic{
-                background-image: url(../assets/images/header.png);
-                height: 59px;
-                width: 300px;
-                background-repeat: no-repeat;
-                margin-top: 10px;
-            } */
-    
-            /* .md-header__topic .md-ellipsis {
-                display: none;
-            } */
         }
-    
-        /* @media (min-width: 960px) and (max-width: 1219px)  {
-  
-        }
-    
-        @media (min-width: 720px) and (max-width: 959px) {
-
-        }
-    
-         @media (min-width: 540px) and (max-width: 719px) {
-   
-        } */
-
-        /* .md-header {
-            position: initial
-        }
-    
-        .md-main__inner {
-            margin: 0
-        }
-    
-        .md-content {
-            display: none
-        } */
       
         /**/
         /*Adjusting Mobile UI */
@@ -110,22 +73,6 @@
         }
     
         @media screen and (min-width: 76.25em) {
-            /* .md-sidebar--primary {
-                display: none
-            }
-            .md-main {
-                display: none;
-            }
-
-            .md-main__inner {
-              height: 1px;
-              max-height: 1px;
-            }
-
-            .md-grid {
-              height: 1px;
-              max-height: 1px;
-            } */
         }
     </style>
     

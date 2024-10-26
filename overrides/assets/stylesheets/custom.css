@@ -8,6 +8,59 @@ body, html {
   overflow: visible;
 }
 
+.md-typeset h1 {
+  margin-bottom: 0.625em;
+  /*1.25*/
+}
+
+.md-typeset h2 {
+  margin-top: 0.8em;
+  /*1.6 */
+  margin-bottom: 0.32em;
+  /*0.64 */
+}
+
+.md-typeset h3 {
+  margin-top: 0.8em;
+  /*1.6 */
+  margin-bottom: 0.32em;
+  /*0.64 */
+}
+
+.md-typeset h4 {
+  margin-top: 0.5em;
+  /*1 */
+  margin-bottom: 0.5em;
+  /*1 */
+}
+
+.md-typeset h2+h3 {
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
+}
+
+p {
+  /* margin-top: 0.65em;
+  margin-bottom: 0.65em; */
+}
+
+.md-typeset hr {
+  margin-top: 0.75em;
+  margin-bottom: 0.75em;
+}
+
+.md-typeset__scrollwrap {
+  margin-bottom: 0.5em;
+}
+
+.md-main__inner {
+  margin-top: 1rem;
+}
+
+.md-post--excerpt {
+  margin-bottom: 1.6rem;
+}
+
 .mdx-container {
     background: 
       linear-gradient(
@@ -43,6 +96,7 @@ background:
   /* margin-bottom: 1rem; */
   font-size: 1.2rem;
   padding-left: 0.5em;
+  margin-bottom: 1.25em
 }
 .mdx-hero p {
   padding-left: 1em;
@@ -85,14 +139,30 @@ background:
   padding-left: 0.9em;
   padding-right: 0.90em;
 }
-.mdx-hero .md-button:focus,
-.mdx-hero .md-button:hover {
+.mdx-hero .md-button--discord:focus,
+.mdx-hero .md-button--discord:hover {
   background-color: #5865F2;
   border-color: var(--md-accent-fg-color);
   color: var(--md-accent-bg-color);
   /* background-color: var(--md-accent-fg-color); */
 }
-.mdx-hero .md-button--primary {
+.mdx-hero .md-button--discord {
+  background-color: #ffffff;
+  border-color: #ffffff;
+  /* color: #607C6A; */
+  color: #648472;
+  /* padding-left: 1em; */
+  /* padding-right: 1em; */
+}
+
+.mdx-hero .md-button--minecraft:focus,
+.mdx-hero .md-button--minecraft:hover {
+  background-color: #008c45;
+  border-color: #008c45;
+  color: var(--md-accent-bg-color);
+  /* background-color: var(--md-accent-fg-color); */
+}
+.mdx-hero .md-button--minecraft {
   background-color: #ffffff;
   border-color: #ffffff;
   /* color: #607C6A; */
@@ -102,9 +172,9 @@ background:
 }
 
 [data-md-color-scheme="slate"] .mdx-hero .md-button--primary {
-  background-color: var(--md-primary-bg-color);
+  /* background-color: var(--md-primary-bg-color);
   border-color: var(--md-primary-bg-color);
-  color: black
+  color: #343745 */
   /* padding-left: 1em;
   padding-right: 1em; */
 }
@@ -117,3 +187,21 @@ background:
     opacity: 1;
   }
 }
+
+.md-typeset table:not([class]) th,
+.md-typeset table:not([class]) td {
+    padding: 8px 16px;
+}
+
+li {
+    /* font-size: 0.80rem; */
+}
+
+article ul ul {
+  list-style-type:  circle !important;
+}
+article ul ul ul {
+  list-style-type:  square !important;
+}
+
+

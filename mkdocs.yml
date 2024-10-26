@@ -2,19 +2,18 @@ site_name: Slabserver | The Etho Community
 site_url: https://slabserver.github.io
 site_author: DaUltraMarine
 site_description: >-
-  Welcome to <b>Slabserver</b> – the heart of everything Etho. Founded in 2014, our community is a friendly, energetic, and inclusive space where fans of Etho can come to chat, connect, and create together.
-
-# Home to all things Etho, Slabserver is a friendly, welcoming, and inclusive community for all fans.
+  Welcome to <b>Slabserver</b> – the home of everything Etho. Founded in 2015, our community is a friendly, energetic, and inclusive space where fans of Etho can come to chat, connect, and create together.
 
 theme:
   favicon: assets/images/favicon.png
   logo: assets/images/icon.png
   features:
     - navigation.tabs
+    - navigation.indexes
+    - navigation.sections
   name: material
   custom_dir: overrides
   palette:
-
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
       toggle:
@@ -36,6 +35,12 @@ theme:
       toggle:
         icon: material/toggle-switch
         name: Switch to System Preference
+plugins:
+  - blog:
+      blog_dir: transparency
+      post_url_format: "{slug}"
+      post_excerpt_separator: 
+  - search
 
 markdown_extensions:
 - attr_list
@@ -43,18 +48,30 @@ markdown_extensions:
 - pymdownx.emoji:
     emoji_index: !!python/name:material.extensions.emoji.twemoji
     emoji_generator: !!python/name:material.extensions.emoji.to_svg
+- pymdownx.tabbed:
+    alternate_style: true
+    combine_header_slug: true
+    slugify: !!python/object/apply:pymdownx.slugs.slugify
+      kwds:
+        case: lower
 - toc:
     permalink: true
 
 # Page tree
 nav:
   - Home: index.md
-  # - Survival Multiplayer: smp/index.md
-  - Slabserver SMP: smp/index.md
-  - Documentation: documentation/index.md
-  - Transparency Reports: transparency/index.md
+  - Documentation:
+    - documentation/index.md
+    - Minecraft Servers:
+      - Client Mods: documentation/minecraft/client-mods.md
+      - Clunkloader Guidelines: documentation/minecraft/chunkloaders.md
+      # - Test Page Please Ignore: documentation/minecraft/a.md
+    - General:
+      - Privacy Policy: documentation/misc/privacy.md
+  - Transparency Reports:
+    - transparency/index.md
   - History: history/index.md
-  - Community Wiki: https://mediawiki.slabserver.org
+  - Community Wiki: https://wiki.slabserver.org
 
 extra_css:
   - assets/stylesheets/extra.css

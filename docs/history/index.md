@@ -2,7 +2,6 @@
 
 In the beginning, there was Etho.
 
-
 ## 2015
 On the 3rd of April, 2015, it was announced that [Etho was parting ways with Mindcrack](https://web.archive.org/web/20150503113049/http://mindcracklp.com/mindcrack-is-changing), owing to their shift in business strategy. In line with their existing rules, [Etho’s typical content was no longer allowed on /r/mindcrack](https://www.reddit.com/r/mindcrack/comments/31c57h/mindcrack_is_changing/cq08flf/?context=10000). This led to a [significant influx of subscribers to /r/ethoslab](https://redditmetrics.com/r/ethoslab) as Etho’s reddit fanbase consolidated there.
 
@@ -17,13 +16,13 @@ At the start of August 2015, despite assurances that server payments would conti
 
 What remains of the Season 1 world can be downloaded here: [Slabserver Season I](http://slabserver.org/slabservers1.zip)
 
-## Discord
+### Discord
 During late November 2015, WelshLP created a Slabserver Discord for the community to interact in the lead up to the start of Season 2, where the community began to consolidate its primary discussion over the subreddit. During this time, Eyadish joined the admin team, as part of preparations for the new season.
 
-# 2016
+## 2016
 On February 9th, WelshLP also created a Etho Discord server in response to a [reddit thread](https://www.reddit.com/r/ethoslab/comments/44xuxv/is_there_a_discord_channel_for_etho_fans_yet/) created by user benji7425. This led to an increase in Slabserver community members due to the proximity of the two Discord servers, and the Slabserver Discord was shortly merged into the Etho Discord. 
 
-##Season 2
+### Season 2
 
 Minecraft 1.9 was scheduled for release on the [25th of February 2016](https://web.archive.org/web/20160229230932/https://blog.mojang.com/2016/02/minecraft-19-pre-release-1/), but [delayed until the 29th of February](https://twitter.com/seargedp/status/702073074175365120?lang=en). Prior to launch, [Slabserver was advertised](https://www.reddit.com/r/ethoslab/comments/46vvsj/the_unoficial_ethoslab_server_season_2slabserver/) for the first time since Kotran’s initial post on /r/ethoslab, leading to another small bump in member count and activity prior to the new season’s launch.
 
@@ -31,12 +30,12 @@ Despite the delay in the 1.9 update release, Season 2 continued its planned laun
 
 Season 2 continued smoothly into the summer, where Slabserver saw its [first community modded server, hosted by Rein](https://www.reddit.com/r/slabserver/comments/4hwgl1/idea_for_a_modded_server/), as well as another [Slabserver Summer Event](https://www.reddit.com/r/slabserver/comments/4tggxg/slabserver_summer_event_23rd_july_details_and/). On October 20th 2016, WelshLP stepped down as the owner of Slabserver and the Etho Discord, transferring ownership of both to DaUltraMarine.
 
-# 2017
+## 2017
 For much of 2017, life in Slabserver continued very peacefully, with very few major changes to the community, or Minecraft itself. 
 
 On the 29th of April, 2017, the Slabserver community was invited to a UHC organised by the VintageBeef community, thanks to a notable overlap of members and mutual friendships between the two servers. VintageBeef himself made a guest appearance here, and [uploaded the event to YouTube](https://youtu.be/Y8X9f3Ixgss?list=PLAD59jwNidoDGouUcGt9sx7YjYM_n2HDf), which led to a surge of members from viewers who were until then unaware of our existence. 
 
-# 2018
+## 2018
 ### Ten Years of Etho
 During September 2018, Slabserver, the Etho Discord, and /r/ethoslab united to create [a community video for Etho](https://www.youtube.com/watch?v=49H9iXanoCw), celebrating ten years of his channel existing. The video consisted of a montage of Etho’s most iconic series, with both community members and well known Minecraft YouTubers thanking him for his content over the years. The milestone was also marked by a community building event on the 15th of September 2018, featuring miscellaneous builds and tributes to Etho, with these various builds also featuring in the video. On his ten year anniversary, September 24th, the video was released, and [publicly acknowledged by Etho on Twitter](https://twitter.com/etholp/status/1044082323002519552?lang=en). As of December 2020, the Ten Years of Etho video has over 200,000 views on YouTube, and the anniversary event world can be downloaded here: [10 Years Anniversary World](https://drive.google.com/file/d/1i9s0DUWdZ9V7bh9fugMo0hD9gbuWzbEp/view)
 
@@ -46,7 +45,7 @@ Towards the latter half of 2018, the Slabserver community began to outgrow the o
 
 A poll was undertaken on the 29th of December to see what additional servers the community wanted to see, and the results, published on the 10th of January, included [confirmation of Modded (Pixelmon), Terraria, Creative, Minigames, Factorio, and Gmod servers](https://discordapp.com/channels/146701388234227712/146702455487463424/532728653583482933), with the Modded and Terraria servers launching in the following weeks.The Pixelmon server being released alongside Etho’s own Pixelmon series led to [submissions on /r/ethoslab inquiring about a community server](https://www.reddit.com/r/ethoslab/comments/afoj54/community_pixelmon_server/), which led to another significant increase in members finding their way to Slabserver.
 
-# 2019 
+## 2019 
 On the 12th of February, 2019, a vote was taken within the Discord about resetting the server for Season 3 with the release of Minecraft 1.14. On the 26th of February 2019, which marked the three year anniversary of Season 2, it was [publicly confirmed that the server would reset alongside the update](https://discordapp.com/channels/146701388234227712/146702455487463424/550044387556589569). Minecraft 1.14 was released by Mojang on the 23rd of April 2019, though due to an abundance of significant bugs being introduced, the reset was held until performance and stability improved. 
 
 To best utilise the time before Season 3, several servers were launched over the coming weeks, including Factorio, Skyblock, and Creative. For the opening of the Creative server a large banner was placed at spawn, announcing the launch of Slabserver Season 3, for July 6th 2019.
@@ -62,7 +61,7 @@ On July 6th, 24 hours later, Season 3 of Slabserver launched. Marbou9 and JadeLa
 
 During October 2019, the Etho Discord crossed 1500 members, with a steady number of members continuing to arrive through /r/ethoslab. The Pixelmon server was sunset on the 9th of November due to Etho’s own series ending and increased activity on Season 3, and was replaced with a Project Ozone 2 server on November 16th, after a [short community poll](https://poll.ly/#/LVrwAyWg).
 
-# 2020
+## 2020
 ### Etho’s Hilltop - 2 Million Subscribers
 On February 29th 2020, Etho reached the milestone of 2 Million subscribers. To mark the milestone, a community event was organised for March 13th, where members stood on the ‘You’ve Been Etho’d’ hilltop in his single player world to recreate the [classic Coca-Cola ‘Hilltop’ advert from 1971](https://www.youtube.com/watch?v=1VM2eLhvsSM). Community members were also asked to send in submissions of them singing Etho-styled lyrics for the video. The event was attended by over 170 members from across the Etho community, and the video released on March 29th. [Etho shared the video on his Twitter account the following day](https://www.youtube.com/watch?v=1VM2eLhvsSM).
 
