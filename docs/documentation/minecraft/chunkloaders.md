@@ -13,7 +13,8 @@ To ensure server performance and a smooth experience for all players on Slabserv
     - For example, a public Iron or Shulker farm must disable both the farm and the chunkloader when storage is full.
 - All loaded chunks must comply with existing server rules, such as our [Anti-Lag Guidelines](https://github.com/Slabserver/Slabserver-Documentation/wiki/Anti%E2%80%90Lag-Guidelines).
 
-**Staff reserve the right to disable a chunkloader at any time if it negatively affects server performance or TPS for other players.**
+!!! note
+    Staff reserve the right to disable a chunkloader at any time if it affects server performance or TPS for other players.
 
 
 ## Requesting Permission

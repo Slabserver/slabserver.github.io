@@ -2,15 +2,15 @@
 
 ## Introduction
 
-We collect a variety of information in order to operate our community effectively and efficiently. It is therefore our duty to provide a privacy policy regarding our data collection, storage, and sharing practices, in accordance with the General Data Protection Regulation (GDPR).
+We collect a variety of information in order to operate our community both effectively and efficiently. It is therefore our duty to provide a privacy policy regarding our data collection, storage, and sharing practices, in accordance with the General Data Protection Regulation (GDPR).
 
-We keep all the following information indefinitely (unless otherwise stated), or until you request its removal. Please note that data regarding any ban, mute, and/or warnings will not be removed, as per our processing rights in Article 6(1)(a) & Recital 49 of GDPR.
+Unless stated otherwise, we keep the following data indefinitely or until you request its removal. Note that data regarding any ban, mute, and/or warnings will not be removed, as per our processing rights in Article 6(1)(a) & Recital 49 of the GDPR.
 
 ---
 
 ## Data We Store
 
-Unless noted otherwise, this data is stored on our dedicated Hetzner server, located in Germany.
+This data is stored on our dedicated Hetzner server, located in Germany, unless noted otherwise.
 
 ### Whitelist Applications
 
@@ -108,48 +108,35 @@ We do not share any other information with any third party.
 ## Data Shared By Others
 
 ### Recordings and Streams
-Members playing on our servers can record or stream their perspectives, which may include your in-game words and actions, and audio if you are in a voice call with them. As an additional courtesy, we expect members to give at least five minutes warning in our in-game chats before they begin streaming. The exception to this is any events organised in advance in our #announcements and #gamenight Discord channels.
+Members playing on our servers can record or stream their perspectives, which may include your in-game words and actions, as well as your audio if you are in a voice call with them.
+
+We ask that members give at least five minutes warning via #ingamechat before they begin streaming, with the exception of any events previously scheduled in the #announcements, #community-bulletin, or #gamenight channels on Discord.
 
 ### Gamenight Server Logs
-Our gamenight servers feature custom Log4J configuration to avoid member IP addresses appearing in the server logs. Owing to the freedom our gamenight servers offer, methods remain where members could modify the server  further and revert the logging to the default Minecraft settings. We strongly discourage any such modifications to these server settings.
+Our gamenight servers use custom Log4J configuration to avoid member IP addresses appearing in the server logs. Owing to the customisation our gamenight servers offer, methods remain where members could modify the server  further and revert the logging to the default Minecraft settings. We strongly discourage any such modifications to these server settings.
 
 ---
 
 ## Your Data Rights
 
-The data we keep about you is your data. Under GDPR [Articles 12 - 22](https://gdpr-info.eu/chapter-3/), you have certain rights regarding data protection and transparency. **We apply these rights to every single member, not just those situated in the EU**. These rights are as follows:
+The data we keep about you is your data. Under GDPR [Articles 12 - 22](https://gdpr-info.eu/chapter-3/), you have certain rights regarding data protection and transparency. **We apply these rights to all members, not just those in the EU**. These rights are as follows:
 
-* 1.	The right to be informed
+- **Right to Be Informed**: Your first right is that we tell you about the data we keep about you, and what your rights are. This is the very basis of this privacy notice.
 
-Your first right is that we tell you about the data we keep about you, and what your rights are. This is the very basis of this privacy notice.
+- **Right of Access**: You have the right to know what information we have about you, so that you can check if we’re using it properly. Get in touch with the staff team to arrange to see your data.
 
-* 2.	The right of access
+- **Right to Rectification**: If what we know about you is wrong, you have the right to correct it. Please contact the staff team if you feel that any of your data that we hold is incorrect.
 
-You have the right to know what information we have about you, so that you can check if we’re using it properly. Get in touch with the staff team to arrange to see your data.
+- **Right to Erasure**: This is your right to be forgotten. If you don’t want us to have your personal information anymore, you can ask us to remove it.
+    - Any data regarding bans, mutes, and warnings will not be removed in order to enforce these punishments, as per our processing rights in Article 6(1)(a) & Recital 49 of GDPR.
 
-* 3.	The right to rectification
+- **Right to Restriction of Processing**: If you think something is going wrong, you can ask us to stop doing anything with your data for a while - even deleting it - while you or we investigate it.
 
-If what we know about you is wrong, you have the right to correct it. Please contact the staff team if you feel that any of your data that we hold is incorrect.
+- **Right to Data Portability**: You have the right to take your data and use it elsewhere, in a common and open, structured format that a computer can use. If you want to do this, get in touch and we’ll find out the best way to do this for you.
 
-* 4.	The right to erasure
+- **Right to Object**: You may, at any point, object to our processing of your personal information on grounds relating to your particular situation. Any such objection should be made to the staff team, who can be contacted via the Etho Discord.
 
-This is your right to be forgotten. If you don’t want us to have your personal information anymore, you can ask us to remove it. Any data regarding bans, mutes, and warnings will not be removed in order to enforce these punishments, as per our processing rights in Article 6(1)(a) & Recital 49 of GDPR.
-
-* 5.	The right to restriction of processing
-
-If you think something is going wrong, you can ask us to stop doing anything with your data for a while - even deleting it - while you or we investigate it.
-
-* 6.	The right to data portability
-
-You have the right to take your data and use it elsewhere, in a common and open, structured format that a computer can use. If you want to do this, get in touch and we’ll find out the best way to do this for you.
-
-* 7.	The right to object
-
-You may, at any point, object to our processing of your personal information on grounds relating to your particular situation. Any such objection should be made to the staff team, who can be contacted via the Etho Discord.
-
-* 8.	Rights in relation to automated decision making and profiling
-
-While you have various rights relating to profiling and automated decision-making, we simply do not engage in either of these activities.
+- **Rights Related to Automated Decision Making and Profiling**: While you have various rights relating to profiling and automated decision-making, we simply do not engage in either of these activities.
 
 ---
 Last Updated: 7th October 2024 | [Previous Privacy Policy Updates](https://github.com/Slabserver/Slabserver-Documentation/wiki/Privacy-Policy/_history)

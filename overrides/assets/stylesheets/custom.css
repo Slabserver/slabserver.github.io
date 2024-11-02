@@ -1,5 +1,5 @@
 body, html {
-  height: 100%;
+  /* height: 100%; */
   width: 100%;
   margin: 0;
 }
@@ -14,7 +14,7 @@ body, html {
 }
 
 .md-typeset h2 {
-  margin-top: 0.8em;
+  margin-top: 1.2em;
   /*1.6 */
   margin-bottom: 0.32em;
   /*0.64 */
@@ -125,6 +125,11 @@ background:
     margin-top: 3.5rem;
     max-width: 19rem;
   }
+
+  /* Maximum space for text block */
+  /* .md-grid {
+    max-width: 85%;
+  } */
 }
 @media screen and (min-width: 76.25em) {
   .mdx-hero__image {
@@ -187,6 +192,10 @@ background:
     opacity: 1;
   }
 }
+/* 
+.md-typeset__table {
+  min-width: 100%;
+} */
 
 .md-typeset table:not([class]) th,
 .md-typeset table:not([class]) td {
@@ -204,4 +213,33 @@ article ul ul ul {
   list-style-type:  square !important;
 }
 
+.md-typeset ul li {
+  margin-bottom: 1em;
+}
 
+.md-typeset ul li p {
+  margin-bottom: 0em; 
+}
+
+.md-typeset ul li ul {
+  margin-top: 0.25em; 
+  margin-bottom: 0.25em; 
+}
+
+.md-typeset ul li ul li {
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
+}
+
+.md-typeset ul li ul li ul {
+  margin-top: 0.125em;
+  margin-bottom: 0.125em;
+}
+
+.md-typeset ul li ul li ul li {
+  margin-top: 0.125em;
+  margin-bottom: 0em;
+}
+
+
+/* .md-typeset ol li ol { margin: 0 0 0 0.625em; } .md-typeset ol li { margin-bottom: 0; } */

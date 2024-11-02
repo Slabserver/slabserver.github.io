@@ -43,8 +43,11 @@ plugins:
   - search
 
 markdown_extensions:
+- admonition
 - attr_list
 - md_in_html
+- pymdownx.details     # used by adminitions
+- pymdownx.superfences # used by adminitions
 - pymdownx.emoji:
     emoji_index: !!python/name:material.extensions.emoji.twemoji
     emoji_generator: !!python/name:material.extensions.emoji.to_svg
@@ -63,11 +66,15 @@ nav:
   - Documentation:
     - documentation/index.md
     - Minecraft Servers:
+      - Client Macros: documentation/minecraft/client-macros.md
       - Client Mods: documentation/minecraft/client-mods.md
+      - Server Plugins: documentation/minecraft/server-plugins.md
       - Clunkloader Guidelines: documentation/minecraft/chunkloaders.md
+      - Shopping District Guidelines: documentation/minecraft/shopping-district.md
       # - Test Page Please Ignore: documentation/minecraft/a.md
     - General:
-      - Privacy Policy: documentation/misc/privacy.md
+      - Gamenight Servers: documentation/general/gamenight-servers.md
+      - Privacy Policy: documentation/general/privacy.md
   - Transparency Reports:
     - transparency/index.md
   - History: history/index.md

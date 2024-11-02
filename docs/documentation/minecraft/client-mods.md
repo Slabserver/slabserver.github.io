@@ -1,47 +1,75 @@
-**Note: This is not a comprehensive list, just the ones we've been asked to give an explicit opinion on. Feel free to ask staff about a mod, and it will be listed here too.**
+# Client Mods
+
+**Note: If you have any further questions regarding additional mods, please contact the staff team and we'll be more than happy to update this list accordingly.**
 
 ## Allowed
-- Performance mods (Sodium, Optifine, Starlight, etc)
-- Zoom mods (Optifine, LogicalZoom, etc)
-- Purely informational HUD/GUI features, e.g.:
-  - MiniHUD
-  - NBT Tooltip
-  - Light level overlay
-  - Shulker box previews
-- Several visual features, e.g.:
-  - Changing brightness
-  - Disabling fog
-- Recording mods (e.g. Replay mod)
-- Automatic rejoin mods/macros
+The following mods are fully permitted on our servers and approved by the staff team.
 
-## Partially allowed
-- Schematic blueprint mods (e.g. Litematica).
-  - "Printer" or "Easy place" features are not allowed.
-  - The `autoPickSchematicBlock` feature of TweakerMore is allowed for the remainder of Season 3. We will decide whether to continue allowing this feature for Season 4 at a later date.
-- Mini-map mods, but cave views and entity radars must be disabled.
-- Some inventory management features are allowed:
-  - Item scrolling ¹
-  - Moving multiple stacks at a time (e.g. "Move matching items" in Inventory Profiles Next)
-  - Continuous crafting ²
-  - Inventory sorting ¹, limited to your own inventory and containers. Do not sort other people's items without their permission.
-  - Auto refill of items in hand slots, except for totems, potions, or other items that give a competitive advantage over other players.
-  - Other features are not allowed. Please contact staff if you'd like to see other features considered.
-- Free camera is allowed for the following uses:
-  - Inspecting your own contraptions, farms, and builds.
-  - Inspecting others' contraptions, farms, and builds, with the owner's or staff's permission.
-  - Getting an alternative perspective of the immediate surroundings visible to you. e.g. the exterior of a build on the surface, or the interior of a room you are in.
+- **Performance Mods**  
+*e.g., Sodium, Optifine, Starlight*
 
-¹ Inventory features like chest sorting and item scrolling may spam CoreProtect logs and make it extremely difficult to perform container checks. Keep this in mind if you'd like your valuables to be protected from theft.
+- **Zoom Mods**  
+  *e.g., Optifine, LogicalZoom*
 
-² Allowed as long as the feature emulates a simple "click and drag" macro, e.g. the one from Inventory Profiles Next. One-click crafters, e.g. from Item Scroller, are not allowed.
+- **HUD/GUI Informational Features**  
+  *e.g., MiniHUD, NBT Tooltip, Light Level Overlay, Shulker Box Previews*
 
-## Not allowed
-- Free camera is not allowed for the following uses
-  - Inspecting others' contraptions, farms, or builds without permission.
-  - Viewing or finding natural features or resources not visible to you, including caves, spawners, mineshafts, strongholds, or ancient cities.
-  - Viewing or finding entities not visible to you, except within your own builds or with the owner's or staff's permission.
-  - Viewing or finding players not visible to you, except with the subject’s or staff’s permission.
-- "Printer" or "Easy place" features are not allowed in Litematica or similar mods.
-- Cave views and entity radars are not allowed in mini-map mods.
-- Any "hacked" clients (e.g. Wurst)
-- Any x-ray clients or resource packs
+- **Visual Adjustment Features**  
+  *e.g., Brightness changes, Fog disabling*
+
+- **Recording Mods**  
+  *e.g., Replay Mod*
+
+- **Automatic Rejoin Mods/Macros**  
+
+## Partially Allowed
+
+- **Schematic Blueprint Mods**  
+  *e.g., Litematica*
+    - The "Printer" and "Easy Place" features are not allowed.
+    - The `autoPickSchematicBlock` feature from TweakerMore is allowed.
+
+- **Mini-Map Mods**
+  *e.g., Xaero's Minimap*
+    - Cave views and entity radars must be disabled.
+
+- **Inventory Management Mods**  
+  *Only the following inventory management features are permitted. Please contact the staff team if you would like additional features to be considered.*
+    - **Item Scrolling**¹
+    - **Moving Multiple Stacks at Once**  
+        *e.g., “Move matching items” in Inventory Profiles Next*
+    - **Continuous Crafting**  
+        *Permitted only when emulating a "click and drag" macro, such as the one in Inventory Profiles Next. One-click crafting, such as in Item Scroller, is not permitted.*
+    - **Inventory Sorting**¹  
+        *Permitted only for your own inventories and containers; do not sort others' items without their permission.*
+    - **Auto-Refilling Items in Hand Slots**  
+        Permitted except for items that give a competitive advantage (e.g., totems, potions).
+
+- **Free Camera Mod**  
+  *Permitted only when:*
+    - Inspecting personal contraptions, farms, or builds.
+    - Viewing other players' builds with permission from the owner or staff team.
+    - Getting an alternative perspective of your immediately visible surroundings (e.g., the exterior of a nearby surface build, or an interior you are currently located within).
+
+<sup>¹ Inventory features like chest sorting and item scrolling often spam our CoreProtect logs, making container checks extremely difficult. Keep this in mind if you wish to protect valuables from theft.</sup>
+
+## Not Allowed
+
+- **Free Camera Misuse**  
+  *Not allowed when:*
+    - Inspecting others' builds, contraptions, or farms without permission.
+    - Seeking natural features or resources (e.g., caves, spawners, mineshafts, strongholds) not visible from your location.
+    - Viewing entities not visible to you, except within your own builds or with permission from the owner or staff team.
+    - Viewing players not visible to you, except with permission from the owner or staff team.
+
+- **"Printer" and "Easy Place" Features**  
+  *Not allowed in Litematica or any similar mods.*
+
+- **Cave Views and Entity Radar Features**  
+  *Not allowed in Xaero's Minimap or any similar mods.*
+
+- **X-Ray Clients or Resource Packs**
+
+- **Hacked Clients**  
+  *e.g., Wurst*
+
