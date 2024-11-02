@@ -1,0 +1,245 @@
+body, html {
+  /* height: 100%; */
+  width: 100%;
+  margin: 0;
+}
+
+.md-tabs {
+  overflow: visible;
+}
+
+.md-typeset h1 {
+  margin-bottom: 0.625em;
+  /*1.25*/
+}
+
+.md-typeset h2 {
+  margin-top: 1.2em;
+  /*1.6 */
+  margin-bottom: 0.32em;
+  /*0.64 */
+}
+
+.md-typeset h3 {
+  margin-top: 0.8em;
+  /*1.6 */
+  margin-bottom: 0.32em;
+  /*0.64 */
+}
+
+.md-typeset h4 {
+  margin-top: 0.5em;
+  /*1 */
+  margin-bottom: 0.5em;
+  /*1 */
+}
+
+.md-typeset h2+h3 {
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
+}
+
+p {
+  /* margin-top: 0.65em;
+  margin-bottom: 0.65em; */
+}
+
+.md-typeset hr {
+  margin-top: 0.75em;
+  margin-bottom: 0.75em;
+}
+
+.md-typeset__scrollwrap {
+  margin-bottom: 0.5em;
+}
+
+.md-main__inner {
+  margin-top: 1rem;
+}
+
+.md-post--excerpt {
+  margin-bottom: 1.6rem;
+}
+
+.mdx-container {
+    background: 
+      linear-gradient(
+        to bottom,
+        var(--md-primary-fg-color),
+        #648472 100%,
+        var(--md-default-bg-color) 100%
+      );
+    width: 100vw;
+    height: 100%;
+    /* min-height: auto; */
+    /* box-sizing: border-box;
+    overflow-x: hidden;
+    overflow-y: hidden; */
+}
+[data-md-color-scheme="slate"] .mdx-container {
+background:
+    linear-gradient(
+    to bottom,
+    var(--md-primary-fg-color),
+    #363949 100%,
+    var(--md-default-bg-color) 100%
+    );
+}
+.mdx-hero {
+  animation: 0.5s mdx-anim;
+  color: var(--md-primary-bg-color);
+  margin: 0 0.8rem;
+}
+.mdx-hero h1 {
+  color: currentcolor;
+  font-weight: 700;
+  /* margin-bottom: 1rem; */
+  font-size: 1.2rem;
+  padding-left: 0.5em;
+  margin-bottom: 1.25em
+}
+.mdx-hero p {
+  padding-left: 1em;
+}
+@media screen and (max-width: 29.984375em) {
+  .mdx-hero h1 {
+    font-size: 1.35rem;
+  }
+  .md-header__title {
+    font-size: 0.64rem;
+  }
+}
+
+@media screen and (min-width: 60em) {
+  .mdx-hero__image {
+    order: 1;
+    transform: translateX(3rem);
+    max-width: 63%;
+    /* width: 38rem; */
+  }
+  .mdx-hero {
+    align-items: stretch;
+    display: flex;
+  }
+  .mdx-hero__content {
+    margin-top: 3.5rem;
+    max-width: 19rem;
+  }
+
+  /* Maximum space for text block */
+  /* .md-grid {
+    max-width: 85%;
+  } */
+}
+@media screen and (min-width: 76.25em) {
+  .mdx-hero__image {
+    transform: translateX(7.5rem);
+  }
+}
+.mdx-hero .md-button {
+  color: var(--md-primary-bg-color);
+  margin-left: 0.7rem;
+  /* margin-right: 0.5rem; */
+  margin-top: 0.5rem;
+  padding-left: 0.9em;
+  padding-right: 0.90em;
+}
+.mdx-hero .md-button--discord:focus,
+.mdx-hero .md-button--discord:hover {
+  background-color: #5865F2;
+  border-color: var(--md-accent-fg-color);
+  color: var(--md-accent-bg-color);
+  /* background-color: var(--md-accent-fg-color); */
+}
+.mdx-hero .md-button--discord {
+  background-color: #ffffff;
+  border-color: #ffffff;
+  /* color: #607C6A; */
+  color: #648472;
+  /* padding-left: 1em; */
+  /* padding-right: 1em; */
+}
+
+.mdx-hero .md-button--minecraft:focus,
+.mdx-hero .md-button--minecraft:hover {
+  background-color: #008c45;
+  border-color: #008c45;
+  color: var(--md-accent-bg-color);
+  /* background-color: var(--md-accent-fg-color); */
+}
+.mdx-hero .md-button--minecraft {
+  background-color: #ffffff;
+  border-color: #ffffff;
+  /* color: #607C6A; */
+  color: #648472;
+  /* padding-left: 1em; */
+  /* padding-right: 1em; */
+}
+
+[data-md-color-scheme="slate"] .mdx-hero .md-button--primary {
+  /* background-color: var(--md-primary-bg-color);
+  border-color: var(--md-primary-bg-color);
+  color: #343745 */
+  /* padding-left: 1em;
+  padding-right: 1em; */
+}
+
+@keyframes mdx-anim {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/* 
+.md-typeset__table {
+  min-width: 100%;
+} */
+
+.md-typeset table:not([class]) th,
+.md-typeset table:not([class]) td {
+    padding: 8px 16px;
+}
+
+li {
+    /* font-size: 0.80rem; */
+}
+
+article ul ul {
+  list-style-type:  circle !important;
+}
+article ul ul ul {
+  list-style-type:  square !important;
+}
+
+.md-typeset ul li {
+  margin-bottom: 1em;
+}
+
+.md-typeset ul li p {
+  margin-bottom: 0em; 
+}
+
+.md-typeset ul li ul {
+  margin-top: 0.25em; 
+  margin-bottom: 0.25em; 
+}
+
+.md-typeset ul li ul li {
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
+}
+
+.md-typeset ul li ul li ul {
+  margin-top: 0.125em;
+  margin-bottom: 0.125em;
+}
+
+.md-typeset ul li ul li ul li {
+  margin-top: 0.125em;
+  margin-bottom: 0em;
+}
+
+
+/* .md-typeset ol li ol { margin: 0 0 0 0.625em; } .md-typeset ol li { margin-bottom: 0; } */
