@@ -6,7 +6,7 @@ To ensure server performance and a smooth experience for all players on Slabserv
 ## Guidelines
 
 - **You must request approval from the staff team before using any chunkloaders.**
-- Chunkloader usage must be kept to a minimum, with no chunkloader arrays. Players are allowed a maximum of `(simdistance +1)/4` chunkloaders.
+- Chunkloader usage must be kept to a minimum, with no chunkloader arrays. Players are allowed a maximum of `(simdistance +1)/4` chunkloaders, rounded down.
     - For example, if the simulation distance is 8, players may have up to two chunkloaders.
 - Chunkloaders must be easily disabled, with clear instructions provided on how to disable them.
 - Chunkloaders should automatically turn off when no longer needed.
