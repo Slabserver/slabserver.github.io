@@ -1,20 +1,17 @@
 ---
-date: 2024-11-05
+date: 2024-10-05
 authors: [DaUltraMarine]
 description: >
-  Our new blog is built with the brand new built-in blog plugin. You can build
-  a blog alongside your documentation or standalone
-
   Our monthly Transparency Reports, containing our monthly donations and summarising the progress our staff team has made recently.
 search:
   boost: 0.5
 
 ---
 
-# November 2024
+# October 2024
 
 ### Donation Breakdown
-**Breakdown Between 5th Of October - 5th Of November:**
+**Breakdown Between 5th Of September - 5th Of October:**
 
 <!-- more -->
 
@@ -25,6 +22,7 @@ Monthly Patreon Donations¹| $69.95
 Total Donations (Month)| $101.80
 Existing Rollover Donations| $586.21
 ---|---
+Dedicated Ionos Server Cost (Final Two Weeks)²| -$36.99
 Dedicated Hetzner Server Cost² | -$115.92
 ---|---
 **Remaining Donation Funds**³   |  **$535.80**
@@ -42,10 +40,10 @@ Dedicated Hetzner Server Cost² | -$115.92
 - We re-established our [Restic and Backblaze backup solution](https://github.com/Slabserver/Slabserver-Documentation/wiki/Architecture#backups) on our new host, Hetzner. This ensures that our critical server data is securely stored in multiple locations, and our [disaster recovery](https://aws.amazon.com/what-is/disaster-recovery) solutions remain functional in case of any unforeseen incidents.
 - We expanded the worldborder in The Nether from 1000 to 2000 blocks, to give players more room to build in this dimension of the main world.
 - We added the Etho’s Wrench plugin to S4, which offers a convenient way to rotate blocks in Survival mode. This version comes with some adjustments from S3: 
-  - To obtain a basic "Rotate" wrench, drop a Carrot on a Stick into Soul Fire.
-  - For the advanced wrenches:
-    - Flip Wrench: Drop a Carrot on a Stick + Copper Ingot into Soul Fire.
-    - Face Wrench: Drop a Carrot on a Stick + Gold Ingot into Soul Fire.
+    - To obtain a basic "Rotate" wrench, drop a Carrot on a Stick into Soul Fire.
+    - For the advanced wrenches:
+        - Flip Wrench: Drop a Carrot on a Stick + Copper Ingot into Soul Fire.
+        - Face Wrench: Drop a Carrot on a Stick + Gold Ingot into Soul Fire.
 - We fixed a number of bugs on Survival that were identified since the launch of Season 4:
     - Fixed players appearing at coordinates 0, 0 in The Nether after logging out
     - Fixed Resource World enderporters not teleporting players when activated.
@@ -55,14 +53,15 @@ Dedicated Hetzner Server Cost² | -$115.92
     - Fixed Modbot’s `!ip` command not correctly returning the Survival server version.
 
 - We released the S4 LOD data for use with the Distant Horizons mod, allowing players to preload the raw world data for the entire map without having to generate it themselves.
-  - Note that this is only the raw world data - builds will still have to be rendered manually once within render distance.
+    - Note that this is only the raw world data - builds will still have to be rendered manually once within render distance.
 - We’ve started collecting submissions for the S4 directory, namely submissions of shop listings and Nether tunnel locations. If you’d like to help by contributing information for your shop or tunnel, please see the [#community-bulletin](https://discord.com/channels/146701388234227712/1279485910450307082/1279485910450307082) post. 
 
 - We updated several of our servers to Minecraft 1.21.1, to support the latest versions of plugins like Axiom and FAWE.
-- We officially announced, at long last, the upcoming Season 4 puzzle for Slabserver—a project that has been in development for over four and a half years. We can’t wait to share more with you soon, but we’re taking a little more time to playtest, polish, and perfect it, to make sure it’s the best experience possible for you all. Look out for a more detailed status update on the puzzle in the next six weeks, as we get closer to revealing more…
+- We officially announced, at long last, the upcoming Season 4 puzzle for Slabserver—a project that has been in development for over four and a half years.
+    - We can’t wait to share more with you soon, but we’re taking a little more time to playtest, polish, and perfect it, to make sure it’s the best experience possible for you all. Look out for a more detailed status update on the puzzle in the next six weeks, as we get closer to revealing more…
 ---
 
-#### Server Donation Links
+### Server Donation Links
 Paypal: https://slabserver.org/paypal
 
 Patreon: https://slabserver.org/patreon

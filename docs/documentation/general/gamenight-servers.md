@@ -7,13 +7,13 @@ These servers automatically delete after 72 hours, meaning we take care of almos
 !!! info
     If you're looking to host a longer-term server or gamenight over several weeks, the staff team can create a gamenight server without auto-deletion. Please request one from the staff team or via Modmail, along with a brief justification.
 
-## Installing a Gamenight Server
+## Creating a Gamenight Server
 
-### Basic Installation
+### Basic Setup
 
-Simply type the `/gamenight` command to install a gamenight server. This will install the latest available [PaperMC](https://papermc.io/) version.
+Simply type the `/gamenight` command to crrsyr a gamenight server. This will use the latest available [PaperMC](https://papermc.io/) version.
 
-![Gamenight Discord Message](https://github.com/Slabserver/Slabserver-Documentation/blob/main/gamenight/sethwing.png?raw=true "Gamenight Discord Message")
+![Gamenight Discord Message](../../assets/images/gamenight/sethwing.png)
 
 ### Installing other Minecraft servers
 
@@ -56,7 +56,7 @@ When your gamenight server has installed, you'll be provided with a username, pa
 
 The Console tab allows you to start, restart, stop and kill your server, as well as run server commands. By default, your gamenight server will be powered off, and needs to be started manually.
 
-![Console UI](https://github.com/Slabserver/Slabserver-Documentation/blob/main/gamenight/console.png?raw=true "Console UI")
+![Console UI](../../assets/images/gamenight/console.png)
 
 ### File Manager
 
@@ -66,13 +66,13 @@ Prior to starting the server, only the `server.jar` and `server.properties` are 
 
 For larger or more frequent file transfers, Pterodactyl supports SFTP access. The credentials are available via the **Settings** tab.
 
-![File Manager UI](https://github.com/Slabserver/Slabserver-Documentation/blob/main/gamenight/filemanager.png?raw=true "File Manager UI")
+![File Manager UI](../../assets/images/gamenight/filemanager.png)
 
 ## Backups
 
 The Backups tab allows you to have your gamenight events or maps continue over several weeks, have a restore point for your events, or to provide a world download after an event.
 
-![Backups UI](https://github.com/Slabserver/Slabserver-Documentation/blob/main/gamenight/backups.png?raw=true "Backups UI")
+![Backups UI](../../assets/images/gamenight/backups.png)
 
 ### Creating a backup
 

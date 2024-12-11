@@ -8,6 +8,7 @@ theme:
   favicon: assets/images/favicon.png
   logo: assets/images/icon.png
   features:
+    - content.tooltips
     - navigation.tabs
     - navigation.indexes
     - navigation.sections
@@ -41,13 +42,15 @@ plugins:
       post_url_format: "{slug}"
       post_excerpt_separator: 
   - search
+  # - glightbox
+
 
 markdown_extensions:
 - admonition
 - attr_list
 - md_in_html
-- pymdownx.details     # used by adminitions
-- pymdownx.superfences # used by adminitions
+- pymdownx.details     # used by admonitions
+- pymdownx.superfences # used by admonitions
 - pymdownx.emoji:
     emoji_index: !!python/name:material.extensions.emoji.twemoji
     emoji_generator: !!python/name:material.extensions.emoji.to_svg
@@ -58,7 +61,7 @@ markdown_extensions:
       kwds:
         case: lower
 - toc:
-    permalink: true
+    permalink: ''
 
 # Page tree
 nav:
@@ -69,11 +72,35 @@ nav:
       - Client Macros: documentation/minecraft/client-macros.md
       - Client Mods: documentation/minecraft/client-mods.md
       - Server Plugins: documentation/minecraft/server-plugins.md
+      - "Server Tweaks":
+        - "All Server Tweaks": documentation/minecraft/tweaks/all.md
+        - "Individual Tweaks":
+          - "Datapack Features":
+            - documentation/minecraft/tweaks/custom-advancements.md
+            - documentation/minecraft/tweaks/custom-recipes.md
+          - "Fun Additions":
+            - documentation/minecraft/tweaks/alpha.md
+            - documentation/minecraft/tweaks/initiation-candle.md
+          - "Quality of Life":
+            - documentation/minecraft/tweaks/discord-commands.md
+            - documentation/minecraft/tweaks/invisible-item-frames.md
+            - documentation/minecraft/tweaks/pl3xmap.md
+            - documentation/minecraft/tweaks/wrench.md
+          - "Multiplayer Rebalance":
+            - documentation/minecraft/tweaks/elytra.md
+            - documentation/minecraft/tweaks/phantoms.md
+            - documentation/minecraft/tweaks/resource-world.md
+            - documentation/minecraft/tweaks/sleeping-requirements.md
+          - "Anti-Griefing":
+            - documentation/minecraft/tweaks/lightning-fire-nerf.md
+            - documentation/minecraft/tweaks/enderman-griefing-nerf.md
+      - Server Architecture: documentation/minecraft/server-architecture.md
       - Clunkloader Guidelines: documentation/minecraft/chunkloaders.md
       - Shopping District Guidelines: documentation/minecraft/shopping-district.md
       # - Test Page Please Ignore: documentation/minecraft/a.md
     - General:
       - Gamenight Servers: documentation/general/gamenight-servers.md
+      - Assets & Downloads: documentation/general/downloads.md
       - Privacy Policy: documentation/general/privacy.md
   - Transparency Reports:
     - transparency/index.md

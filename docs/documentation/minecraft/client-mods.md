@@ -2,8 +2,7 @@
 
 **Note: If you have any further questions regarding additional mods, please contact the staff team and we'll be more than happy to update this list accordingly.**
 
-## Allowed
-The following mods are fully permitted on our servers and approved by the staff team.
+## Fully Allowed
 
 - **Performance Mods**  
 *e.g., Sodium, Optifine, Starlight*
@@ -18,7 +17,7 @@ The following mods are fully permitted on our servers and approved by the staff 
   *e.g., Brightness changes, Fog disabling*
 
 - **Recording Mods**  
-  *e.g., Replay Mod*
+  *e.g., Replay Mod, Flashback*
 
 - **Automatic Rejoin Mods/Macros**  
 

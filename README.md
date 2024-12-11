@@ -20,22 +20,25 @@
     
 - Documentation
     - Survival Minecraft
+        - Getting Started / Useful Commands
         - Survival Tweaks
-            - Season 4 Tweaks
-            - Season 3 Tweaks
-            - Season 2 Tweaks
+            - All Tweaks
             - Individual Tweaks
                 - x
                 - y
                 - z
         - ✅ Client Mods
         - ✅ Client Macros
-        - Server Plugins
+        - ✅ Server Plugins
         - Anti-Lag Guidelines
         - ✅ Chunkloader Guidelines
-        - Shopping District Guidelines
+        - ✅ Shopping District Guidelines
     - General / Misc
         - Server Architecture
         - Downloads
         - ✅ Gamenight Servers / Slabserver Server Server
         - ✅ Privacy Policy
+
+
+Setup:
+```pip install mkdocs-glightbox```
