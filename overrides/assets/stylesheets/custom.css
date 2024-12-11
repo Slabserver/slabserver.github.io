@@ -74,7 +74,8 @@ p {
         var(--md-default-bg-color) 100%
       );
     width: 100vw;
-    height: 100%;
+    display: flex;
+    height: 100vh;
     /* min-height: auto; */
     /* box-sizing: border-box;
     overflow-x: hidden;
@@ -130,6 +131,9 @@ background:
     max-width: 19rem;
   }
 
+  .mdx-container {
+    height: 100vh;
+  }
   /* Maximum space for text block */
   /* .md-grid {
     max-width: 85%;
@@ -139,6 +143,11 @@ background:
   .mdx-hero__image {
     transform: translateX(7.5rem);
   }
+
+  .mdx-container {
+    height: 90vh;
+}
+
 }
 .mdx-hero .md-button {
   color: var(--md-primary-bg-color);
@@ -191,7 +200,6 @@ background:
 [dir=ltr] .md-sidebar--primary:not([hidden])~.md-content>.md-content__inner {
   margin-left: 0.75rem;
   font-size: 0.725rem;
-
 }
 
 [dir=ltr] .md-sidebar--secondary:not([hidden])~.md-content>.md-content__inner,[dir=rtl] .md-sidebar--primary:not([hidden])~.md-content>.md-content__inner {

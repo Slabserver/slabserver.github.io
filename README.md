@@ -1,5 +1,13 @@
 # slabserver.github.io
 
+## Editing
+
+Ensure you have the following installed
+- [Python](https://www.python.org/downloads/)
+- Pip
+
+Follow MkDocs installation guide: https://squidfunk.github.io/mkdocs-material/getting-started/
+
 - Slabserver Documentation
     - Anti-Lag Guidelines
     - Architecture
