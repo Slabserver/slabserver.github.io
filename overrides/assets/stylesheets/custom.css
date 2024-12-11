@@ -113,6 +113,10 @@ background:
   .md-header__title {
     font-size: 0.64rem;
   }
+
+  .mdx-container {
+    height: 100%;
+  }
 }
 
 @media screen and (min-width: 60em) {
@@ -146,8 +150,7 @@ background:
 
   .mdx-container {
     height: 90vh;
-}
-
+  }
 }
 .mdx-hero .md-button {
   color: var(--md-primary-bg-color);
