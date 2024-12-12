@@ -149,12 +149,12 @@ background:
   }
 
   .mdx-container {
-    height: calc(100vh - (52.8px * 2) + 8px);
+    height: calc(100vh - (52.8px * 2));
   }
 }
 @media screen and (min-width:100em){
   .mdx-container {
-    height: calc(100vh - (57.59px * 2) + 8px);
+    height: calc(100vh - (57.59px * 2));
   }
 }
 .mdx-hero .md-button {
