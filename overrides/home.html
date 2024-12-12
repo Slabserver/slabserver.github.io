@@ -37,7 +37,10 @@
                 .md-main {
               height: 0;
               width:0;
-              overflow:hidden
+              overflow:hidden;
+            }
+            .md-main__inner {
+              margin: 0;
             }
         @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Lato&family=Nunito&family=Playfair+Display:ital@1&family=Prata&family=Raleway:ital,wght@1,100&family=Roboto&family=Roboto+Condensed&family=Teko&display=swap');
         @media (min-width: 1220px) {
@@ -46,6 +49,10 @@
               height: 0;
               width:0;
               overflow:hidden
+            }
+
+            .md-sidebar--secondary {
+                display: none
             }
         }
       
@@ -56,7 +63,6 @@
             .md-main {
               height: 0;
               width:0;
-              overflow:hidden
             }
         }
     
@@ -68,11 +74,16 @@
             .md-main {
               height: 0;
               width:0;
-              overflow:hidden
+              overflow:hidden;
+              visibility: hidden;
             }
         }
     
         @media screen and (min-width: 76.25em) {
+
+          .md-sidebar--secondary {
+                display: none
+            }
         }
     </style>
     
