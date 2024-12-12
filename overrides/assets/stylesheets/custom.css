@@ -137,7 +137,7 @@ background:
   }
 
   .mdx-container {
-   height: 96vh;
+   height: 100vh;
   }
   /* Maximum space for text block */
   /* .md-grid {
@@ -150,12 +150,12 @@ background:
   }
 
   .mdx-container {
-    height: 91vh;
+    height: 100vh;
   }
 }
 @media screen and (min-width:100em){
   .mdx-container {
-    height: 90vh;
+    height: 100vh;
   }
 }
 .mdx-hero .md-button {
