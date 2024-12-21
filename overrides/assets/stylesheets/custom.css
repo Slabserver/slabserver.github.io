@@ -149,7 +149,8 @@ background:
   }
 
   .mdx-container {
-    height: calc(100vh - (52.8px * 2));
+    display: flex;
+    /* height: calc(100vh - (52.8px * 2)); */
   }
 }
 @media screen and (min-width:100em){
