@@ -33,7 +33,7 @@ Dedicated Hetzner Server Cost² | -$115.92
 
 **Current staff tasks being tracked as of 5th October 2024⁴:**
 
-![State of the Slab October 2024](https://github.com/Slabserver/Transparency-Reports/blob/master/State-Of-The-Slab/2024/October.png?raw=true "State of the Slab October 2024")
+![State of the Slab October 2024](./../../../assets/images/kanban/2024/October.png "State of the Slab October 2024")
 
 **Here's a recap of the staff team actions throughout the last two months:**
 
