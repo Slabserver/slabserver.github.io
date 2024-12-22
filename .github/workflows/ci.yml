@@ -2,7 +2,7 @@ name: ci
 on:
   push:
     branches:
-      - master  
+      - master
       - main
 permissions:
   contents: write
@@ -27,9 +27,9 @@ jobs:
             mkdocs-material-
       - run: pip install mkdocs-material
       - run: pip install mkdocs-glightbox
-      - name: Update links in documentation to be absolute
+      - name: Update nav links in mkdocs.yml to be absolute instead of relative
         run: |
-          find documentation/ -type f -name '*.md' -exec sed -i \
+          sed -i \
           -e 's#\(\]\|href=\)documentation/#\1https://slabserver.github.io/documentation/#g' \
-          -e 's#/index.md##g' {} +
+          -e 's#/index.md##g' mkdocs.yml
       - run: mkdocs gh-deploy --force
