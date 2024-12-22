@@ -1,8 +1,8 @@
-name: ci
+name: ci 
 on:
   push:
     branches:
-      - master
+      - master 
       - main
 permissions:
   contents: write
@@ -18,18 +18,13 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: 3.x
-      - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV
+      - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV 
       - uses: actions/cache@v4
         with:
           key: mkdocs-material-${{ env.cache_id }}
           path: .cache
           restore-keys: |
             mkdocs-material-
-      - run: pip install mkdocs-material
+      - run: pip install mkdocs-material 
       - run: pip install mkdocs-glightbox
-      - name: Update nav links in mkdocs.yml to be absolute instead of relative
-        run: |
-          sed -i \
-          -e 's#\(\]\|href=\)documentation/#\1https://slabserver.github.io/documentation/#g' \
-          -e 's#/index.md##g' mkdocs.yml
       - run: mkdocs gh-deploy --force
