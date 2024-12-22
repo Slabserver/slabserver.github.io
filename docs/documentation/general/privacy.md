@@ -113,7 +113,14 @@ Members playing on our servers can record or stream their perspectives, which ma
 We ask that members give at least five minutes warning via #ingamechat before they begin streaming, with the exception of any events previously scheduled in the #announcements, #community-bulletin, or #gamenight channels on Discord.
 
 ### Gamenight Server Logs
-Our gamenight servers use custom Log4J configuration to avoid member IP addresses appearing in the server logs. Owing to the customisation our gamenight servers offer, methods remain where members could modify the server  further and revert the logging to the default Minecraft settings. We strongly discourage any such modifications to these server settings.
+Our gamenight servers use custom Log4J configuration to avoid member IP addresses appearing in the server logs. Owing to the customisation our gamenight servers offer, methods remain where members could modify the server further and revert the logging to the default Minecraft settings. We strongly discourage any such modifications to these server settings.
+
+### Slabserver Wiki
+The Slabserver Wiki is a community-driven project maintained by our members, independent of the staff team. While we support the project, we are not involved in its day-to-day management or data processing.
+
+When logging in, the wiki uses Discord OAuth to verify your access. This process retrieves your Discord User ID, Display Name, and avatar image to confirm via the WikiBot app in our Discord that you hold the 'Active' and 'Whitelisted' roles. The avatar image is immediately discarded and not stored or used by the wiki.
+
+Wiki user accounts are created with your Discord User ID and Display Name, or your Discord Username if no Display Name is set. Any edits you make appear in the edit history for a page and your contributions log, along with a link to your wiki user account.
 
 ---
 
