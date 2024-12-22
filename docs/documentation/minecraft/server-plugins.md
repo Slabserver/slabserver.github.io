@@ -24,8 +24,9 @@
 | :material-sword: [Gatekeeper](https://github.com/Slabserver/Gatekeeper) :material-account-edit-outline:{.staff} | Handles Resource World infrastructure (Paper level) |
 | :material-sword: [HuskSync](https://www.spigotmc.org/resources/husksync-sync-inventories-ender-chests-cross-server-advancements-map-art-stats-backups.97144/) | Synchronises player data to and from the Resource World |
 | :material-tools: [InvisItemFrames](https://github.com/Slabserver/InvisItemFrames) :material-account-edit-outline:{.staff} | Adds a feature to turn Item Frames invisible with a Splash Potion of Invisibility |
-| :material-sword: [LightningFire](https://www.spigotmc.org/resources/lightning-fire.64389/) :material-account-edit-outline:{.staff}:material-delete-clock-outline:{.deprecate} | Prevents lightning from starting fires and torching bases |
+| :material-sword: [LightningFire](https://www.spigotmc.org/resources/lightning-fire.64389/) :material-account-edit-outline:{.staff} | Prevents lightning from starting fires and torching bases |
 | :material-sword: [Pl3xMap](https://www.spigotmc.org/resources/pl3xmap.109697/) | Adds [map.slabserver.org](https://map.slabserver.org) |
+| :material-sword: [Pl3xMapExtras](https://www.spigotmc.org/resources/pl3xmap.109697/) | Adds ability to show mobs/signs/banners on Pl3xMap |
 | :material-sword: [RawStats](https://github.com/GoldenDelicios/RawStats) :material-account-edit-outline:{.staff} | Displays various player statistics in the sidebar (when enabled by staff) |
 | :material-tools: Shrug :material-account-edit-outline:{.staff} | Adds the `/shrug` command to easily send the ¯\\\_(ツ)_/¯ emoticon in chat |
 | :material-sword: [ShulkerSaver](https://github.com/GoldenDelicios/ShulkerSaver) :material-account-edit-outline:{.staff}:material-delete-clock-outline:{.deprecate} | Prevents Shulker boxes being deleted by [MC-902](https://bugs.mojang.com/browse/MC-902), prior to the bugfix in Minecraft 1.21 |
@@ -56,6 +57,7 @@
 | :material-sword: [PremiumVanish](https://www.spigotmc.org/resources/premiumvanish-stay-hidden-bungee-support.14404/) | Allows us to hide our presence on the server and observe xraying attempts |
 | :material-sword: [Plan](https://www.spigotmc.org/resources/plan-player-analytics.32536/) | Provides player analytics for the activity and geological distribution of our playerbase |
 | :material-brush: [PlotSquared](https://github.com/IntellectualSites/PlotSquared/) | Provides plot areas for players to claim and manage
+| :material-brush: [PVPToggle](https://www.spigotmc.org/resources/pvptoggle.49112/) | Helps staff easily disable PVP during major community events
 | :material-sword: SeedWriter :material-account-edit-outline:{.staff} | Logs each Resource World seed for future reference |
 :material-sword: [Spark](https://www.spigotmc.org/resources/spark.57242/) | Adds server health monitoring and the `/tps` command |
 :material-tools: [WorldEdit](https://dev.bukkit.org/projects/worldedit) | Adds map editor features on Creative, and integrates with CoreProtect |
@@ -74,6 +76,7 @@
 | Plugin | Dependencies |
 | - | - |
 | :material-sword: [NBT API](https://www.spigotmc.org/resources/nbt-api.7939/) | Gatekeeper
+| :material-tools: [PAPIProxyBridge](https://www.spigotmc.org/resources/papiproxybridge.108415/) | Placeholder API
 | :material-tools: [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/) | Miscellaneous
 | :material-tools: [ProtocolLib](https://www.spigotmc.org/resources/protocollib.1997/) | Miscellaneous
 | :material-brush: [Vault](https://www.spigotmc.org/resources/vault.34315) | Miscellaneous

@@ -101,7 +101,7 @@ nav:
       - Gamenight Servers: documentation/general/gamenight-servers.md
       - Assets & Downloads: documentation/general/downloads.md
       - Bans & Appeals: documentation/general/bans.md
-      - Privacy Policy: documentation/general/privacy.md
+    - Privacy Policy: documentation/general/privacy.md
   - Transparency Reports:
     - transparency/index.md
   - History: history/index.md

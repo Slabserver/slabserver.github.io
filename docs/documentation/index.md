@@ -1,37 +1,19 @@
-# Overview
+# Documentation
+
+Welcome to the **Slabserver Documentation**, our open-source hub of docs, FAQs, and community resources. Our documentation is built with [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/), hosted on GitHub Pages, and lovingly crafted for **you**.
+
+Want to contribute? If you spot something missing, unclear, or in need of improvement, head on over to the [GitHub repository](https://github.com/Slabserver/slabserver.github.io/). Simply fork the repo, make your changes, and submit a pull request.
+
+## External Links
+
 <div class="grid cards" markdown>
 
--   :material-clock-fast:{ .lg .middle } **Set up in 5 minutes**
+- :fontawesome-solid-earth-americas: __Pl3xMap__ – View our live map for [Survival S4](https://map.slabserver.org), or revisit the maps for our older [S3](https://s3map.slabserver.org/) & [S2](https://s2map.slabserver.org/) worlds.
 
-    ---
+- :material-shopping-search: **Directory** – Find information about bases in the [Nether Hub](https://slabserver.org/hub) or shops in the [Shopping District](https://slabserver.org/shops).
 
-    Install [`mkdocs-material`](#) with [`pip`](#) and get up
-    and running in minutes
+- :fontawesome-solid-bug: __Bugs__ – View our [known issues](https://github.com/Slabserver/Slabserver-Bugs/issues) being tracked internally, or raise a [new bug](https://github.com/Slabserver/Slabserver-Bugs/issues/new?assignees=&labels=Bug&projects=&template=bug_report.yml) with the staff team.
 
-    [:octicons-arrow-right-24: Getting started](#)
-
--   :fontawesome-brands-markdown:{ .lg .middle } **It's just Markdown**
-
-    ---
-
-    Focus on your content and generate a responsive and searchable static site
-
-    [:octicons-arrow-right-24: Reference](#)
-
--   :material-format-font:{ .lg .middle } **Made to measure**
-
-    ---
-
-    Change the colors, fonts, language, icons, logo and more with a few lines
-
-    [:octicons-arrow-right-24: Customization](#)
-
--   :material-scale-balance:{ .lg .middle } **Open Source, MIT**
-
-    ---
-
-    Material for MkDocs is licensed under MIT and available on [GitHub]
-
-    [:octicons-arrow-right-24: License](#)
+- :material-cash-multiple: **Donations** – Contribute to the monthly costs of our community servers via [Patreon](https://slabserver.org/patreon) or [Paypal](https://slabserver.org/paypal).
 
 </div>

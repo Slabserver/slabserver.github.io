@@ -21,5 +21,5 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
     mkdocs.yml    # The configuration file.
     docs/
-        index.md  # The documentation homepage.
+        index.md  # The documentation home  page.
         ...       # Other markdown pages, images and other files. -->

@@ -7,7 +7,7 @@ In general, automation macros are not permitted on Slabserver. This includes mos
 
 ## Partially Allowed
 - Blueprint/schematic mods such as Schematica or Litematica are allowed, however, the "Printer" or "Easy place" features that automatically place blocks for you are not.
-- Inventory features are partially allowed, see this [page](../client-mods) for more details.
+- Inventory features are partially allowed, see this [page](client-mods.md) for more details.
 
 ## Allowed
 We permit two types of macros on the server:

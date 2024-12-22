@@ -139,4 +139,4 @@ The data we keep about you is your data. Under GDPR [Articles 12 - 22](https://g
 - **Rights Related to Automated Decision Making and Profiling**: While you have various rights relating to profiling and automated decision-making, we simply do not engage in either of these activities.
 
 ---
-Last Updated: 7th October 2024 | [Previous Privacy Policy Updates](https://github.com/Slabserver/Slabserver-Documentation/wiki/Privacy-Policy/_history)
+Last Updated: 22nd December 2024 | [Previous Privacy Policy Updates](https://github.com/Slabserver/slabserver.github.io/commits/main/docs/documentation/general/privacy.md)
