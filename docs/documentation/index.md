@@ -2,7 +2,7 @@
 
 Welcome to the **Slabserver Documentation**, our open-source hub of docs, FAQs, and community resources. Our documentation is built with [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/), hosted on GitHub Pages, and lovingly crafted for **you**.
 
-Want to contribute? If you notice something missing, unclear, or in need of improvement, head on over to the [GitHub repository](https://github.com/Slabserver/slabserver.github.io/). Simply fork the repo, make some changes, and submit a pull request for us.
+Want to contribute? If you notice something missing, unclear, or in need of improvement, head on over to the [GitHub repository](https://github.com/Slabserver/slabserver.github.io/). Simply fork the repository, make some changes, and submit a pull request for us to review.
 
 ## External Links
 
