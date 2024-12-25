@@ -95,6 +95,7 @@ nav:
             - documentation/minecraft/tweaks/lightning-fire-nerf.md
             - documentation/minecraft/tweaks/enderman-griefing-nerf.md
       - Server Architecture: documentation/minecraft/server-architecture.md
+      - Lagbusting Guidelines: documentation/minecraft/lag.md
       - Chunkloader Guidelines: documentation/minecraft/chunkloaders.md
       - Shopping District Guidelines: documentation/minecraft/shopping-district.md
     - General:
