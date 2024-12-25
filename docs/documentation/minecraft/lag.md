@@ -6,7 +6,7 @@
 
 Villagers are consistently terrible for server performance. For trading halls, best practices are:
 
-<img align="right" width="40%" src="https://github.com/Slabserver/Slabserver-Documentation/assets/72826160/ac587f82-c4a2-4dca-86fc-7fa029043280"/>
+<img align="right" width="40%" src="/assets/images/lag/1.png"/>
 
 * To share them with other players where possible, or keep the villagers to the needed minimum if you're using them solo.
 
@@ -21,7 +21,7 @@ Villagers are consistently terrible for server performance. For trading halls, b
 
 For automatic farms in general (private or public), best practices are:
 
-<img align="right" width="40%" src="https://github.com/Slabserver/Slabserver-Documentation/assets/72826160/7fe4f901-852f-4ba7-b724-164ab848a011"/>
+<img align="right" width="40%" src="/assets/images/lag/2.png"/>
 
 * To consider whether you really need the farm. We have a wide variety of effective and efficient community farms for most essential items.
 
@@ -35,7 +35,7 @@ For automatic farms in general (private or public), best practices are:
 
 For animal farms, killing chamber, or any other similar situation, best practices are:
 
-<img align="right" width="40%" src="https://github.com/Slabserver/Slabserver-Documentation/assets/72826160/0872376a-191b-43f6-81a3-3dc4f335456c"/>
+<img align="right" width="40%" src="/assets/images/lag/3.png"/>
 
 * To ensure mobs are not bunched up in small areas, 1x1 holes or water streams, as mobs colliding is also notoriously terrible for server performance!
 
