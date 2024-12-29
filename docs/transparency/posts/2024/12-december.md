@@ -50,19 +50,19 @@ Dedicated Hetzner Server Cost² | -$110.63
 
 ---
 
-#### Server Donation Links
-Paypal: https://slabserver.org/paypal
+### Server Donation Links
+Paypal: [https://slabserver.org/paypal](https://slabserver.org/paypal)
 
-Patreon: https://slabserver.org/patreon
+Patreon: [https://slabserver.org/patreon](https://slabserver.org/patreon)
 
 ---
 
 <sup>¹ Donation amount listed is after transaction fees have taken place.</sup>
 
-<sup>² The dedicated server hosts all of our game servers, databases, as well as our various Discord bots. You can find more detail on this [in our wiki](https://github.com/Slabserver/Slabserver-Documentation/wiki/Architecture)</sup>
+<sup>² The dedicated server hosts all of our game servers, databases, as well as our various Discord bots. You can find more detail on this [in our documentation](../../../documentation/minecraft/server-architecture.md).</sup>
 
 <sup>³ Unless disclosed otherwise, this will always be put forward towards next months server costs, and will be displayed in ‘rollover donations’ within the transparency report.</sup>
 
 <sup>⁴ There will be occasions that certain items on the board are redacted, should they still be in [draft](https://docs.github.com/en/issues/planning-and-tracking-with-projects/managing-items-in-your-project/adding-items-to-your-project#creating-draft-issues), or contain sensitive tasks or information.</sup>
 
-<sup>⁵ The [Priority](https://github.com/Slabserver/Transparency-Reports/blob/master/Resources/Priority.png) and [Size](https://github.com/Slabserver/Transparency-Reports/blob/master/Resources/Size.png) labels for our State of the Slab Board are a rough estimate of the amount of work involved, and quite honestly are just assigned based on vibes.</sup>
+<sup>⁵ The [Priority](../../../assets/images/kanban/Priority.png) and [Size](../../../assets/images/kanban/Size.png) labels for our State of the Slab Board are a rough estimate of the amount of work involved, and quite honestly are just assigned based on vibes.</sup>
