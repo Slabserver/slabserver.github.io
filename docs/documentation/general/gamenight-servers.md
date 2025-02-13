@@ -11,7 +11,7 @@ These servers automatically delete after 72 hours, meaning we take care of almos
 
 ### Basic Setup
 
-Simply type the `/gamenight` command to crrsyr a gamenight server. This will use the latest available [PaperMC](https://papermc.io/) version.
+Simply type the `/gamenight` command to create a gamenight server. This will use the latest available [PaperMC](https://papermc.io/) version.
 
 ![Gamenight Discord Message](../../assets/images/gamenight/sethwing.png)
 
