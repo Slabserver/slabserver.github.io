@@ -30,7 +30,7 @@ Building the right base can be one of the most rewarding experiences in Minecraf
 * Make sure your farm has overflow protection so that anything you cannot store is destroyed, as well as (where possible) disabling the farm itself when not in use. 
 * If your farm does a lot of filtering items or mob spawning, try to ensure it is only loaded when you intend to use it.
 * Entity collision, including mobs colliding with each other, is a big source of lag. Don’t keep mobs or minecarts bunched-up in small areas (including water streams) for a long period of time.
-* For full lag prevention guidelines see the Lag Guidelines page on this website: https://slabserver.org/documentation/minecraft/lag/ 
+* For full lag prevention guidelines see the <A HREF="https://slabserver.org/documentation/minecraft/lag/">Lag Guidelines</A> page on this website.
 
 ### Disputes
 * If you have any concerns about how someone else’s build or actions may be affecting your build, then approach them in a friendly manner and see if you can resolve it between you.
@@ -40,7 +40,7 @@ Building the right base can be one of the most rewarding experiences in Minecraf
 ### Nether Tunnels
 * There are four core nether tunnels on Slab: North (white), South (grey), West (orange), and East (green). 
 * The tunnel to place your base in is determined by the co-ordinates of your base when you press F3. Spawn is at X: 0, Z: 0; look at the co-ordinates for your base and see whether the ‘X’ co-ordinate, or the ‘Z’ co-ordinate is closer to zero; the co-ordinate that is closer to zero is the one to use. 
-* If the X co-ordinate is higher than zero, then you are in the East tunnel, if it is lower than zero, then you are in the West tunnel. If the Z co-ordinate is higher than 0 then use the South tunnel; while if it is lower than 0, use the North tunnel.
+* If the X co-ordinate is higher than zero then you are in the East tunnel, if it is lower than zero then you are in the West tunnel. If the Z co-ordinate is higher than 0 then use the South tunnel; while if it is lower than 0, use the North tunnel.
 * The floor of your personal nether tunnel needs to be on the same Y level as the floor of the main nether tunnel at Y: 111.
 * Your personal nether tunnel needs to be spawn-proofed, whether by using clear ice for the floor or by using buttons, pressure plates, carpets, etc.  
 
@@ -49,4 +49,4 @@ Building the right base can be one of the most rewarding experiences in Minecraf
 * This project is optional, but it will benefit all players who wish to explore the world on horse, on foot, or by elytra.
 * Check with your neighbours before placing any paths near their bases. 
 * If you are connecting a road that you have built to a road that others have built, make sure the two look like they are meant to be connected. If you are unsure how to do this then ask others, but do not change blocks that others have placed.
-* If you would like to join this community project then see the discussion thread for Overworld Road Project: https://discordapp.com/channels/146701388234227712/1270827485864661062 .
+* If you would like to join this community project then see the discussion thread for <A HREF="https://discordapp.com/channels/146701388234227712/1270827485864661062">Overworld Road Project</A>.
