@@ -9,11 +9,9 @@ search:
 ---
 
 # September 2024
-
-### Donation Breakdown
 <!-- more -->
+### Donation Breakdown
 **Breakdown Between 5th Of August - 5th Of September:**
-
 
 Costs/Donations |      $
 ---|---
