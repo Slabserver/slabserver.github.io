@@ -23,31 +23,31 @@ Our proxy network handles connections to and from the Survival and Resource that
 The Proxy server utilises a shared set of MySQL databases for a number of use cases:
 
 - __Whitelist database__
-  - Writes to this database to whitelist new players.
-    - _NB: Our whitelist applies to all servers within both proxy servers._
-  - Reads from this database to authenticate connections.
+    - Writes to this database to whitelist new players.
+        - _NB: Our whitelist applies to all servers within both proxy servers._
+    - Reads from this database to authenticate connections.
 - __AdvancedBan database__
-  - Reads from this database to prevent banned members connecting.
-    - _NB: Our banlist applies to all servers within both proxy servers._
+    - Reads from this database to prevent banned members connecting.
+        - _NB: Our banlist applies to all servers within both proxy servers._
 - __LuckPerms database__
-  - Reads from this database to synchronise permissions across the Bungee network.
+    - Reads from this database to synchronise permissions across the Bungee network.
 - __PremiumVanish database__
-  - Reads from this database to synchronise staff members vanished status across the Bungee network.
+    - Reads from this database to synchronise staff members vanished status across the Bungee network.
+
+In addition to the Proxy Databases, we use more MySQL databases in the main network for the following use cases:
+
+- __Resource World Gatekeeper database__
+    - Writes to this database to save entity data before transferring servers
+    - Reads from this database to load entity data upon transferring servers
+- __CoreProtect database__
+    - Writes to this database to log player progression and history
+    - Reads to this database to restore previous server data
+- __Plan database__
+    - Writes to this database to log player analytics
 
 For all of our databases, [phpMyAdmin](https://www.phpmyadmin.net/) provides a useful web interface for access and administration.
 
-In addition to the Proxy Databases, we use more MySQL databases in the main network for the following use cases:
-<br><br>
-- __Resource World Gatekeeper database__
-  - Writes to this database to save entity data before transferring servers
-  - Reads from this database to load entity data upon transferring servers
-- __CoreProtect database__
-  - Writes to this database to log player progression and history
-  - Reads to this database to restore previous server data
-- __Plan database__
-  - Writes to this database to log player analytics
-
-As noted in the diagram, the Resource server does not interact with the Survival server directly, and vice versa. Players are transferred from one server to another via the Proxy. The same is true of chatlogs too - note that messages are also not sent from the Resource Server to #ingamechat directly.
+As noted in the diagram, the Resource server does not interact with the Survival server directly, and vice versa. Players are transferred from one server to another via the Proxy. The same is true of chatlogs too - note that messages are also not sent from the Resource Server to `#ingamechat` directly.
 <br>
 
 ## Bots

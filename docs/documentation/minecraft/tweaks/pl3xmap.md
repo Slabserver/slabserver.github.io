@@ -8,11 +8,13 @@ Players can hide themselves on the server map by using the `/map hide` command, 
 
 ## Markers
 
-Players can label their builds using a placed [Banner](https://minecraft.wiki/w/Banner), that display the same way banners do on a vanilla map.
+Players can label their builds using a placed [Banner](https://minecraft.wiki/w/Banner), that appears on Pl3xMap banners do on a vanilla map.
 
 ### Adding a Marker
 
-Right-click with an open map in your main hand on a placed banner to add a marker to Pl3xMap at that position. The name and colour of the banner will also be used for the marker.
+Right-clicking a placed banner with a map in your main hand to add a marker on Pl3xMap at that position.
+
+The name and colour of the placed banner will also be used for the marker.
 
 ### Removing a Marker
 
