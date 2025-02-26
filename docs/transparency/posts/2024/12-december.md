@@ -36,7 +36,7 @@ Dedicated Hetzner Server Cost² | -$110.63
 
 **Here's a recap of the staff team actions throughout the last month:**
 
-- We’ve overhauled [slabserver.org](https://slabserver.org) into a beautiful new website for our community! This website combines all the information from our old [Slabserver-Wiki](https://github.com/Slabserver/Slabserver-Wiki/wiki), [Slabserver-Tweaks](https://github.com/Slabserver/Slabserver-Tweaks/wiki), [Slabserver-Documentation](https://github.com/Slabserver/Slabserver-Documentation/wiki) and [Transparency-Reports](https://github.com/Slabserver/Transparency-Reports/wiki) repositories, in order to create a central ‘hub’ for all things Slabserver, complete with additional features like dark/light mode and site-wide search.
+- We’ve overhauled [slabserver.org](https://slabserver.org) into a beautiful new website for our community! This website combines all the information from our old [Slabserver-Wiki](https://github.com/Slabserver/Slabserver-Wiki/wiki), [Slabserver-Tweaks](https://github.com/Slabserver/Slabserver-Tweaks/wiki), [Slabserver-Butts](https://github.com/Slabserver/Slabserver-Butts/wiki) and [Transparency-Reports](https://github.com/Slabserver/Transparency-Reports/wiki) repositories, in order to create a central ‘hub’ for all things Slabserver, complete with additional features like dark/light mode and site-wide search.
     - The new site is powered by [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/), hosted on GitHub Pages, and fully [open-source](https://github.com/Slabserver/slabserver.github.io/), in order to make it as accessible and maintainable for our future as possible.
     - Want to help contribute to the site? Simply fork the project on GitHub, make some changes, and submit a pull request for us to review.
 - We’ve created Pl3xmap sites for both [Season 2](https://s2map.slabserver.org/) and Season 3, as a general community resource and to be used as an embed in articles for the wiki project.
@@ -59,7 +59,7 @@ Patreon: [https://slabserver.org/patreon](https://slabserver.org/patreon)
 
 <sup>¹ Donation amount listed is after transaction fees have taken place.</sup>
 
-<sup>² The dedicated server hosts all of our game servers, databases, as well as our various Discord bots. You can find more detail on this [in our documentation](../../../documentation/minecraft/server-architecture.md).</sup>
+<sup>² The dedicated server hosts all of our game servers, databases, as well as our various Discord bots. You can find more detail on this [in our butts](../../../butts/minecraft/server-architecture.md).</sup>
 
 <sup>³ Unless disclosed otherwise, this will always be put forward towards next months server costs, and will be displayed in ‘rollover donations’ within the transparency report.</sup>
 

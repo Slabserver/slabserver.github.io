@@ -66,44 +66,44 @@ markdown_extensions:
 # Page tree
 nav:
   - Home: index.md
-  - Documentation:
-    - documentation/index.md
+  - Butts:
+    - butts/index.md
     - Minecraft Servers:
-      - Client Macros: documentation/minecraft/client-macros.md
-      - Client Mods: documentation/minecraft/client-mods.md
-      - Server Plugins: documentation/minecraft/server-plugins.md
+      - Client Macros: butts/minecraft/client-macros.md
+      - Client Mods: butts/minecraft/client-mods.md
+      - Server Plugins: butts/minecraft/server-plugins.md
       - "Server Tweaks":
-        - "All Server Tweaks": documentation/minecraft/tweaks/all.md
+        - "All Server Tweaks": butts/minecraft/tweaks/all.md
         - "Individual Tweaks":
           - "Datapack Features":
-            - documentation/minecraft/tweaks/custom-advancements.md
-            - documentation/minecraft/tweaks/custom-recipes.md
+            - butts/minecraft/tweaks/custom-advancements.md
+            - butts/minecraft/tweaks/custom-recipes.md
           - "Fun Additions":
-            - documentation/minecraft/tweaks/alpha.md
-            - documentation/minecraft/tweaks/initiation-candle.md
+            - butts/minecraft/tweaks/alpha.md
+            - butts/minecraft/tweaks/initiation-candle.md
           - "Quality of Life":
-            - documentation/minecraft/tweaks/discord-commands.md
-            - documentation/minecraft/tweaks/invisible-item-frames.md
-            - documentation/minecraft/tweaks/pl3xmap.md
-            - documentation/minecraft/tweaks/wrench.md
+            - butts/minecraft/tweaks/discord-commands.md
+            - butts/minecraft/tweaks/invisible-item-frames.md
+            - butts/minecraft/tweaks/pl3xmap.md
+            - butts/minecraft/tweaks/wrench.md
           - "Multiplayer Rebalance":
-            - documentation/minecraft/tweaks/elytra.md
-            - documentation/minecraft/tweaks/phantoms.md
-            - documentation/minecraft/tweaks/resource-world.md
-            - documentation/minecraft/tweaks/sleeping-requirements.md
+            - butts/minecraft/tweaks/elytra.md
+            - butts/minecraft/tweaks/phantoms.md
+            - butts/minecraft/tweaks/resource-world.md
+            - butts/minecraft/tweaks/sleeping-requirements.md
           - "Anti-Griefing":
-            - documentation/minecraft/tweaks/lightning-fire-nerf.md
-            - documentation/minecraft/tweaks/enderman-griefing-nerf.md
-      - Server Architecture: documentation/minecraft/server-architecture.md
-      - Basing Guidelines: documentation/minecraft/basing-guidelines.md
-      - Lagbusting Guidelines: documentation/minecraft/lag.md
-      - Chunkloader Guidelines: documentation/minecraft/chunkloaders.md
-      - Shopping District Guidelines: documentation/minecraft/shopping-district.md
+            - butts/minecraft/tweaks/lightning-fire-nerf.md
+            - butts/minecraft/tweaks/enderman-griefing-nerf.md
+      - Server Architecture: butts/minecraft/server-architecture.md
+      - Basing Guidelines: butts/minecraft/basing-guidelines.md
+      - Lagbusting Guidelines: butts/minecraft/lag.md
+      - Chunkloader Guidelines: butts/minecraft/chunkloaders.md
+      - Shopping District Guidelines: butts/minecraft/shopping-district.md
     - General:
-      - Gamenight Servers: documentation/general/gamenight-servers.md
-      - Assets & Downloads: documentation/general/downloads.md
-      - Bans & Appeals: documentation/general/bans.md
-    - Privacy Policy: documentation/general/privacy.md
+      - Gamenight Servers: butts/general/gamenight-servers.md
+      - Assets & Downloads: butts/general/downloads.md
+      - Bans & Appeals: butts/general/bans.md
+    - Privacy Policy: butts/general/privacy.md
   - Transparency Reports:
     - transparency/index.md
   - History: history/index.md

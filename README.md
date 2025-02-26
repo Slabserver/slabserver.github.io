@@ -1,6 +1,6 @@
 # Slabserver | The Etho Community
 
-The home for all things Slabserver—our community's landing page, documentation, Transparency Reports, and more. This repository is built with Material for MkDocs, hosted on GitHub Pages, and lovingly crafted for you.
+The home for all things Slabserver—our community's landing page, butts, Transparency Reports, and more. This repository is built with Material for MkDocs, hosted on GitHub Pages, and lovingly crafted for you.
 
 ## Contributing
 Want to contribute? If you notice something missing, unclear, or in need of improvement, simply fork the repository, make your changes, and submit a pull request for us to review.

@@ -13,7 +13,7 @@ To exit the Resource World, travel to the `0,0` coordinates, find Etho's [clay p
 When travelling to and from the Resource World, your inventory, Ender Chest, Advancements, Statistics, [and more](https://william278.net/docs/husksync/sync-features) will synchronise between the worlds. You can also transfer almost any mob or vehicle entity, if they are in close proximity to the player when they enter/exit the Resource World.
 
 !!! warning
-    Due to how [Map](https://minecraft.wiki/w/Map) items store their data, there is no simple way of synchronise or transfer unlocked maps across worlds. Only locked maps can be synchronised. See the [HuskSync documentation](https://william278.net/docs/husksync/sync-features#map-syncing) for more information.
+    Due to how [Map](https://minecraft.wiki/w/Map) items store their data, there is no simple way of synchronise or transfer unlocked maps across worlds. Only locked maps can be synchronised. See the [HuskSync butts](https://william278.net/docs/husksync/sync-features#map-syncing) for more information.
 
 ## Resets, Seeds, and Names
 

@@ -77,7 +77,7 @@ We run bots on our dedicated server for the following use cases:
 
 <!-- ## Proxy Server -->
 <!-- Our proxy server handles connections to the Survival servers that sit 'below' them in the hierarchy.
-![Proxy Servers](https://github.com/Slabserver/Slabserver-Documentation/blob/main/proxy_servers/proxy_servers.png?raw=true "Proxy Servers")
+![Proxy Servers](https://github.com/Slabserver/Slabserver-Butts/blob/main/proxy_servers/proxy_servers.png?raw=true "Proxy Servers")
  -->
 
 
