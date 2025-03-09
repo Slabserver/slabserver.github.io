@@ -9,11 +9,9 @@ search:
 ---
 
 # December 2024
-
+<!-- more -->
 ### Donation Breakdown
 **Breakdown Between 5th Of November - 5th Of December:**
-
-<!-- more -->
 
 Costs/Donations |      $
 ---|---
