@@ -42,7 +42,8 @@ plugins:
       post_url_format: "{slug}"
       post_excerpt_separator: 
   - search
-  - glightbox # used for zoom functionality, see https://squidfunk.github.io/mkdocs-material/reference/images/#lightbox
+  - glightbox: # used for zoom functionality, see https://squidfunk.github.io/mkdocs-material/reference/images/#lightbox
+      width: 90%
 
 
 markdown_extensions:
