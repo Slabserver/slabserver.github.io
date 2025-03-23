@@ -10,7 +10,7 @@ To begin your initiation, you must find The Well.
 
 <br>
 
-Descend...
+[Descend...](https://dl.slabserver.org/descend.zip)
 
 <br>
 
