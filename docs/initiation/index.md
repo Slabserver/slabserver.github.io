@@ -14,7 +14,7 @@ To begin your initiation, you must find The Well.
 
 <br>
 
-Discover...
+[Discover...](https://dl.slabserver.org/discover.zip)
 
 <br>
 
