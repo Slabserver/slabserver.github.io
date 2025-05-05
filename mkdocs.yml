@@ -66,7 +66,6 @@ markdown_extensions:
 
 # Page tree
 nav:
-  - 🕯️: initiation/index.md
   - Home: index.md
   - Documentation:
     - documentation/index.md
