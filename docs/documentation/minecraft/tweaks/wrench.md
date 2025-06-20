@@ -4,6 +4,8 @@ The Wrench offers a convenient way to rotate blocks in Survival mode.
 
 ## Obtaining a Wrench
 
+Drop the items on Soul Sand/Soil and then light the block to create Soul Fire.
+
 - To obtain a basic "Rotate" wrench, drop a Carrot on a Stick into Soul Fire.
     - For the advanced wrenches:
         - Flip Wrench: Drop a Carrot on a Stick + Copper Ingot into Soul Fire.
