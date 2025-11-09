@@ -19,7 +19,7 @@
 | :material-sword:[Chunky](https://www.spigotmc.org/resources/chunky.81534/) :material-account-edit-outline:{.staff} | Pre-generates chunks, primarily used for the Resource World resets |
 | :material-tools: [DiscordSRV](https://www.spigotmc.org/resources/discordsrv.18494/) | Synchronises Minecraft's ingame chat to and from our Discord channels |
 | :material-sword: [DragonCandle](https://github.com/Slabserver/DragonCandle) :material-account-edit-outline:{.staff} | _Explore... Descend... Discover..._ |
-| :material-brush: [F3NPerm](https://www.spigotmc.org/resources/f3nperm.46461/) | Enables gamemode switching via `F3` + `N`  and `F3` + `F4` on the Creative server
+| :material-brush: [F3F4Perms](https://github.com/Lumine1909/F3F4Perms) | Enables gamemode switching via `F3` + `N`  and `F3` + `F4` on the Creative server
 | :material-sword: Fireworks :material-account-edit-outline:{.staff} | Adds firework recipes to the crafting recipe book |
 | :material-sword: [Gatekeeper](https://github.com/Slabserver/Gatekeeper) :material-account-edit-outline:{.staff} | Handles Resource World infrastructure (Paper level) |
 | :material-sword: [HuskSync](https://www.spigotmc.org/resources/husksync-sync-inventories-ender-chests-cross-server-advancements-map-art-stats-backups.97144/) | Synchronises player data to and from the Resource World |
@@ -76,6 +76,7 @@
 | Plugin | Dependencies |
 | - | - |
 | :material-sword: [NBT API](https://www.spigotmc.org/resources/nbt-api.7939/) | Gatekeeper
+| :material-brush: [Packetevents](https://github.com/retrooper/packetevents) | F3F4Perms
 | :material-tools: [PAPIProxyBridge](https://www.spigotmc.org/resources/papiproxybridge.108415/) | Placeholder API
 | :material-tools: [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/) | Miscellaneous
 | :material-tools: [ProtocolLib](https://www.spigotmc.org/resources/protocollib.1997/) | Miscellaneous
