@@ -2,7 +2,7 @@ site_name: Slabserver | The Etho Community
 site_url: https://slabserver.github.io
 site_author: DaUltraMarine
 site_description: >-
-  Welcome to <b>Slabserver</b> – the home of everything Etho. Founded in 2015, our community is a friendly, energetic, and inclusive space where fans of Etho can come to chat, connect, and create together.
+  Welcome to Slabserver – the home of everything Etho.
 
 theme:
   favicon: assets/images/favicon.png
