@@ -30,7 +30,7 @@ Dedicated Server Cost²| -$85.65
 
 **Current staff tasks being tracked as of 11th June 2024⁴ ⁵:**
 
-![State of the Slab June 2024](https://github.com/Slabserver/Transparency-Reports/blob/master/State-Of-The-Slab/2024/June.png?raw=true "State of the Slab June 2024")
+![State of the Slab June 2024](./../../../assets/images/kanban/2024/June.png "State of the Slab June 2024")
 
 **Here's a recap of the staff team actions throughout the last month:**
 - We've finally decided on the Season 4 seed, after weeks upon weeks of deliberation. We've searched countless seeds using the amazing [Cubiomes](https://github.com/Cubitect/cubiomes-viewer) tool, slowly whittling down our selection from discussions back and forth within the team. The seed was first found by JadeLake, and slowly but surely became our top choice through a very lengthy process of elimination. We're really pleased with the final pick, and we can't wait for you to see it live on the server.
@@ -50,7 +50,6 @@ Dedicated Server Cost²| -$85.65
 -  We've significantly refined our internal Kanban board as you likely saw in the screenshot above, moving most of our 'In Draft' issues that weren't previously visible within State of the Slab into fully refined issues.  As part of this, the label system has been overhauled too, now showing a Priority and Size estimate for each issue, and a Milestone label to categorise related issues.
   - These Priority and Size labels are purely informational, intended to provide the community with more context about the issue. They will always be a rough estimate for the amount of work involved... though quite honestly are just based on vibes.
     - A neat thing to note is the date that the issue on the sidebar was created, just to highlight the timeframes for some of our work! The 'Begin Season 4 of Slabserver' was initially drafted after the 2023 Great Slabserver Poll, as we started to refine the technical and infrastructure improvements we'd need for a new Season. It's rare that we can share the more detailed view of these issues, but hopefully this is a fun little bit of proof for just how far in advance some things start to be worked on.
----
 
 ---
 
