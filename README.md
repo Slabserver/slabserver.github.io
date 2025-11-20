@@ -15,7 +15,13 @@ Anyone who is a member of #technology and/or is using Linux has no excuse to not
 ### Prerequisites
 Before running this project locally, ensure the following are installed on your system:
 - [Python 3](https://www.python.org/downloads/)
-- Pip (included with most Python 3 installations)
+- Pip, a package installer for Python _(included with most Python 3 installations)_
+- A [virtual environment](https://www.w3schools.com/python/python_virtualenv.asp) in Python _(Optional, but highly encouraged for development)_
+  - For Unix systems, the following commands can be used to setup and run a venv:
+  ```
+    python3 -m venv path/to/venv
+    source path/to/venv/bin/activate
+    ```
 
 ### Installation
 - Follow the Material for MkDocs [installation guide](https://squidfunk.github.io/mkdocs-material/getting-started/)
