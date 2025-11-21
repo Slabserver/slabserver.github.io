@@ -18,7 +18,7 @@ Before running this project locally, ensure the following are installed on your 
 - Pip, a package installer for Python _(included with most Python 3 installations)_
 - A [virtual environment](https://www.w3schools.com/python/python_virtualenv.asp) in Python _(Optional, but highly encouraged for development)_
   - For Unix systems, the following commands can be used to setup and run a venv:
-  ```
+    ```
     python3 -m venv path/to/venv
     source path/to/venv/bin/activate
     ```
