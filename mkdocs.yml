@@ -39,6 +39,7 @@ theme:
 plugins:
   - blog:
       blog_dir: transparency
+      pagination_per_page: 12
       post_url_format: "{slug}"
       post_excerpt_separator: 
   - search
