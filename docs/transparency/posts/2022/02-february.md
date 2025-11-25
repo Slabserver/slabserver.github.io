@@ -9,6 +9,7 @@ search:
 ---
 
 # February 2022
+<!-- more -->
 ### Donation Breakdown
 **Breakdown Between 5th Of January - 5th Of February:**
 

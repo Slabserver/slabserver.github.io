@@ -35,7 +35,7 @@ Here's a recap of the staff team actions throughout the past month:
 
 - We introduced a new Staff Member, Chester, to provide an alternative means of contacting us for those that feel less comfortable messaging one of us directly. Chester has had a lot of modmail messages since joining the team, keep them coming!
 
-- We wrote a collection of [documentation](./../../../documentation/) to increase our transparency around infrastructure, plugins, and staff processes.
+- We wrote a collection of [documentation](./../../../documentation/index.md) to increase our transparency around infrastructure, plugins, and staff processes.
 
 - We launched our new TerraFirmaCraft server, once more unto the breach of modded server headaches.
 

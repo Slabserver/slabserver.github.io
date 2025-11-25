@@ -45,9 +45,9 @@ Dedicated Server Cost²| -$85.36
 ---
 
 ### Server Donation Links
-Paypal: http://paypal.slabserver.org/
+Paypal: [https://slabserver.org/paypal](https://slabserver.org/paypal)
 
-Patreon: https://patreon.slabserver.org/
+Patreon: [https://slabserver.org/patreon](https://slabserver.org/patreon)
 
 ---
 

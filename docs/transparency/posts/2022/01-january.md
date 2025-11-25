@@ -30,13 +30,16 @@ Dedicated Server Cost²| -$81.18
 ### State of the Slab
 **Current staff tasks being tracked as of 12th of January 2022⁴:**
 
-![State of the Slab January 2022](https://github.com/Slabserver/Transparency-Reports/blob/master/State-Of-The-Slab/2022/January.png?raw=true "State of the Slab January 2022")
+![State of the Slab January 2022](./../../../assets/images/kanban/2022/January.png "State of the Slab January 2022")
 
 **Here's a recap of the staff team actions throughout the last month:**
 
 - We've updated our servers to 1.18! This update was largely smooth sailing for us, with the only challenge being Paper’s longer and fairly uncommunicative update process.
+
 - We’ve implemented some more anti-raid features into Modbot to combat recent attempts to troll the Discord. This includes increased requirements to ping roles, and some other undisclosed measures to catch troll-like behaviour from new joiners.
+
 - We’ve added the small improvement of letting you manually delete gamenight servers created by the Slabserver Server Server earlier than their standard 72h lifecycle.
+
 - We’ve rolled out contextual join messages for the Discord, nearly a year later than intended! We have a few extra Etho inside jokes for usernames that end with er, ar, 3r, oo, and ou - have you seen any so far? Let us know if you have any suggestions for join messages, contextual or otherwise!
 
 ---

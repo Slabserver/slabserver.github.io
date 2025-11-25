@@ -30,7 +30,7 @@ Dedicated Server Cost² | -$65.99
 ### State of the Slab
 **Current staff tasks being tracked as of 14th of September 2021⁴:**
 
-![State of the Slab September 2021](https://github.com/Slabserver/Transparency-Reports/blob/master/State-Of-The-Slab/2021/September.png?raw=true "State of the Slab September 2021")
+![State of the Slab September 2021](./../../../assets/images/kanban/2021/September.png "State of the Slab September 2021")
 
 **Here's a recap of the staff team actions throughout the last month:**
 

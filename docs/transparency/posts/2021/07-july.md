@@ -30,7 +30,7 @@ Dedicated Server Cost²| -$65.99
 ### State of the Slab
 **Current staff tasks being tracked as of 9th of July 2021⁴:**
 
-![State of the Slab July 2021](https://github.com/Slabserver/Transparency-Reports/blob/master/State-Of-The-Slab/2021/July.png?raw=true "State of the Slab July 2021")
+![State of the Slab July 2021](./../../../assets/images/kanban/2021/July.png "State of the Slab July 2021")
 
 **Here's a recap of the staff team actions throughout the past month:**
 
@@ -47,24 +47,18 @@ Dedicated Server Cost²| -$65.99
 -	We've made some small improvements to the subreddit too, with an updated sidebar and banner image. We are keen to give the subreddit a complete redesign, so if anyone has decent experience with CSS and give our transparency report hun a new kick of paint, please let us know!
 
 ---
+
 ### Server Donation Links
-Paypal: http://paypal.slabserver.org/
+Paypal: [https://slabserver.org/paypal](https://slabserver.org/paypal)
 
-Patreon: https://patreon.slabserver.org/
-
-Ethereum Address⁵: `0xC55654f781fbea1A820ab9Ea731E16f27206A00b`
-
-Nano Address ⁵ ⁶: `nano_1ga5xm9sqmaijgsnqti9atty7111a7gbdknram46pbpaecgfzrxbk4833e9w`
+Patreon: [https://slabserver.org/patreon](https://slabserver.org/patreon)
 
 ---
-¹ Donation amount listed is after transaction fees have taken place.
 
-²  The dedicated server hosts all of our game servers, databases, as well as our various Discord bots. You can find more detail on this [in our wiki](https://github.com/Slabserver/Slabserver-Documentation/wiki/Architecture)
+<sup>¹ Donation amount listed is after transaction fees have taken place.</sup>
 
-³ Unless disclosed otherwise, this will always be put forward towards next months server costs, and will be displayed in 'rollover donations' within the transparency report.
+<sup>² The dedicated server hosts all of our game servers, databases, as well as our various Discord bots. You can find more detail on this [in our documentation](../../../documentation/minecraft/server-architecture.md).</sup>
 
-⁴ There will be occasions that certain items on the board are redacted, should they contain sensitive tasks or information.
+<sup>³ Unless disclosed otherwise, this will always be put forward towards next months server costs, and will be displayed in ‘rollover donations’ within the transparency report.</sup>
 
-⁵ This address will only ever be used for community purposes. Any transactions you see on a blockchain explorer reflect community donations moving to the address, or being sent to an exchange to be converted into fiat money to make donations with. Any conversion from crypto into fiat will be noted in the donation breakdown. The cryptocurrencies accepted by Slabserver are not to be considered financial or investment advice.
-
-⁶ [Nano](https://nano.org/) is an interesting cryptocurrency I stumbled upon with some really promising green tech. While I don't expect this address to be used, I believe that Nano allows us to receive the maximum % of your donation out of all available options, given that Paypal and Patreon seem to take an ever increasing cut.
+<sup>⁴ There will be occasions that certain items on the board are redacted, should they still be in [draft](https://docs.github.com/en/issues/planning-and-tracking-with-projects/managing-items-in-your-project/adding-items-to-your-project#creating-draft-issues), or contain sensitive tasks or information.</sup>
