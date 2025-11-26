@@ -28,7 +28,7 @@ Dedicated Server Cost²| -$85.65
 
 ### State of the Slab
 
-**Current staff tasks being tracked as of 11th June 2024⁴ ⁵:**
+**Current staff tasks being tracked as of 11th June 2024⁴⁵:**
 
 ![State of the Slab June 2024](./../../../assets/images/kanban/2024/June.png "State of the Slab June 2024")
 

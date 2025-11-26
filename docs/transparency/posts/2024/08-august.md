@@ -30,7 +30,7 @@ Hetzner VPS Speedtest Cost| -$3.39
 
 ### State of the Slab
 
-**Current staff tasks being tracked as of 18th August 2024⁴:**
+**Current staff tasks being tracked as of 18th August 2024⁴⁵:**
 
 ![State of the Slab August 2024](./../../../assets/images/kanban/2024/August.png "State of the Slab August 2024")
 
