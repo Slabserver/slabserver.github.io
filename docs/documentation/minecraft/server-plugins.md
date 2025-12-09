@@ -48,7 +48,6 @@
 | :material-tools: [CoreProtect](https://www.spigotmc.org/resources/coreprotect.8631/) | Logs interactions in the world to a database |
 | :material-sword: DirectoryPlugin :material-account-edit-outline:{.staff} | Handles stock summaries in the Google Sheet for the directory |
 | :material-sword: [EntityDetection](https://www.spigotmc.org/resources/entitydetection-tile-entity-support.20588) | Helps with lagbusting by finding chunks with high amounts of entities |
-| :material-sword: [EntityGlo](https://github.com/Slabserver/EntityGlo) :material-account-edit-outline:{.staff}:material-delete-clock-outline:{.deprecate} | Helps with lagbusting by highlighting entities in a loaded area |
 | :material-sword: [InventoryRollbackPlus](https://www.spigotmc.org/resources/inventory-rollback-plus-1-8-1-18-x.85811/) | Helps to easily restore player inventories if you die to glitches or bugs |
 | :material-sword: LessEndermanGriefing :material-account-edit-outline:{.staff} | Reduces blocks that Enderman can pick up, based on their current dimension |
 | :material-brush: [Lite2Edit](https://github.com/GoldenDelicios/Lite2Edit) :material-account-edit-outline:{.staff} | Converts Litematics to WorldEdit schematics |
@@ -81,5 +80,4 @@
 | :material-tools: [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/) | Miscellaneous
 | :material-tools: [ProtocolLib](https://www.spigotmc.org/resources/protocollib.1997/) | Miscellaneous
 | :material-brush: [Vault](https://www.spigotmc.org/resources/vault.34315) | Miscellaneous
-| :material-sword: [XGlow](https://www.spigotmc.org/resources/xglow.85325/) | EntityGlo
 | :material-sword: [yamler](https://www.spigotmc.org/resources/yamler.315/) | Miscellaneous
