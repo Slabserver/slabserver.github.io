@@ -50,6 +50,22 @@ For all of our databases, [phpMyAdmin](https://www.phpmyadmin.net/) provides a u
 As noted in the diagram, the Resource server does not interact with the Survival server directly, and vice versa. Players are transferred from one server to another via the Proxy. The same is true of chatlogs too - note that messages are also not sent from the Resource Server to `#ingamechat` directly.
 <br>
 
+### Staging Network
+
+<img src="/assets/diagrams/staging/staging_lifecycle.png" style="width:45%;align:right;float:right;"/>
+
+Our "Main" server has an equivalent "Test" server, known as [Staging](https://wikipedia.org/wiki/Deployment_environment#Staging), which we use to prepare our server upgrades.
+
+As Minecraft updates increased in both frequency and technical complexity, the work required for updating our plugins, datapacks, and server configuration also increased.
+
+By using a Production <-> Staging server setup, we are able to 'pull' everything on Slabserver to our Staging server, update our plugins and datapacks, and then 'push' those changes up to Slabserver. 
+
+This lets us gradually prepare Staging over several days, test Staging before 'pushing' the changes, and minimise how long Slabserver is offline for the 'push' update. This is all managed via a bespoke [CLI](https://simple.wikipedia.org/wiki/Command-line_interface) tool known as [SlabCLI](https://github.com/Slabserver/slabcli).
+
+
+
+<!-- ![Staging](../../assets/diagrams/staging/staging_lifecycle.png) -->
+
 ## Bots
 
 While detailed here in their own section, these bots are hosted and managed via Pterodactyl much like our game servers. In fact, for Pterodactyl and Docker there is almost no functional difference between a game server and a bot. Hosting these bots via Pterodactyl helps to keep most staff applications managed through a single functional UI.
@@ -90,5 +106,4 @@ We currently keep between 28 and 42 days worth of incremental backups on Backbla
 ![External Backups](../../assets/diagrams/backups/restic_backblaze.png)
 
 Rendered with [Diagrams](https://diagrams.mingrammer.com) by mingrammer
-
 
