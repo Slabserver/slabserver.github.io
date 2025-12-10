@@ -54,6 +54,7 @@
 | :material-sword: LessEndermanGriefing :material-account-edit-outline:{.staff} | Reduces blocks that Enderman can pick up, based on their current dimension |
 | :material-brush: [Lite2Edit](https://github.com/GoldenDelicios/Lite2Edit) :material-account-edit-outline:{.staff} | Converts Litematics to WorldEdit schematics |
 | :material-tools: [LuckPerms](https://luckperms.net/) | Handles permission groups of staff and players |
+| :material-brush: [NoSignCommands](https://github.com/Slabserver/NoSignCommands) | Prevents players from running commands via signs with a [`click_event`](https://minecraft.wiki/w/Text_component_format#Click_events) |
 | :material-sword: [OpenInv](https://dev.bukkit.org/projects/openinv) | Allows remote access to player inventories and Ender Chests |
 | :material-sword: [PremiumVanish](https://www.spigotmc.org/resources/premiumvanish-stay-hidden-bungee-support.14404/) | Allows us to hide our presence on the server and observe xraying attempts |
 | :material-sword: [Plan](https://www.spigotmc.org/resources/plan-player-analytics.32536/) | Provides player analytics for the activity and geological distribution of our playerbase |
