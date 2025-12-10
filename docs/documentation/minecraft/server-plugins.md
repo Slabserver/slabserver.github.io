@@ -70,6 +70,7 @@
 | Datapack | Description |
 | - | - |
 | :material-sword: Datapacks-S4 :material-account-edit-outline:{.staff} | Adds custom advancements and recipes for Slabserver |
+| :material-sword: InDevs :material-account-edit-outline:{.staff} | Provides all the custom advancements, behaviour, gameplay, and world height within The Passage |
 
 ## Dependency Plugins & APIs
 
