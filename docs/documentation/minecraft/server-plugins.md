@@ -80,4 +80,3 @@
 | :material-tools: [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/) | Miscellaneous
 | :material-tools: [ProtocolLib](https://www.spigotmc.org/resources/protocollib.1997/) | Miscellaneous
 | :material-brush: [Vault](https://www.spigotmc.org/resources/vault.34315) | Miscellaneous
-| :material-sword: [yamler](https://www.spigotmc.org/resources/yamler.315/) | Miscellaneous
