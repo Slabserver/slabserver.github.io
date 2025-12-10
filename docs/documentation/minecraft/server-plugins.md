@@ -25,6 +25,7 @@
 | :material-sword: [HuskSync](https://www.spigotmc.org/resources/husksync-sync-inventories-ender-chests-cross-server-advancements-map-art-stats-backups.97144/) | Synchronises player data to and from the Resource World |
 | :material-tools: [InvisItemFrames](https://github.com/Slabserver/InvisItemFrames) :material-account-edit-outline:{.staff} | Adds a feature to turn Item Frames invisible with a Splash Potion of Invisibility |
 | :material-sword: [LightningFire](https://www.spigotmc.org/resources/lightning-fire.64389/) :material-account-edit-outline:{.staff} | Prevents lightning from starting fires and torching bases |
+| :material-sword: [PassageWarden](https://github.com/Slabserver/PassageWarden) :material-account-edit-outline:{.staff} | Manages player instances within The Passage |
 | :material-sword: [Pl3xMap](https://www.spigotmc.org/resources/pl3xmap.109697/) | Adds [map.slabserver.org](https://map.slabserver.org) |
 | :material-sword: [Pl3xMapExtras](https://www.spigotmc.org/resources/pl3xmap.109697/) | Adds ability to show mobs/signs/banners on Pl3xMap |
 | :material-sword: [RawStats](https://github.com/GoldenDelicios/RawStats) :material-account-edit-outline:{.staff} | Displays various player statistics in the sidebar (when enabled by staff) |
