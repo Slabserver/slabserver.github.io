@@ -1,6 +1,6 @@
 ## Introduction
 
-<img align="right" width="110" src="/assets/images/architecture/pterodactyl.png"/>
+<img align="right" width="110" src="/assets/images/architecture/icons/pterodactyl.png"/>
 
 Our game servers are hosted on a dedicated Ubuntu server in Falkenstein, Germany, rented from Hetzner as a custom [AX42](https://www.hetzner.com/dedicated-rootserver/ax42/configurator) machine. Alongside the standard 2x 512GB SSDs configured in RAID, we’ve added a 1TB SSD for non-Survival game servers, and a 22TB HDD for backups and cold storage.
 
@@ -9,14 +9,14 @@ To configure and manage our game servers and various community bots on this Ubun
 ## Game Servers
 
 Pterodactyl runs all of our game servers in isolated Docker containers. We can then manage these game servers through the Pterodactyl UI panel, as well as the SFTP access it provides.
-![Pterodactyl](../../assets/diagrams/game_servers/game_servers_ungrouped.png)
+![Pterodactyl](../../assets/images/architecture/game_servers_ungrouped.png)
 
 While all these servers effectively sit alongside each other, we use a BungeeCord server, referred to as our Proxy server, to connect several servers together for the Resource World feature. The following diagram represents the visual hierarchy, and our Proxy setup is explained further below.
 
-![Game Servers](../../assets/diagrams/game_servers/game_servers_grouped.png)
+![Game Servers](../../assets/images/architecture/game_servers_grouped.png)
 
 ## Proxy Network
-![Proxy Network](../../assets/diagrams/networks/main_network.png)
+![Proxy Network](../../assets/images/architecture/main_network.png)
 
 Our proxy network handles connections to and from the Survival and Resource that servers sit 'below' the Proxy in the hierarchy, and are collectively considered to be our "Main" server.
 
@@ -52,7 +52,7 @@ As noted in the diagram, the Resource server does not interact with the Survival
 
 ### Staging Network
 
-<img src="/assets/diagrams/staging/staging_lifecycle.png" style="width:45%;align:right;float:right;"/>
+<img src="/assets/images/architecture/staging_lifecycle.png" style="width:45%;align:right;float:right;"/>
 
 Our "Main" server has an equivalent "Test" server, known as [Staging](https://wikipedia.org/wiki/Deployment_environment#Staging), which we use to prepare our server upgrades.
 
@@ -62,15 +62,11 @@ By using a Production <-> Staging server setup, we are able to 'pull' everything
 
 This lets us gradually prepare Staging over several days, test Staging before 'pushing' the changes, and minimise how long Slabserver is offline for the 'push' update. This is all managed via a bespoke [CLI](https://simple.wikipedia.org/wiki/Command-line_interface) tool known as [SlabCLI](https://github.com/Slabserver/slabcli).
 
-
-
-<!-- ![Staging](../../assets/diagrams/staging/staging_lifecycle.png) -->
-
 ## Bots
 
 While detailed here in their own section, these bots are hosted and managed via Pterodactyl much like our game servers. In fact, for Pterodactyl and Docker there is almost no functional difference between a game server and a bot. Hosting these bots via Pterodactyl helps to keep most staff applications managed through a single functional UI.
 
-![Bots](../../assets/diagrams/bots/bots.png)
+![Bots](../../assets/images/architecture/bots.png)
 
 We run bots on our dedicated server for the following use cases:
 
@@ -91,19 +87,13 @@ We run bots on our dedicated server for the following use cases:
 - **ErgoBot**  
 *Runs automation tasks on our Pterodactyl servers based on API responses from external services, for example Mojang's version manifest*
 
-<!-- ## Proxy Server -->
-<!-- Our proxy server handles connections to the Survival servers that sit 'below' them in the hierarchy.
-![Proxy Servers](https://github.com/Slabserver/Slabserver-Documentation/blob/main/proxy_servers/proxy_servers.png?raw=true "Proxy Servers")
- -->
-
-
 ## Backups
 
 Our backups work through a combination of [Restic](https://restic.net/) and [Backblaze](https://www.backblaze.com/b2/cloud-storage.html). Restic provides automated [incremental backups](https://en.wikipedia.org/wiki/Incremental_backup) solution for all our server data, while Backblaze provides us with insanely cheap external storage, to avoid the dedicated server being a single point of failure.
 
 We currently keep between 28 and 42 days worth of incremental backups on Backblaze, to balance the amount of available backups with the costs of storing and pruning this data. Pruning to 28 days is automatically run by a cronjob on the 1st and 15th of each month.
 
-![External Backups](../../assets/diagrams/backups/restic_backblaze.png)
+![External Backups](../../assets/images/architecture/backups.png)
 
 Rendered with [Diagrams](https://diagrams.mingrammer.com) by mingrammer
 

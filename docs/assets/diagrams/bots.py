@@ -3,17 +3,12 @@ from diagrams import Cluster, Diagram, Edge
 from diagrams.onprem.container import Docker
 from diagrams.custom import Custom
 
-from urllib.request import urlretrieve
+with Diagram(filename="../images/architecture/bots", show=True, direction="TB"):
 
-#Pterodactyl
-pterodactyl_url = "https://avatars.githubusercontent.com/u/16179146"
-pterodactyl_icon = "pterodactyl.png"
-urlretrieve(pterodactyl_url, pterodactyl_icon)
+    # custom icons are relative to the filename above
+    pterodactyl = Custom("Pterodactyl", "icons/pterodactyl.png")
 
-with Diagram(filename="bots", show=True, direction="TB"):
     with Cluster("Dedicated Ubuntu Server"):
-
-        pterodactyl = Custom("Pterodactyl", pterodactyl_icon)
 
         with Cluster("Bots"):
             emojirolesbot = Docker("Emoji Roles Bot")
