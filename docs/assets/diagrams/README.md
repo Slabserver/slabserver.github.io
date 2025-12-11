@@ -20,4 +20,4 @@ To generate a new diagram, run the following command in a working directory:
 python <diagram_name>.py
 ```
 
-Diagrams are typically found in the `/docs/images/architecture` directory. The path/filename is set by the `with Diagram(filename="...")` value in a `<diagram_name>.py` file.
+Diagrams are typically found in the [`/docs/assets/images/architecture`](../images/architecture/) directory. The path/filename is set by the `with Diagram(filename="...")` value in a `<diagram_name>.py` file.
