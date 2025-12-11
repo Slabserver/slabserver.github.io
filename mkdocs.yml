@@ -110,6 +110,8 @@ nav:
     - transparency/index.md
   - History: history/index.md
   - Community Wiki: https://wiki.slabserver.org
-
+exclude_docs: |
+  template-report.md
+  README.md
 extra_css:
   - assets/stylesheets/extra.css
