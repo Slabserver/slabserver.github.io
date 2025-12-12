@@ -11,7 +11,7 @@ Install steps are included in the main [README.md](../../../README.md) file, or 
 
 There are several examples within this folder, though the Diagram site has a [Quick Start](https://diagrams.mingrammer.com/docs/getting-started/installation#quick-start) guide and [Examples](https://diagrams.mingrammer.com/docs/getting-started/examples) page, which formed the basis for our existing diagrams in this documentation.
 
-Custom icons are typically stored in `/docs/images/architecture/icons`, though the Diagrams site provides an [example](https://diagrams.mingrammer.com/docs/getting-started/examples#rabbitmq-consumers-with-custom-nodes) of how to do this via `urllib.request`. Some websites block direct downloads using `urllib` and cause a 403 Forbidden error, and so it is preferable to keep custom icons within this repository.
+Custom icons are typically stored in [`/docs/images/architecture/icons`](../images/architecture/icons) , though the Diagrams site provides an [example](https://diagrams.mingrammer.com/docs/getting-started/examples#rabbitmq-consumers-with-custom-nodes) of how to do this via `urllib.request`. Some websites block direct downloads using `urllib` and cause a 403 Forbidden error, and so it is preferable to keep custom icons within this repository.
 
 ## Generating a Diagram
 To generate a new diagram, run the following command in a working directory:

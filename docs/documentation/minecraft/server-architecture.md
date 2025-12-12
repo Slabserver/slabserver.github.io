@@ -9,16 +9,14 @@ To configure and manage our game servers and various community bots on this Ubun
 ## Game Servers
 
 Pterodactyl runs all of our game servers in isolated Docker containers. We can then manage these game servers through the Pterodactyl UI panel, as well as the SFTP access it provides.
-![Pterodactyl](../../assets/images/architecture/game_servers_ungrouped.png)
-
-While all these servers effectively sit alongside each other, we use a BungeeCord server, referred to as our Proxy server, to connect several servers together for the Resource World feature. The following diagram represents the visual hierarchy, and our Proxy setup is explained further below.
-
-![Game Servers](../../assets/images/architecture/game_servers_grouped.png)
+![Pterodactyl](../../assets/images/architecture/game_servers.png)
 
 ## Proxy Network
-![Proxy Network](../../assets/images/architecture/main_network.png)
+![Proxy Network](../../assets/images/architecture/proxy_network.png)
 
-Our proxy network handles connections to and from the Survival and Resource that servers sit 'below' the Proxy in the hierarchy, and are collectively considered to be our "Main" server.
+We use a BungeeCord server, referred to as our Proxy server, to connect several servers together, and tie the Resource World and The Passage into our Survival experience. 
+
+Our proxy network handles connections to and from the Survival, Resource, and Passage servers that sit 'below' the Proxy in the hierarchy, and these servers are collectively considered to be our "Main" server.
 
 The Proxy server utilises a shared set of MySQL databases for a number of use cases:
 

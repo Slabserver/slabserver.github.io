@@ -3,7 +3,7 @@ from diagrams import Cluster, Diagram, Edge
 from diagrams.onprem.container import Docker
 from diagrams.custom import Custom
 
-with Diagram(filename="../images/architecture/game_servers_ungrouped", show=True, direction="TB"):
+with Diagram(filename="../images/architecture/game_servers", show=True, direction="TB"):
 
     # custom icons are relative to the filename above
     pterodactyl = Custom("Pterodactyl", "icons/pterodactyl.png")
@@ -14,12 +14,12 @@ with Diagram(filename="../images/architecture/game_servers_ungrouped", show=True
             proxy = Docker("Proxy")
             survival = Docker("Survival")
             resource = Docker("Resource")
+            passage = Docker("Passage")
             creative = Docker("Creative")
-            gamenight = Docker("Gamenight")
             snapshot = Docker("Snapshot")
             misc = Docker("Misc. Servers")
 
-            servers = [proxy, survival, resource, creative, snapshot, gamenight, misc]
+            servers = [proxy, survival, resource, passage, creative, snapshot, misc]
 
             pterodactyl >> Edge(color="#004da4") >> servers
            
