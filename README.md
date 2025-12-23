@@ -29,7 +29,7 @@ Before running this project locally, ensure the following are installed on your 
 - Install the `mkdocs-glightbox` plugin, used for enlarging images
     -   ```pip install mkdocs-glightbox```
 
-**Optiona:l**
+**Optional:**
 - Install the `diagrams` plugin, used when creating new [architecture](/docs//assets/diagrams/) diagrams
   - ```pip install diagrams```
   - This also requires [Graphviz](https://www.graphviz.org), which can be installed via typical package managers for [Linux](https://www.graphviz.org/download/#linux) and [MacOS](https://www.graphviz.org/download/#mac), or downloaded via other methods from the Graphviz [website](https://www.graphviz.org/download/).
