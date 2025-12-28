@@ -63,6 +63,6 @@ During October 2019, the Etho Discord crossed 1500 members, with a steady number
 
 ## 2020
 ### Etho’s Hilltop - 2 Million Subscribers
-On February 29th 2020, Etho reached the milestone of 2 Million subscribers. To mark the milestone, a community event was organised for March 13th, where members stood on the ‘You’ve Been Etho’d’ hilltop in his single player world to recreate the [classic Coca-Cola ‘Hilltop’ advert from 1971](https://www.youtube.com/watch?v=1VM2eLhvsSM). Community members were also asked to send in submissions of them singing Etho-styled lyrics for the video. The event was attended by over 170 members from across the Etho community, and the video released on March 29th. [Etho shared the video on his Twitter account the following day](https://www.youtube.com/watch?v=1VM2eLhvsSM).
+On February 29th 2020, Etho reached the milestone of 2 Million subscribers. To mark the milestone, a community event was organised for March 13th, where members stood on the ‘You’ve Been Etho’d’ hilltop in his single player world to recreate the [classic Coca-Cola ‘Hilltop’ advert from 1971](https://www.youtube.com/watch?v=1VM2eLhvsSM). Community members were also asked to send in submissions of them singing Etho-styled lyrics for the video. The event was attended by over 170 members from across the Etho community, and the video released on March 29th. [Etho shared the video on his Twitter account the following day](https://xcancel.com/EthoLP/status/1244544615945916416).
 
 On April 4th, 2020, Slabserver celebrated its fifth birthday.
