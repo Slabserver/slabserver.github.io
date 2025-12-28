@@ -10,5 +10,4 @@ search:
 
 # January 2026
 <!-- more -->
-
 Coming Soon!
