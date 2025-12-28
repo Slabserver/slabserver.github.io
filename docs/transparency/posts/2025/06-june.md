@@ -27,7 +27,7 @@ Dedicated Hetzner Server Cost² | -$120.09
 ---
 
 ### State of the Slab
-State of the Slab resumes in [Janauary 2026](../2026/01-january.md), following an extended hiatus throughout 2025.
+State of the Slab resumes in [January 2026](../2026/01-january.md), following an extended hiatus throughout 2025.
 
 We thank you all for your continued donations, support, and patience throughout this time. Despite the lack of Transparency Reports throughout the year, the funding that Slabserver has recieved from you all was truly incredible to see, and is a testament to how self-sustaining this community has become over the past decade. On behalf of the entire staff team, thank you.
 
