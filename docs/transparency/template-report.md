@@ -11,7 +11,7 @@ search:
 # January 2026
 <!-- more -->
 ### Donation Breakdown
-**Breakdown Between 5th Of December - 5th Of January:**
+**Breakdown Between 1st Of December - 1st Of January:**
 
 Costs/Donations |      $
 ---|---

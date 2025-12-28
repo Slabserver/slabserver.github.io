@@ -1,5 +1,5 @@
 ---
-date: 2026-01-01
+date: 2025-12-04
 authors: [DaUltraMarine]
 description: >
   Our monthly Transparency Reports, containing our monthly donations and summarising the progress our staff team has made recently.
@@ -8,21 +8,28 @@ search:
 
 ---
 
-# January 2026
+# April 2025
 <!-- more -->
 ### Donation Breakdown
-**Breakdown Between 5th Of December - 5th Of January:**
+**Breakdown Between 5th Of March - 5th Of April:**
 
 Costs/Donations |      $
 ---|---
-Monthly Paypal Donations¹| $
-Monthly Patreon Donations¹| $
-Total Donations (Month)| $
-Existing Rollover Donations| $
+Monthly Paypal Donations¹| $102.88
+Monthly Patreon Donations¹| $88.39
+Total Donations (Month)| $191.27
+Existing Rollover Donations| $509.82
 ---|---
-Dedicated Hetzner Server Cost² | -$
+Dedicated Hetzner Server Cost² | -$116.66
 ---|---
-**Remaining Donation Funds**³   |  **$**
+**Remaining Donation Funds**³   |  **$584.43**
+
+---
+
+### State of the Slab
+State of the Slab resumes in [Janauary 2026](../2026/01-january.md), following an extended hiatus throughout 2025.
+
+We thank you all for your continued donations, support, and patience throughout this time. Despite the lack of Transparency Reports throughout the year, the funding that Slabserver has recieved from you all was truly incredible to see, and is a testament to how self-sustaining this community has become over the past decade. On behalf of the entire staff team, thank you.
 
 ---
 
@@ -38,7 +45,3 @@ Patreon: [https://slabserver.org/patreon](https://slabserver.org/patreon)
 <sup>² The dedicated server hosts all of our game servers, databases, as well as our various Discord bots. You can find more detail on this [in our documentation](../../../documentation/minecraft/server-architecture.md).</sup>
 
 <sup>³ Unless disclosed otherwise, this will always be put forward towards next months server costs, and will be displayed in ‘rollover donations’ within the transparency report.</sup>
-
-<sup>⁴ There will be occasions that certain items on the board are redacted, should they still be in [draft](https://docs.github.com/en/issues/planning-and-tracking-with-projects/managing-items-in-your-project/adding-items-to-your-project#creating-draft-issues), or contain sensitive tasks or information.</sup>
-
-<sup>⁵ The [Priority](../../../assets/images/kanban/Priority.png) and [Size](../../../assets/images/kanban/Size.png) labels for our State of the Slab Board are a rough estimate of the amount of work involved, and quite honestly are just assigned based on vibes.</sup>
