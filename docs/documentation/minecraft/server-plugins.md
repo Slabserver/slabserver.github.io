@@ -28,6 +28,7 @@
 | :material-sword: [Pl3xMap](https://www.spigotmc.org/resources/pl3xmap.109697/) | Adds [map.slabserver.org](https://map.slabserver.org) |
 | :material-sword: [Pl3xMapExtras](https://modrinth.com/plugin/pl3xmapextras) | Adds ability to show mobs/signs/banners on Pl3xMap |
 | :material-sword: [RawStats](https://github.com/GoldenDelicios/RawStats) :material-account-edit-outline:{.staff} | Displays various player statistics in the sidebar (when enabled by staff) |
+| :material-tools: [SimpleServerSender](https://github.com/Slabserver/SimpleServerSender) :material-account-edit-outline:{.staff} | Sends players to Slabserver servers via simple slash commands |
 | :material-sword: [Slabvancements](https://github.com/Slabserver/Slabvancements) :material-account-edit-outline:{.staff} | Handles awarding (most of) the custom Slabserver advancements |
 | :material-tools: Shrug :material-account-edit-outline:{.staff} | Adds the `/shrug` command to easily send the ¯\\\_(ツ)_/¯ emoticon in chat |
 | :material-sword: [ShulkerSaver](https://github.com/GoldenDelicios/ShulkerSaver) :material-account-edit-outline:{.staff}:material-delete-clock-outline:{.deprecate} | Prevents Shulker boxes being deleted by [MC-902](https://bugs.mojang.com/browse/MC-902), prior to the bugfix in Minecraft 1.21 |
