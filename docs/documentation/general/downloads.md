@@ -29,7 +29,7 @@
 | [Terraria Season 1](http://dl.slabserver.org/terraria_s1.zip) |
 | [Terraria Season 2](http://dl.slabserver.org/terraria_s2.zip) |
 
-## Etho's 'Let's Play Minecraft'
+## Etho's 'Let's Play Minecraft' World Downloads
 | Name | Year(s) | Notes 
 | - | - | - |
 | [Episode 550 (latest)](http://dl.slabserver.org/ethoslab-lp-550.zip) | September 2020 | 
