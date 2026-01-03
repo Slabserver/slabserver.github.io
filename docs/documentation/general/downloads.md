@@ -1,16 +1,5 @@
 # Assets & Downloads
 
-## Community Assets
-| Name | Year(s) | Notes
-| - | - | - |
-| [Slabserver Logo Model](http://dl.slabserver.org/Slabserver-Logo.zip) | May 2024 - Present | Contains How-To, Examples, and Usage Guidelines.
-
-## Community Videos
-| Name | Year(s) | Credits
-| - | - | - |
-| [Slab Didn't Start The Fire](http://dl.slabserver.org/slab_didnt_start_the_fire.mp4) | July 2024 | Created by Vileoss, Didyma, Snow, Kiiwi and audery
-| [Englishman In Slabserver](http://dl.slabserver.org/englishman_in_slabserver.mp4) | August 2016 | Created by Greyface and Felix
-
 ## Minecraft SMP Seasons
 | Name | Year(s) | Notes
 | - | - | - |
@@ -40,9 +29,19 @@
 | [Terraria Season 1](http://dl.slabserver.org/terraria_s1.zip) |
 | [Terraria Season 2](http://dl.slabserver.org/terraria_s2.zip) |
 
-
 ## Etho's 'Let's Play Minecraft'
 | Name | Year(s) | Notes 
 | - | - | - |
 | [Episode 550 (latest)](http://dl.slabserver.org/ethoslab-lp-550.zip) | September 2020 | 
 | [Episodes 36 - 500](http://dl.slabserver.org/ethoslab-worlds.zip) | March 2011 - March 2018 | Mirror of the [ethoslab.world](https://ca-01.ethoslab.world/dl/) site contents
+
+## Community Assets
+| Name | Year(s) | Notes
+| - | - | - |
+| [Slabserver Logo Model](http://dl.slabserver.org/Slabserver-Logo.zip) | May 2024 - Present | Contains How-To, Examples, and Usage Guidelines.
+
+## Community Videos
+| Name | Year(s) | Credits
+| - | - | - |
+| [Slab Didn't Start The Fire](http://dl.slabserver.org/slab_didnt_start_the_fire.mp4) | July 2024 | Created by Vileoss, Didyma, Snow, Kiiwi and audery
+| [Englishman In Slabserver](http://dl.slabserver.org/englishman_in_slabserver.mp4) | August 2016 | Created by Greyface and Felix
