@@ -15,7 +15,7 @@ search:
 
 N.B. that due to Hetzner changing our invoice billing date to the 25th of each month in [October 2025](../2025/10-october.md), the previously used Transparency Report window of 5th -> 5th each month no longer applies. 
 
-Hetzner and Patreon payments could also vary if their payment dates (25th and 5th, respectively) were during a weekend, and so it is much easier to just calculate the breakdown for the entirity of a previous month.
+Hetzner and Patreon payments could also vary if their payment dates (25th and 5th, respectively) were during a weekend, and so it is much easier to just calculate the breakdown for the entirety of a previous month.
 
 The Transparency Reports will now run from the 1st to the 31st of each month - though due to this month being used to adjust that by having a shorter timeframe, there has therefore not been a Patreon payment since the 5th December 2025.
 
