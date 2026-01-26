@@ -1,3 +1,7 @@
+---
+glightbox-manual: true
+---
+
 # Basing Guidelines
 
 Building the right base can be one of the most rewarding experiences in Minecraft. To help ensure that everyone has the best experience possible, we ask all community members to follow these guidelines.
@@ -38,7 +42,12 @@ If you don't know who to contact, contact the staff team via Chester and they wi
 
 ### Nether Tunnels
 
-<img src="/assets/images/basing/slabtunnels.png" style="width:37.5%;align:right;float:right;"/>
+<a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="/assets/images/basing/slabtunnels.png" data-desc-position="bottom">
+  <picture>
+    <source srcset="/assets/images/basing/slabtunnels.jxl" type="image/jxl"/>
+    <img src="/assets/images/basing/slabtunnels.png" style="width:37.5%;align:right;float:right;"/>
+  </picture>
+</a>
 
 * There are four main nether tunnels: North (white), South (grey), West (orange), and East (green), splitting up the&nbsp;overworld into the following sections:
 * Your tunnel is determined by the coordinates of your base when you press F3, depending on **a)** whether the X or Z coordinate is closer to 0, and **b)** whether it is positive or negative:

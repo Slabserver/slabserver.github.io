@@ -1,3 +1,7 @@
+---
+glightbox-manual: true
+---
+
 # Lag Guidelines
 
 ### **Villagers & Trading halls**
@@ -6,7 +10,12 @@
 
 Villagers are consistently terrible for server performance. For trading halls, best practices are:
 
-<img align="right" width="40%" src="/assets/images/lag/1.png"/>
+<a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="/assets/images/lag/1.png" data-desc-position="bottom">
+  <picture>
+    <source srcset="/assets/images/lag/1.jxl" type="image/jxl"/>
+    <img align="right" width="40%" src="/assets/images/lag/1.png"/>
+  </picture>
+</a>
 
 * To share them with other players where possible, or keep the villagers to the needed minimum if you're using them solo.
 
@@ -21,7 +30,12 @@ Villagers are consistently terrible for server performance. For trading halls, b
 
 For automatic farms in general (private or public), best practices are:
 
-<img align="right" width="40%" src="/assets/images/lag/2.png"/>
+<a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="/assets/images/lag/2.png" data-desc-position="bottom">
+  <picture>
+    <source srcset="/assets/images/lag/2.jxl" type="image/jxl"/>
+    <img align="right" width="40%" src="/assets/images/lag/2.png"/>
+  </picture>
+</a>
 
 * To consider whether you really need the farm. We have a wide variety of effective and efficient community farms for most essential items.
 
@@ -35,7 +49,12 @@ For automatic farms in general (private or public), best practices are:
 
 For animal farms, killing chamber, or any other similar situation, best practices are:
 
-<img align="right" width="40%" src="/assets/images/lag/3.png"/>
+<a class="glightbox" data-type="image" data-width="90%" data-height="auto" href="/assets/images/lag/3.png" data-desc-position="bottom">
+  <picture>
+    <source srcset="/assets/images/lag/3.jxl" type="image/jxl"/>
+    <img align="right" width="40%" src="/assets/images/lag/3.png"/>
+  </picture>
+</a>
 
 * To ensure mobs are not bunched up in small areas, 1x1 holes or water streams, as mobs colliding is also notoriously terrible for server performance!
 
