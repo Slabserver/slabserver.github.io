@@ -35,12 +35,12 @@ Dedicated Hetzner Server Cost² | -$124.29
 **Here's a recap of the staff team actions throughout the last month:**
 
 - We've added three new Community Moderators, to help with day-to-day duties of running Slabserver and bring a diverse set of skillsets and perspectives to the team! They've done a great job of getting involved already and we can't wait to see how the team continues to change and evolve thanks to having them onboard.
-  - This has been a great opportunity to review our internal documentation and knowledge of what it takes to onboard new members, and has led to some useful process and tooling improvements for us!
+    - This has been a great opportunity to review our internal documentation and knowledge of what it takes to onboard new members, and has led to some useful process and tooling improvements for us!
 - We launched a Hytale server! We worked pretty hard to have this available at launch for people, and after various authentication and performance issues at launch it's been pretty stable overall. We'll keep running this into the medium-long term if there's sustained interest in the game as it continues to receive updates.
 - We made a number of changes and improvements to one of our Resource World plugins:
-  - Boat types other than Oak can finally transfer again (excluding Chest Boats, due to an ongoing duplication bug we are trying to prevent)
-  - Endermites can finally transfer, after having been missed from the transfer list since the Resource World was created(!)
-  - Future mob additions/changes in the game shouldn't require additional changes on our end (unless we need to block them from being transferred)
+    - Boat types other than Oak can finally transfer again (excluding Chest Boats, due to an ongoing duplication bug we are trying to prevent)
+    - Endermites can finally transfer, after having been missed from the transfer list since the Resource World was created(!)
+    - Future mob additions/changes in the game shouldn't require additional changes on our end (unless we need to block them from being transferred)
 - We fixed a long-standing bug where emojis with underscores would not display correctly in our `#⁠ingamechat` Discord channel.
 - We've been doing some prep work ahead of releasing the Great Slabserver Poll results, including some greatly improved data and results visualisations thanks to the help of our Technical Assistants. Watch this space!
 
