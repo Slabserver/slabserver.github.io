@@ -15,14 +15,15 @@ search:
 
 Costs/Donations |      $
 ---|---
-Monthly Paypal Donations¹| $288.56
-Monthly Patreon Donations¹| $
-Total Donations (Month)| $
-Existing Rollover Donations| $
+Monthly Paypal Donations¹| $292.09
+Monthly Patreon Donations¹| $94.30
+
+Total Donations (Month)| $386.39
+Existing Rollover Donations| $780.78
 ---|---
-Dedicated Hetzner Server Cost² | -$
+Dedicated Hetzner Server Cost² | -$124.29
 ---|---
-**Remaining Donation Funds**³   |  **$**
+**Remaining Donation Funds**³   |  **$1042.88**
 
 ---
 
