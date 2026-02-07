@@ -17,7 +17,6 @@ Costs/Donations |      $
 ---|---
 Monthly Paypal Donations¹| $292.09
 Monthly Patreon Donations¹| $94.30
-
 Total Donations (Month)| $386.39
 Existing Rollover Donations| $780.78
 ---|---
