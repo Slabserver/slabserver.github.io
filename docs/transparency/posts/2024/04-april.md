@@ -51,7 +51,7 @@ Dedicated Server Cost²| -$86.32
 
 - We made a bunch of Slabserver logos that show as embeds for our various GitHub Pages - here's an [example](https://repository-images.githubusercontent.com/351605320/51d618cf-5583-45da-8683-e5f2ef62f7bb)!
   - We've used a common template for these logos, so that the format can easily be extended in the future for various other projects and announcements - see the Season Four and Vault Hunter announcement logos as examples.
-  - The template Blockbench files, along with some usage guidelines, are available on our "[Downloads](../../../documentation/general/downloads.md#community-assets)" page.
+  - The template Blockbench files, along with some usage guidelines, are available on our [Downloads](../../../documentation/general/downloads.md#community-assets) page.
 
 ---
 

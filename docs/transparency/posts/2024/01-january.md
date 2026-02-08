@@ -50,7 +50,7 @@ Dedicated Server Cost²| -$88.28
     - We now explicitly allow macros for repeated actions on a delay, due to it being possible via some OS settings for quite some time and falling in a grey area of our ruleset.
     - We now also allow macros that work when unfocused and/or AFK, due to this already being possible for those with secondary PCs/Laptops or VMs. Mods that emulate this behaviour are now also allowed.
     - We also moved away from the ancient reddit link for this, to our nice swanky GitHub pages. Cool.
-    - During this discussion, we also updated our rules to explicitly ban entity radars within our [client mod](https://github.com/Slabserver/Slabserver-Documentation/wiki/Client-Mods) rules.
+    - During this discussion, we also updated our rules to explicitly ban entity radars within our [client mod](../../../documentation/minecraft/client-mods.md#not-allowed) rules.
     - As a final note, this set of changes was made back in November, but did not happen in time to be included in November's State of the Slab.
 
 - We fixed a bug where the Dragon Egg would be briefly obtainable in the Resource World.
@@ -64,7 +64,7 @@ Dedicated Server Cost²| -$88.28
 
 
 #### The big stuff:
-- We've started to address a number of the actionable items from the roundtable conclusions regarding moderation, as referenced in [November's transparency report](https://github.com/Slabserver/Transparency-Reports/wiki/November-2023): 
+- We've started to address a number of the actionable items from the roundtable conclusions regarding moderation, as referenced in [November's transparency report](../2023/11-november.md#state-of-the-slab): 
     - We're implementing a more formal reporting system, aimed at shifting agency and responsibility for punishments and bans toward the community. Conceptually, this would be integrated into Chester like modmail, but filled out similar to our [whitelist application UI](https://i.imgur.com/Y86ENhy.png). On our end, it'll be flagged as a 'Member Report' to acknowledge, address, and provide some form of outcome.
         - We will compliment this with a revised internal system for tracking the number of reports and outcomes for any given member, giving us a better 'at a glance' view of their standing in the community. Once this system is fully implemented, we will share more details on this system and our process.
  - We're also reassessing our internal staff team structure, roles, and permissions.
