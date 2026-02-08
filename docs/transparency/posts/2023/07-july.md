@@ -37,7 +37,7 @@ Here's a recap of the staff team actions throughout the last month:
   - While members can (and often will!) spot a server going down before this system alerts us, having such systems in place is a good practice for any dedicated system or infrastructure like ours.
 
 - We’ve addressed some long-standing external backup costs, by reducing the frequency with which we prune. Each prune also re-downloads objects in order to rebuild the packs of backups. and downloading data is the most costly part of our external backup provider [Backblaze](https://www.backblaze.com).
-  - Pruning backups now only occurs twice a month, with the added benefit of our incremental backups being kept slightly longer on average - between 28 and 42 days. Our [documentation on backups](https://github.com/Slabserver/Slabserver-Documentation/wiki/Architecture#backups) has been updated to reflect this change.
+  - Pruning backups now only occurs twice a month, with the added benefit of our incremental backups being kept slightly longer on average - between 28 and 42 days. Our [documentation on backups](../../../documentation/minecraft/server-architecture.md#backups) has been updated to reflect this change.
 
 - We’ve sadly set our subreddit /r/slabserver to ‘restricted’, following Reddit’s API changes which killed most third party apps, and to reflect that our community has long since moved to Discord. Transparency reports will now be posted on GitHub.
 

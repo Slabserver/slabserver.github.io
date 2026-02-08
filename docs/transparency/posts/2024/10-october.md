@@ -37,7 +37,7 @@ Dedicated Hetzner Server Cost² | -$115.92
 
 **Here's a recap of the staff team actions throughout the last two months:**
 
-- We re-established our [Restic and Backblaze backup solution](https://github.com/Slabserver/Slabserver-Documentation/wiki/Architecture#backups) on our new host, Hetzner. This ensures that our critical server data is securely stored in multiple locations, and our [disaster recovery](https://aws.amazon.com/what-is/disaster-recovery) solutions remain functional in case of any unforeseen incidents.
+- We re-established our [Restic and Backblaze backup solution](../../../documentation/minecraft/server-architecture.md#backups) on our new host, Hetzner. This ensures that our critical server data is securely stored in multiple locations, and our [disaster recovery](https://aws.amazon.com/what-is/disaster-recovery) solutions remain functional in case of any unforeseen incidents.
 - We expanded the worldborder in The Nether from 1000 to 2000 blocks, to give players more room to build in this dimension of the main world.
 - We added the Etho’s Wrench plugin to S4, which offers a convenient way to rotate blocks in Survival mode. This version comes with some adjustments from S3: 
     - To obtain a basic "Rotate" wrench, drop a Carrot on a Stick into Soul Fire.

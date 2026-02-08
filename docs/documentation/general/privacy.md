@@ -67,7 +67,7 @@ This is also used to chart player activity in our monitoring tools, which is don
 
 - We store a username and Discord ID as part of user accounts for our server panel, for those who use the `/gamenight` bot functionality to create temporary servers. This is done to prevent users from hosting multiple servers at once, and make subsequent uses of `/gamenight` faster by skipping account creation.
 
-Please note that the above server data is also included in our server backups, which are stored and physically secured by the admins on devices external to the dedicated server, as well as encrypted in our [Backblaze backups](https://github.com/Slabserver/Slabserver-Documentation/wiki/Architecture#backups).
+Please note that the above server data is also included in our server backups, which are stored and physically secured by the admins on devices external to the dedicated server, as well as encrypted in our [Backblaze backups](../minecraft/server-architecture.md#backups).
 
 <sup>1 These logs are also sent to a private staff channel in Discord. All staff Discord accounts are secured with 2 Factor Authentication.</sup>
 

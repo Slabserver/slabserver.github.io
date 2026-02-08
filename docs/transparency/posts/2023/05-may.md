@@ -36,7 +36,7 @@ Dedicated Server Cost²| -$86.61
 
 - We fixed survival advancements not displaying ingame on both servers, after several previous attempts to do so!
 
-- We finalised the privacy changes to help protect exposure of IP addresses in our temporary gamenight servers. You can view the exact changes made to our privacy policy [here](https://github.com/Slabserver/Slabserver-Documentation/wiki/Privacy-Policy/_compare/6061a6224e4d5e83d9ae21921e61986e8117360b...2076226fbac0e23a832134979e76e3c523e1dc9c).
+- We finalised the privacy changes to help protect exposure of IP addresses in our temporary gamenight servers. You can view the exact changes made at the time to our privacy policy [here](https://github.com/Slabserver/Slabserver-Documentation/wiki/Privacy-Policy/_compare/6061a6224e4d5e83d9ae21921e61986e8117360b...2076226fbac0e23a832134979e76e3c523e1dc9c).
 
 - We disabled SethWing’s feature of reposting Etho’s tweets to the #etho channel, as a result of Twitter discontinuing its legacy API and charging $100 per month for basic access to its new API. Due to this excessive pricing model, there are currently no plans to replace this feature.
 

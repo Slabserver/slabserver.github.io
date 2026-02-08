@@ -35,7 +35,7 @@ Existing Rollover Donations| $382.95
 
 **Here's a recap of the staff team actions throughout the last month:**
 
-- We’ve finally completed our server move to Ionos! Every single game server and Discord bot has now been migrated, and we are no longer paying for our SoYouStart server. [docs.slabserver.org](https://github.com/Slabserver/Slabserver-Documentation/wiki/Architecture) has also been updated accordingly.
+- We’ve finally completed our server move to Ionos! Every single game server and Discord bot has now been migrated, and we are no longer paying for our SoYouStart server. [Our documentation](../../../documentation/minecraft/server-architecture.md) has also been updated accordingly.
     - This move has been months in the works, and not only has this come with a performance bump and increased storage space, it finally unblocked a couple other items on our ZenHub boards, most notably:
         - We’ve fixed the dreaded ‘join survival but end up on creative’ bug!
         - We’ve moved hosting of stats, dynmap, and bluemap back onto our server, rather than have them hosted externally by Frogperson.

@@ -42,7 +42,7 @@ Hetzner VPS Speedtest Cost| -$3.39
 - We delegated all responsibility of the hotly-requested Slabserver Wiki to the slightly regretful requestee, GamingTwist. Rising to his new responsibilities, he has already setup Discord OAuth, spent an entire week battling MediaWiki formatting, and is now working on ways to improve ease of community collaboration, which should enable more people to help contribute to the project.
 
 #### The medium stuff:
-- We've overhauled our main Proxy network for Season 4, moving from Bungeecord to Velocity due to the former being deprecated. We've also managed to remove the second Proxy network, documented [here](https://github.com/Slabserver/Slabserver-Documentation/wiki/Architecture) for those not familiar with our previous setup.
+- We've overhauled our main Proxy network for Season 4, moving from Bungeecord to Velocity due to the former being deprecated. We've also managed to remove the second Proxy network, documented [here](../../../documentation/minecraft/server-architecture.md#proxy-network) for those not familiar with our previous setup.
   - Our architecture pages will be updated shortly, once Ionos is fully cancelled and decommissioned within the next month.
 
 - We polled for the Season 4 tweaks, to investigate whether we should adjust the Phantom spawning behaviour, and support invisible item frames within Survival. These poll results helped to inform us that nearly 75% of people wanted each of those things, so:
