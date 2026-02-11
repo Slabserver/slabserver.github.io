@@ -149,9 +149,8 @@ class WorldPlaytimeChart extends BaseChart {
     const m = Math.floor((ms % 3600000) / 60000);
     const s = Math.floor((ms % 60000) / 1000);
 
-    return `${d ? d + "d " : ""}${h ? h + "h " : ""}${m ? m + "m " : ""}${
-      s || (!d && !h && !m) ? s + "s" : ""
-    }`.trim();
+    return `${d ? d + "d " : ""}${h ? h + "h " : ""}${m ? m + "m " : ""}${s || (!d && !h && !m) ? s + "s" : ""
+      }`.trim();
   }
 
   toggle(active) {
@@ -2688,9 +2687,9 @@ class Question57_MobdropGamerule extends BaseChart {
     this.explosionOptions = [
       "No",
       "Unsure",
-      "Yes - block & mob",
-      "Yes - block only",
-      "Yes - mob only",
+      "Yes, both block\n explosions and \nmob explosions",
+      "Yes, only\nblock explosions",
+      "Yes, only\nmob explosions",
     ];
 
     this.values = {
@@ -2714,6 +2713,10 @@ class Question57_MobdropGamerule extends BaseChart {
       xAxis: {
         type: "category",
         data: this.explosionOptions, // now the bars are categories
+        axisLabel: {
+          interval: 0,
+          rotate: 0,
+        },
       },
       yAxis: {
         type: "value",
