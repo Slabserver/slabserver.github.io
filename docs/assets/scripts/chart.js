@@ -370,7 +370,7 @@ class Question3_Location extends BaseChart {
     const max = Math.max(...values); // 87
 
     return {
-      title: { text: "Location" },
+      title: { text: "Country" },
       tooltip: {
         trigger: "item",
         formatter: (p) =>
@@ -436,68 +436,6 @@ class Question3_Location extends BaseChart {
   }
 }
 
-class FUCKASSPAININTHEASS extends BaseChart {
-  constructor(el, manager) {
-    super(el, manager);
-
-    // Example mapping: match SVG path ids exactly
-    const tzData = [
-      { name: "UTC-5", value: 47 },
-      { name: "UTC+0", value: 23 },
-      { name: "UTC+5", value: 12 },
-      // etc...
-    ];
-
-    this.option = {
-      title: { text: "World Timezones", left: "center" },
-      tooltip: { trigger: "item", formatter: "{b}: {c}" },
-      visualMap: {
-        min: 0,
-        max: 50,
-        left: "left",
-        bottom: "bottom",
-        text: ["High", "Low"],
-        inRange: { color: ["#e0f3f8", "#2166ac"] },
-        calculable: true,
-      },
-      geo: {
-        map: "tz",
-        roam: false, // disable moving/zoom
-        layoutCenter: ["50%", "50%"],
-        layoutSize: "100%",
-        itemStyle: {
-          color: undefined, // ⚠️ preserve original SVG fills
-          borderColor: "#888", // optional
-        },
-        emphasis: {
-          itemStyle: {
-            color: undefined, // hover handled by CSS in SVG
-            borderColor: "#000",
-            borderWidth: 1,
-          },
-          label: { show: false },
-        },
-        regions: tzData.map((d) => ({
-          name: d.name,
-          value: d.value,
-          itemStyle: {
-            color: undefined, // keep SVG color, visualMap will override
-          },
-        })),
-      },
-      series: [
-        {
-          type: "map",
-          map: "tz",
-          roam: false, // optional
-          emphasis: { label: { show: false } },
-          data: tzData,
-        },
-      ],
-    };
-  }
-}
-
 class Question4_US_Location extends BaseChart {
   constructor(el, manager) {
     super(el, manager);
@@ -555,7 +493,7 @@ class Question4_US_Location extends BaseChart {
     const max = Math.max(...values); // 87
 
     return {
-      title: { text: "Location" },
+      title: { text: "US States" },
       tooltip: {
         trigger: "item",
         formatter: (p) =>
@@ -734,7 +672,7 @@ class Question7_WhatVersion extends BaseChart {
 
     this.option = {
       title: {
-        text: "Minecraft Versions (Including Overlap)",
+        text: "Minecraft Versions (including overlap)",
         left: "center",
       },
 
@@ -900,7 +838,7 @@ class Question8_WhatPlatform extends BaseChart {
     paired.sort((a, b) => b.value - a.value);
 
     return {
-      title: { text: "Device Usage Totals" },
+      title: { text: "Minecraft Device Usage" },
       tooltip: {
         trigger: "axis",
         axisPointer: { type: "shadow" },
@@ -965,7 +903,7 @@ class Question9_Tenure extends BaseChart {
       "More than nine years",
     ];
 
-    this.option.title = { text: "Tenure", left: "center" };
+    this.option.title = { text: "Etho Discord / Slabserver Tenure", left: "center" };
     this.option.yAxis.data = label;
     this.option.yAxis.name = "Time";
 
@@ -1008,7 +946,7 @@ class Question10_Join extends BaseChart {
 
     this.option = {
       title: {
-        text: "Breakdown",
+        text: "Etho Discord / Slabserver Discovery Method",
         left: "center",
       },
 
@@ -1119,7 +1057,7 @@ class Question11_WatchEtho extends BaseChart {
 
     this.option = {
       title: {
-        text: "Do you watch Etho",
+        text: "Etho Viewing Frequency",
         left: "center",
       },
       tooltip: {
@@ -1155,18 +1093,18 @@ class Question11_WatchEtho extends BaseChart {
   }
 }
 
-class Question12_EthoShow extends BaseChart {
+class Question12_EthoSeries extends BaseChart {
   constructor(el, manager) {
     super(el, manager);
 
-    this.devices = [
+    this.series = [
       "Etho Plays Minecraft",
       "Hermitcraft S10",
       "Hermitcraft S11",
       "Past Life",
     ];
 
-    // Hardcoded values: rows = primary device, cols = overlap device
+    // Hardcoded values: rows = primary show, cols = overlap show
     this.matrixData = [
       [1, 0.93, 0.92, 0.89],
       [0.93, 1, 0.98, 0.94],
@@ -1203,16 +1141,16 @@ class Question12_EthoShow extends BaseChart {
       tooltip: {
         formatter: (p) => {
           const [row, col, val] = p.data;
-          return `${this.devices[row]} × ${this.devices[col]}: ${val}`;
+          return `${this.series[row]} × ${this.series[col]}: ${val}`;
         },
       },
       xAxis: {
         type: "category",
-        data: this.devices,
+        data: this.series,
       },
       yAxis: {
         type: "category",
-        data: this.devices,
+        data: this.series,
       },
       visualMap: {
         min: 0,
@@ -1243,8 +1181,8 @@ class Question12_EthoShow extends BaseChart {
 
     let option = structuredClone(BaseChart.defaultOption);
 
-    option.title = { text: "Most watched series", left: "center" };
-    option.yAxis.data = this.devices;
+    option.title = { text: "Most watched Etho series", left: "center" };
+    option.yAxis.data = this.series;
     option.yAxis.name = "Series";
 
     option.series = [
@@ -1311,7 +1249,7 @@ class Question13_OtherHermits extends BaseChart {
       "ZombieCleo",
     ];
 
-    // Hardcoded values: rows = primary device, cols = overlap device
+    // Hardcoded values: rows = primary hermit, cols = overlap hermit
     this.matrixData = [
       [
         1, 0.82, 0.38, 0.45, 0.27, 0.73, 0.6, 0.68, 0.22, 0.23, 0.55, 0.33,
@@ -1531,7 +1469,7 @@ class Question13_OtherHermits extends BaseChart {
 
     let option = structuredClone(BaseChart.defaultOption);
 
-    option.title = { text: "Other watched hermits", left: "center" };
+    option.title = { text: "Most watched Hermits", left: "center" };
     option.yAxis.data = hermits;
     option.yAxis.name = "Series";
 
@@ -1595,7 +1533,7 @@ class Question16_FavChannel extends BaseChart {
       "#wiki",
     ];
 
-    this.option.title = { text: "Favourite Channel", left: "center" };
+    this.option.title = { text: "Favourite Discord Channel", left: "center" };
     this.option.yAxis.data = labels;
     this.option.yAxis.name = "Channels";
 
@@ -1637,7 +1575,7 @@ class Question17_Bot extends BaseChart {
 
     this.option = {
       title: {
-        text: "Favorite Bot",
+        text: "Favourite Etho Discord Bot",
         left: "center",
       },
       tooltip: {
@@ -1699,7 +1637,7 @@ class Question18_PlayedGamenight extends BaseChart {
 
     this.option = {
       title: {
-        text: "Played a Gamenight",
+        text: "Taken part in a Gamenight?",
         left: "center",
       },
       tooltip: {
@@ -1708,7 +1646,7 @@ class Question18_PlayedGamenight extends BaseChart {
       },
       series: [
         {
-          name: "Played a Gamenight",
+          name: "Taken part in a Gamenight?",
           type: "pie",
           radius: "65%",
           center: ["50%", "55%"],
@@ -1732,7 +1670,7 @@ class Question19_OrganizedGamenight extends BaseChart {
 
     this.option = {
       title: {
-        text: "Organized a Gamenight (if played before)",
+        text: "Organized a Gamenight (if taken part)",
         left: "center",
       },
       tooltip: {
@@ -1741,7 +1679,7 @@ class Question19_OrganizedGamenight extends BaseChart {
       },
       series: [
         {
-          name: "Played a Gamenight",
+          name: "Taken part in a Gamenight?",
           type: "pie",
           radius: "65%",
           center: ["50%", "55%"],
@@ -1788,7 +1726,7 @@ class Question21_GN_rating extends BaseChart {
 
     this.option = {
       title: {
-        text: "How well does #gamenight function in its current form?",
+        text: "How well does #gamenight function currently?",
         left: "center",
       },
 
@@ -1839,7 +1777,7 @@ class Question22_GNAsForum extends BaseChart {
 
     this.option = {
       title: {
-        text: "Gamenight as a forum",
+        text: "Gamenight as a forum channel?",
         left: "center",
       },
       tooltip: {
@@ -1879,7 +1817,7 @@ class Question23_GNSlow extends BaseChart {
 
     this.option = {
       title: {
-        text: "Gamenight Slowmo",
+        text: "Gamenight Slowmode?",
         left: "center",
       },
       tooltip: {
@@ -1959,7 +1897,7 @@ class Question24_FavChannel extends BaseChart {
 
     this.option = {
       title: {
-        text: "Usage of the following channels",
+        text: "Etho Discord Channel Category Usage",
         left: "center",
       },
       tooltip: {
@@ -2068,7 +2006,7 @@ class Question39_Wiki extends BaseChart {
 
     this.option = {
       title: {
-        text: "Slabserver Wiki",
+        text: "Slabserver Wiki Awareness & Engagement",
         left: "center",
       },
       tooltip: {
@@ -2204,7 +2142,7 @@ class Question44_FavGame extends BaseChart {
       "S2 Archive",
     ];
 
-    this.option.title = { text: "Favorite Server", left: "center" };
+    this.option.title = { text: "Favourite Nexus Server", left: "center" };
     this.option.yAxis.data = labels;
     this.option.yAxis.name = "Servers";
 
@@ -2246,7 +2184,7 @@ class Question47_S4Engagement extends BaseChart {
 
     this.option = {
       title: {
-        text: "Survival Engagement",
+        text: "Survival Server Engagement",
         left: "center",
       },
       tooltip: {
@@ -2338,7 +2276,7 @@ class Question51_PhantomGamerule extends BaseChart {
     const labelThreshold = 2; // hide labels below 2%
 
     this.option = {
-      title: { text: "Phantoms", left: "center" },
+      title: { text: "Phantom Behaviour Sentiment", left: "center" },
       tooltip: {
         trigger: "axis",
         axisPointer: { type: "shadow" },
@@ -2382,7 +2320,7 @@ class Question56_ResourcePacks extends BaseChart {
 
     this.option = {
       title: {
-        text: "Use a Resource Pack",
+        text: "Use of Resource Packs on Slabserver",
         left: "center",
       },
       tooltip: {
@@ -2431,7 +2369,7 @@ class Question58_MakingFarms extends BaseChart {
     const labelThreshold = 2; // hide labels below 2
 
     this.option = {
-      title: { text: "Explosion Making Farms by S4 Activity", left: "center" },
+      title: { text: "Making Farms for Explosion Decay gamerule by S4 Activity", left: "center" },
       tooltip: {
         trigger: "axis",
         axisPointer: { type: "shadow" },
@@ -2485,7 +2423,7 @@ class Question59_RWTrailed extends BaseChart {
     const labelThreshold = 2; // hide labels below 2
 
     this.option = {
-      title: { text: "Explosion Change in RW by S4 Activity", left: "center" },
+      title: { text: "Explosion Decay gamerule trial in RW by S4 Activity", left: "center" },
       tooltip: {
         trigger: "axis",
         axisPointer: { type: "shadow" },
@@ -2528,7 +2466,7 @@ class Question54_Client extends BaseChart {
 
     this.option = {
       title: {
-        text: "Minecraft Client",
+        text: "Preferred Minecraft Client on Slabserver",
         left: "center",
       },
       tooltip: {
@@ -2701,7 +2639,7 @@ class Question57_MobdropGamerule extends BaseChart {
     const labelThreshold = 2; // hide labels below 2%
 
     this.option = {
-      title: { text: "Explosion Settings by S4 Activity", left: "center" },
+      title: { text: "Explosion Decay gamerule preference by S4 Activity", left: "center" },
       tooltip: {
         trigger: "axis",
         axisPointer: { type: "shadow" },
@@ -2825,7 +2763,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     manager,
   );
 
-  new Question12_EthoShow(
+  new Question12_EthoSeries(
     document.querySelector('[data-chart="q12"]'),
     manager,
   );
