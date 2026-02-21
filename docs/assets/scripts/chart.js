@@ -285,7 +285,7 @@ class Question2_Gender extends BaseChart {
       "Other",
     ];
 
-    this.option.title = { text: "Gender", left: "center" };
+    this.option.title = { text: "Gender Distribution", left: "center" };
     this.option.yAxis.data = genders;
     this.option.yAxis.name = "Genders";
 
@@ -370,7 +370,7 @@ class Question3_Location extends BaseChart {
     const max = Math.max(...values); // 87
 
     return {
-      title: { text: "Country" },
+      title: { text: "Country Distribution" },
       tooltip: {
         trigger: "item",
         formatter: (p) =>
@@ -493,7 +493,7 @@ class Question4_US_Location extends BaseChart {
     const max = Math.max(...values); // 87
 
     return {
-      title: { text: "US States" },
+      title: { text: "US State Distribution" },
       tooltip: {
         trigger: "item",
         formatter: (p) =>
@@ -588,7 +588,7 @@ class Question5_TZ extends BaseChart {
       "UTC+8: e.g. Australian Western (AWST), China, the Philippines",
     ];
 
-    this.option.title = { text: "Timezones", left: "center" };
+    this.option.title = { text: "Timezone Distribution", left: "center" };
     this.option.yAxis.data = genders;
     this.option.yAxis.name = "Timezones";
 
@@ -628,7 +628,7 @@ class Question6_Langs extends BaseChart {
 
     this.option = {
       title: {
-        text: "Languages",
+        text: "Languages Spoken",
         left: "center",
       },
       tooltip: {
@@ -672,7 +672,7 @@ class Question7_WhatVersion extends BaseChart {
 
     this.option = {
       title: {
-        text: "Minecraft Versions (including overlap)",
+        text: "Minecraft Versions Played (including overlap)",
         left: "center",
       },
 
@@ -1181,7 +1181,7 @@ class Question12_EthoSeries extends BaseChart {
 
     let option = structuredClone(BaseChart.defaultOption);
 
-    option.title = { text: "Most watched Etho series", left: "center" };
+    option.title = { text: "Most Watched Etho Series", left: "center" };
     option.yAxis.data = this.series;
     option.yAxis.name = "Series";
 
@@ -1469,7 +1469,7 @@ class Question13_OtherHermits extends BaseChart {
 
     let option = structuredClone(BaseChart.defaultOption);
 
-    option.title = { text: "Most watched Hermits", left: "center" };
+    option.title = { text: "Most Watched Hermits", left: "center" };
     option.yAxis.data = hermits;
     option.yAxis.name = "Series";
 
@@ -1637,7 +1637,7 @@ class Question18_PlayedGamenight extends BaseChart {
 
     this.option = {
       title: {
-        text: "Taken part in a Gamenight?",
+        text: "Taken Part in a Gamenight?",
         left: "center",
       },
       tooltip: {
@@ -1777,7 +1777,7 @@ class Question22_GNAsForum extends BaseChart {
 
     this.option = {
       title: {
-        text: "Gamenight as a forum channel?",
+        text: "Gamenight as a Forum Channel?",
         left: "center",
       },
       tooltip: {
@@ -2261,9 +2261,9 @@ class Question51_PhantomGamerule extends BaseChart {
     this.statuses = ["Not active on S4", "Currently active on S4"];
 
     this.explosionOptions = [
-      "Keep it as is",
+      "Keep as is",
       "Resource World Only",
-      "Shorter / closer to vanilla",
+      "Shorter or vanilla",
       "Slightly longer",
       "Significantly longer",
     ];
@@ -2276,7 +2276,7 @@ class Question51_PhantomGamerule extends BaseChart {
     const labelThreshold = 2; // hide labels below 2%
 
     this.option = {
-      title: { text: "Phantom Behaviour Sentiment", left: "center" },
+      title: { text: "Phantom Behaviour Sentiment on Slabserver", left: "center" },
       tooltip: {
         trigger: "axis",
         axisPointer: { type: "shadow" },
