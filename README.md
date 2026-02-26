@@ -38,3 +38,22 @@ Before running this project locally, ensure the following are installed on your 
 - Navigate to the project directory in your terminal
 - Run `mkdocs serve` from your terminal to build and serve the site 
 - In your browser, visit the local server URL provided in the terminal output
+
+## Tips and Tricks
+
+### Adding Announcement Banners to slabserver.org
+
+Simply add the following `{% block announce %} ... {% endblock %}` to [`overrides/home.html`](overrides/home.html), updating the example href and text below as necessary:
+```
+{% extends "main.html" %}
+{% block announce %}
+  <div class="announcement">
+      <a href="/polls/2026/" class="announcement-click">
+      The Great Slabserver Poll results are out! Click here for more info
+      </a>
+  </div>
+{% endblock %}
+{% block tabs %}
+  {{ super() }}
+    ...
+```
