@@ -2,7 +2,7 @@
 
 <img align="right" width="110" src="/assets/images/architecture/icons/pterodactyl.png"/>
 
-Our game servers are hosted on a dedicated Ubuntu server in Falkenstein, Germany, rented from Hetzner as a custom [AX42](https://www.hetzner.com/dedicated-rootserver/ax42/configurator) machine. Alongside the standard 2x 512GB SSDs configured in RAID, we’ve added a 1TB SSD for non-Survival game servers, and a 22TB HDD for backups and cold storage.
+Our game servers are hosted on a dedicated Ubuntu server in Falkenstein, Germany, rented from Hetzner as a custom [AX42-U](https://www.hetzner.com/dedicated-rootserver/ax42-u/configurator/#/) machine¹. Alongside the standard 2x 512GB SSDs configured in RAID, we’ve added a 1TB SSD for non-Survival game servers, and a 22TB HDD for backups and cold storage.
 
 To configure and manage our game servers and various community bots on this Ubuntu server, we rely on the [Pterodactyl](https://pterodactyl.io/) server management panel.
 
@@ -95,3 +95,6 @@ We currently keep between 28 and 42 days worth of incremental backups on Backbla
 
 Rendered with [Diagrams](https://diagrams.mingrammer.com) by mingrammer
 
+---
+
+<sup>¹ At the time of our initial purchase, Hetzner referred to this product offering simply as AX42.</sup>
