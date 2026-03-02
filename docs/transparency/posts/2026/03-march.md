@@ -43,11 +43,11 @@ N.B. that Hetzner will be [increasing the cost of our dedicated server](https://
 - We fixed an issue with our external backups to Backblaze that was causing them to occur too frequently and not auto-delete after 28 days, both of which heavily inflated the monthly bill for Backblaze.
     - These external backups are still paid for directly, rather than via community donations, so the only damage here was to my own wallet.
 - We made several quality of life updates to The Passage, namely some improvements to how 'The Soulvessel' item functionality works in the puzzle.
-  - We also added some ingame words of encouragement for those who speedrun The Passage, assuming that the last major skip remains the optimal route for runs.
-  - Another minor patch is currently in the final stages of development, aimed at addressing the last known softlocks and oversights within the puzzle. 
+    - We also added some ingame words of encouragement for those who speedrun The Passage, assuming that the last major skip remains the optimal route for runs.
+    - Another minor patch is currently in the final stages of development, aimed at addressing the last known softlocks and oversights within the puzzle. 
 - We finished onboarding the Community Moderators, finishing up the last TODOs we had written up to get them all the access they required for their role.
-  - One such example was our server panel, which had no way to add the Moderators to any new server, without giving them full permissions. This was solved with a custom script that now runs hourly to ensure their permissions are synced correctly to all servers within our panel.
-- We've cancelled our Axiom license for `slabserver.org`, 18 months later than we'd initially expected to! Axiom will still be available on Creative, though after March 6th it'll require completing a short form on the [Axiom Discord](https://discord.com/invite/axiomtool) in order to get 90 days of access, as many times as you need.
+    - One such example was our server panel, which had no way to add the Moderators to any new server, without giving them full permissions. This was solved with a custom script that now runs hourly to ensure their permissions are synced correctly to all servers within our panel.
+- We've cancelled our Axiom license for Slabserver, 18 months later than we'd initially planned to! Axiom will still be available on the Creative server, though after March 6th 2026 it'll require a whitelist request in the [Axiom Discord](https://discord.com/invite/axiomtool) which lasts for 90 days, and can be requested as many times as you need.
 
 ---
 
