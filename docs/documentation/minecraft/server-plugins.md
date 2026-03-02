@@ -62,6 +62,7 @@
 | :material-brush: [PlotSquared](https://github.com/IntellectualSites/PlotSquared/) | Provides plot areas for players to claim and manage
 | :material-brush: [PVPToggle](https://www.spigotmc.org/resources/pvptoggle.49112/) | Helps staff easily disable PVP during major community events
 | :material-sword: SeedWriter :material-account-edit-outline:{.staff} | Logs each Resource World seed for future reference |
+| :material-sword: [ShadowTrace](https://modrinth.com/mod/shadowtrace) | Visualises mining activity using data from CoreProtect |
 :material-sword: [Spark](https://www.spigotmc.org/resources/spark.57242/) | Adds server health monitoring and the `/tps` command |
 :material-tools: [WorldEdit](https://dev.bukkit.org/projects/worldedit) | Adds map editor features on Creative, and integrates with CoreProtect |
 :material-brush: [WorldGuard](https://github.com/EngineHub/WorldGuard) | Adds several features to protect the Creative spawn from WorldEdit changes |
