@@ -26,7 +26,7 @@ Dedicated Hetzner Server Cost² | -$123.89
 
 ---
 
-N.B. that Hetzner are [increasing the cost of our dedicated server](https://www.hetzner.com/pressroom/statement-price-adjustment/) on the 1st of April 2026. Their [price adjustment guide](https://docs.hetzner.com/general/infrastructure-and-availability/price-adjustment/) does not account for taxes, or our [custom hardware configuration](../../../../docs/documentation/minecraft/server-architecture.md#introduction) - though assuming the same percentage increase, our server costs will rise by ~21%, which will be reflected in the May 2026 Transparency Report.
+N.B. Hetzner are [increasing our dedicated server cost](https://www.hetzner.com/pressroom/statement-price-adjustment/) on the 1st of April 2026. Their [price adjustment page](https://docs.hetzner.com/general/infrastructure-and-availability/price-adjustment/) does not account for taxes, or our [custom hardware configuration](../../../../docs/documentation/minecraft/server-architecture.md#introduction) - though assuming the same percentage increase, our server costs will rise by ~21%, which will be reflected in the May 2026 Transparency Report.
 
 ---
 
