@@ -87,7 +87,13 @@ We run bots on our dedicated server for the following use cases:
 
 ## Backups
 
-Our backups work through a combination of [Restic](https://restic.net/) and [Backblaze](https://www.backblaze.com/b2/cloud-storage.html). Restic provides automated [incremental backups](https://en.wikipedia.org/wiki/Incremental_backup) solution for all our server data, while Backblaze provides us with insanely cheap external storage, to avoid the dedicated server being a single point of failure.
+### Full Backups
+Internal backups of our game servers are made daily, in the early EU hours. These backups are also uploaded to a private cloud storage bucket on [Backblaze](https://www.backblaze.com/b2/cloud-storage.html), offering us [data redundancy](https://en.wikipedia.org/wiki/Data_redundancy) via their relatively cheap external storage compared to other providers.
+
+We currently keep 7 days worth of daily backups on both our dedicated server and Backblaze, as well as 4 weeks worth of weekly backups on Backblaze.
+
+### Incremental Backups
+Our [Incremental backups](https://en.wikipedia.org/wiki/Incremental_backup) run via a combination of [Restic](https://restic.net/) and [Backblaze](https://www.backblaze.com/b2/cloud-storage.html). Restic provides an automated incremental backup solution for all our server data, and Backblaze fulfils the same private cloud storage purpose as described in the [Full Backups](#full-backups) section above.
 
 We currently keep between 28 and 42 days worth of incremental backups on Backblaze, to balance the amount of available backups with the costs of storing and pruning this data. Pruning to 28 days is automatically run by a cronjob on the 1st and 15th of each month.
 
