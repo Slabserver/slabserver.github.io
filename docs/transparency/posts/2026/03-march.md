@@ -38,8 +38,8 @@ N.B. Hetzner are [increasing our dedicated server cost](https://www.hetzner.com/
 
 **Here's a recap of the staff team actions throughout the last month:**
 
--  We released the [Great Slabserver Poll 2026 results](../../../polls/2026.md), taking slightly longer than previous years in order to improve our graphs and visualisations for the results. Even so, Twist went above and beyond with his work on this, and appreciate the positive response we've received to how the results were shared this year.
-    - We also hosted a **State of the Slab Live** to discuss some of the anonymised qualitiative feedback from The Great Slabserver Poll 2026 in more detail. The recording for this can be found [over on YouTube](https://www.youtube.com/playlist?list=PLAD59jwNidoAl1wpxzRyl1imds12-ppGW).
+-  We released the [Great Slabserver Poll 2026 results](../../../polls/2026.md), taking slightly longer than previous years in order to improve our graphs and visualisations for the results. Even so, Twist went above and beyond with his work on this, and we appreciate all the positive responses to the results page this year.
+    - We also hosted a **State of the Slab Live** to discuss some of the anonymised qualitiative feedback from The Great Slabserver Poll 2026 in more detail. The recording can be found [over on YouTube](https://www.youtube.com/playlist?list=PLAD59jwNidoAl1wpxzRyl1imds12-ppGW).
 - We fixed an issue with our external backups to Backblaze that was causing them to occur too frequently and not auto-delete after 28 days, both of which heavily inflated the monthly bill for Backblaze.
     - These external backups are still paid for directly, rather than via community donations, so the only damage here was to my own wallet.
 - We made several quality of life updates to The Passage, namely some improvements to how 'The Soulvessel' item functionality works in the puzzle.
