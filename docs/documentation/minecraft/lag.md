@@ -2,8 +2,6 @@
 
 ### **Villagers & Trading halls**
 
-
-
 Villagers are consistently terrible for server performance. For trading halls, best practices are:
 
 <img align="right" width="40%" src="/assets/images/lag/1.png"/>
