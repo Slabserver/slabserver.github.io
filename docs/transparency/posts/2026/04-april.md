@@ -31,14 +31,14 @@ Dedicated Hetzner Server Cost² | -$122.11
 **Current staff tasks being tracked as of 13th April 2026⁴⁵:**
 
 ![State of the Slab April 2026](./../../../assets/images/kanban/2026/April.png "State of the Slab April 2026")
-- **N.B.** _"Implement a internal 'Member Report' lookup"_ is a rename of _"Implement a formalised member 'strike' system"_, to more accurately reflect its purpose - as the previous wording has worried a few people over time.
-    - Its purpose has always been to have a better way of looking up a Member to see any reports and their outcomes, without being dependent on Discord's unreliable fuzzy search.
+
+**N.B.** _"Implement a internal 'Member Report' lookup"_ is a rename of _"Implement a formalised member 'strike' system"_, as the previous wording has caused concern over time. The intended purpose has always been to have an internal way of looking up a Member to review any reports and their outcomes, without relying on Discord's unreliable fuzzy search.
 
 **Here's a recap of the staff team actions throughout the last month:**
 
 - We hosted a rather elaborate April Fools' prank this year on Slabserver, which rebranded as SLABserver for the day.
-  - You can see the full announcement [here](https://discord.com/channels/146701388234227712/146702455487463424/1488795095351300197), and relive the full experience at any point on `nexus.slabserver.org`.
-  - A huge thanks once again to Twist for the original idea, and for implementing this year's April Fools!
+    - You can see the full announcement [here](https://discord.com/channels/146701388234227712/146702455487463424/1488795095351300197), and relive the full experience at any point on `nexus.slabserver.org`.
+    - A huge thanks once again to Twist for the original idea, and for implementing this year's April Fools!
 
 - We updated [Etho's Wrench](../../../documentation/minecraft/tweaks/wrench.md) to work with the [Crafter](https://minecraft.wiki/w/Crafter) block, after numerous requests over the years... and despite Mojang's best attempts to make it as annoying as possible for us to implement.
 
