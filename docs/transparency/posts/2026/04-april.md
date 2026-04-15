@@ -36,9 +36,9 @@ Dedicated Hetzner Server Cost² | -$122.11
 
 **Here's a recap of the staff team actions throughout the last month:**
 
-- We hosted a rather elaborate April Fools' prank this year on Slabserver, which rebranded as SLABserver for the day.
-    - You can see the full announcement [here](https://discord.com/channels/146701388234227712/146702455487463424/1488795095351300197), and relive the full experience at any point on `nexus.slabserver.org`.
-    - A huge thanks once again to Twist for the original idea, and for implementing this year's April Fools!
+- We hosted a rather elaborate April Fools' prank this year on Slabserver, which rebranded as SLABserver for the day, and featured every single block being cut in half.
+    - You can see the full announcement [here](https://discord.com/channels/146701388234227712/146702455487463424/1488795095351300197), and relive the experience on `nexus.slabserver.org`.
+        - A huge thanks once again to Twist for the original idea, and for implementing this year's April Fools!
 
 - We updated [Etho's Wrench](../../../documentation/minecraft/tweaks/wrench.md) to work with the [Crafter](https://minecraft.wiki/w/Crafter) block, after numerous requests over the years... and despite Mojang's best attempts to make it as annoying as possible for us to implement.
 
