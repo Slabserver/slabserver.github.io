@@ -34,7 +34,7 @@ Dedicated Hetzner Server Cost² | -$123.12
 
 **Here's a recap of the staff team actions throughout the last month:**
 
-- We've had a quieter month overall, as we said would be the case in our April Transparency Report. Those of us involved in technical work have been tied up with a number of IRL things, but we'll have more to share next month.
+- We've had a quieter month overall, as we shared would be the case in our April Transparency Report. Those of us involved in technical work have been tied up with a number of IRL things, but we'll have more to share next month.
     - Aside from the usual day to day moderation bits, the main focus for us is getting our servers upgraded to Minecraft 21.6 and above.
         - Paper had to make signfiicant changes for Minecraft 26.1, and the HuskSync plugin, which we heavily depend on, has had no activity from both its owner and maintainer.
         - We are currently scheduling some time as staff to discuss our best steps forward with Minecraft 26.1 and HuskSync, and should hopefully have some info within the next two weeks.
