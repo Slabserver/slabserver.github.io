@@ -66,6 +66,11 @@ markdown_extensions:
         case: lower
 - toc:
     permalink: ''
+- pymdownx.superfences:
+    custom_fences:
+      - name: mermaid
+        class: mermaid
+        format: !!python/name:pymdownx.superfences.fence_code_format
 
 # Page tree
 nav:
@@ -99,6 +104,20 @@ nav:
             - documentation/minecraft/tweaks/lightning-fire-nerf.md
             - documentation/minecraft/tweaks/enderman-griefing-nerf.md
       - Server Architecture: documentation/minecraft/server-architecture.md
+      - Nexus:
+        - Overview: documentation/nexus/index.md
+        - Architecture: documentation/nexus/architecture.md
+        - Servers:
+          - Decked Out:
+            - Overview: documentation/nexus/decked-out/index.md
+            - Staff Help: documentation/nexus/decked-out/staff-help.md
+            - Technical Details: documentation/nexus/decked-out/technical.md
+          - Hurtin' Slabbers:
+            - Overview: documentation/nexus/hurtin-slabbers/index.md
+            - Technical Details: documentation/nexus/hurtin-slabbers/technical.md
+          - Spectator Servers:
+            - Overview: documentation/nexus/spectator-servers/index.md
+            - Technical Details: documentation/nexus/spectator-servers/technical.md
       - Basing Guidelines: documentation/minecraft/basing-guidelines.md
       - Lagbusting Guidelines: documentation/minecraft/lag.md
       - Chunkloader Guidelines: documentation/minecraft/chunkloaders.md
