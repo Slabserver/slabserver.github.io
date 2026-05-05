@@ -3,7 +3,7 @@
 
 This was the server created for the [Crossover event](../../../transparency/posts/2024/01-january.md#the-medium-stuff) where other communities played this version of the server. It has now been repurposedp for the Nexus Server.
 
-![decked out image](/assets/images/nexus/decked-out.png)
+![decked out image](../../../assets/images/nexus/decked-out.png)
 
 ## Why
 This server was made to combat the singleplayer issue Decked Out suffers from. You need to wait for a player to finish their run as well as the 5 minutes needed for dropped items to despawn. 

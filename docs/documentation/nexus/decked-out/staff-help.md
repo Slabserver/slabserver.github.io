@@ -1,6 +1,4 @@
 # Decked Out - Staff help
-**Hello**. A little a rundown on some admin commands and useful information.
-See [Decked out](Decked-Out) for info on the server.
 
 ## Inventory Rollback
 By far the biggest problem is going to be a player running the dungeon putting their box down and then leaving the game for 5 minutes // exiting without the box. Since the world is instanced the box is deleted from existence.

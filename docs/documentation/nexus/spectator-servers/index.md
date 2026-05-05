@@ -2,7 +2,7 @@
 
 The Spectator Server is a read-only archive of Slab's past worlds. Join, fly around, and explore the history of the server at your own pace. Nothing can be changed from when it was lasted saved.
 
-![spectator world](/assets/images/nexus/spectator.png)
+![spectator world](../../../assets/images/nexus/spectator.png)
 
 ## Servers
 

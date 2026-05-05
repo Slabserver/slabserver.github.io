@@ -2,7 +2,7 @@
 
 Hurtin' Slabbers by maketues. It started as a survival build on Slab. The Nexus version keeps the game identical but adds instancing, protected blocks, and a proper save system so progress carries between sessions.
 
-![hurtin slabbers](/assets/images/nexus/hurtin-slabbers.png)
+![hurtin slabbers](../../../assets/images/nexus/hurtin-slabbers.png)
 
 There is a leaderboard to track your time and compete with other slabbers.
 
