@@ -1,4 +1,4 @@
-# The Network
+# Architecture
 
 ## Overview
 
@@ -50,7 +50,7 @@ NexusController is the automation layer. It watches every server, reacts to play
 [Bouncer](https://github.com/Slabserver/bouncer) enforces the whitelist at the proxy level. Non-whitelisted players are stopped before they reach any server. The check happens once, at the point of entry, before any game server is involved.
 
 ### Spicord
-[Spicord](https://www.spigotmc.org/resources/spicord.64918/) Framework that loads a [JDA](https://github.com/discord-jda/JDA) environment on to the proxy. Really easy to extend without needing to 
+[Spicord](https://www.spigotmc.org/resources/spicord.64918/) Framework that loads a [JDA](https://github.com/discord-jda/JDA) environment on to the proxy. Really easy to extend without needing to redo boilerplate.
 
 #### DCMessageBungee
 DCMessageBungee by Twist to relay message to the discord bot from servers on the network such as DeckedOut posting the messages to the discord using the Spicord API.
