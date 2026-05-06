@@ -1,9 +1,6 @@
 # Architecture
 
 ## Overview
-
-All players connect to a central BungeeCord proxy first. From there they hop to any server. The proxy is the backbone of the network. Every feature shared across servers lives here. The is possible due to leveraging the pterodactly panel API for more info see [server architecture](../minecraft/server-architecture.md).
-
 When you join the network, you first connect to the proxy that places you in the Lobby. From there, you can connect to any server at any time.
 
 The game servers don’t run constantly. If a server is offline and you try to join it, the network will automatically start it and move you there once it’s ready. When nobody is playing, servers shut down again to free up resources.
@@ -38,31 +35,41 @@ graph TD
 ```
 
 ## Core Plugins
-
 Three plugins run at the proxy level. Every server in the network inherits their effects automatically.
 
-### NexusController
+### Quick Reference
+
+| Plugin                                                         | Description                                |
+| -------------------------------------------------------------- | ------------------------------------------ |
+| NexusController                                                | Server automation and lifecycle management |
+| [LuckPerms](https://luckperms.net/)                            | Network wide permissions                   |
+| [Bouncer](https://github.com/Slabserver/bouncer)               | Proxy whitelist enforcement                |
+| [Spicord](https://www.spigotmc.org/resources/spicord.64918/)   | Discord bot framework on the proxy         |
+| [SimpleProxyChat](https://modrinth.com/plugin/simpleproxychat) | Legacy Discord chat bridge                 |
+
+### How They Work
+
+#### NexusController
 
 NexusController is the automation layer. It watches every server, reacts to players joining, and talks to the hosting panel to start or stop servers on demand.
 
-### LuckPerms
-
+#### LuckPerms
 [LuckPerms](https://luckperms.net/) handles permissions across the whole network. Ranks and permissions set here apply to every server a player connects to. No per-server configuration is needed.
 
-### Bouncer
-
+#### Bouncer
 [Bouncer](https://github.com/Slabserver/bouncer) enforces the whitelist at the proxy level. Non-whitelisted players are stopped before they reach any server. The check happens once, at the point of entry, before any game server is involved.
 
-### Spicord
+#### Spicord Ecosystem
+
 [Spicord](https://www.spigotmc.org/resources/spicord.64918/) Framework that loads a [JDA](https://github.com/discord-jda/JDA) environment on to the proxy. Really easy to extend without needing to redo boilerplate.
 
-#### DCMessageBungee
+##### DCMessageBungee
 DCMessageBungee by Twist to relay message to the discord bot from servers on the network such as DeckedOut posting the messages to the discord using the Spicord API.
 
-#### BungeePlayerList
+##### BungeePlayerList
 BungeePlayerList by Twist connects to the Spicord API and replys to the `playerlist` message showing where the players are on the network. Also uses [Levenshtein distance](https://en.wikipedia.org/wiki/Levenshtein_distance) to find misspelling and return a misspelt response back.
 
-### SimpleProxyChat
+#### SimpleProxyChat Legacy
 [SimpleProxyChat](https://modrinth.com/plugin/simpleproxychat) *Planned to move away from to a Spicord approach* 
 
 Discord chat runs at the proxy level. Because it sits on the proxy, every server in the network shares the same integration automatically.
