@@ -21,7 +21,7 @@ The server is mostly the same as survival, just command assisted except the plot
 
 You can run `/spawn` to return to spawn.
 
-### Playing the game
+### Playing the Game
 You can either click the vex or the alley to run `/deckedout` or `/tutorial` to enter the dungeon or the tutorial.
 
 !!!NOTE  
