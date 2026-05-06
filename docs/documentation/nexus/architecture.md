@@ -2,7 +2,13 @@
 
 ## Overview
 
-All players connect to a central BungeeCord proxy first. From there they hop to any game server. The proxy is the backbone of the network. Every feature shared across servers lives here. The is possible due to leveraging the pterodactly panel API for more info see [server architecture](../minecraft/server-architecture.md).
+All players connect to a central BungeeCord proxy first. From there they hop to any server. The proxy is the backbone of the network. Every feature shared across servers lives here. The is possible due to leveraging the pterodactly panel API for more info see [server architecture](../minecraft/server-architecture.md).
+
+When you join the network, you first connect to the proxy that places you in the Lobby. From there, you can connect to any server at any time.
+
+The game servers don’t run constantly. If a server is offline and you try to join it, the network will automatically start it and move you there once it’s ready. When nobody is playing, servers shut down again to free up resources.
+
+Because everything connects through the proxy, features like cross-server chat, permissions and the Discord integration across every server.
 
 ```mermaid
 graph TD
@@ -30,8 +36,6 @@ graph TD
     Panel --- HS
     Panel --- DO
 ```
-
-Players never connect directly to a game server. The proxy intercepts every connection. This is what makes on-demand server startup possible.
 
 ## Core Plugins
 

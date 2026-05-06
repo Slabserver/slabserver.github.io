@@ -22,7 +22,7 @@ If you die, you respawn at your last checkpoint.
 
 ## Saving and Quitting
 
-You do not need to finish in one session. The server will return you.
+You do not need to finish in one session. The server will remember what level you were on and your time and will put you back at the checkpoint (as if you died).
 
 
 ## Extra
