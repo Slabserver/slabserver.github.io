@@ -172,8 +172,12 @@ Only one player needs to come back alive for the system to give the full rewards
 
 ## Gaining Points
 To gain points in Decked Out, you must submit a complete set of artifacts containing the Common, Uncommon, and Rare artifacts from that set. For example, “Dragon Set - Common”, “Dragon Set - Uncommon”, and “Dragon Set - Rare”. You submit points by taking your 3 artifacts to the barrel labeled “Trade System”. Place your 3 artifacts inside, press the button, and wait. The system will automatically verify your submission, and if it is correct, after a minute it will give you a point in the barrel on the right! If you put any other items in this barrel, including mismatched sets of artifacts, the system will simply sort them back into storage (this is useful if you have overflowed your artifacts board due to the 9 limit. In that case you may put excess artifacts in here).
-This MUST be done in a Decked Out instance, NOT the main server lobby.
-For the server, I overhauled the point system since the normal boards are disabled. To claim a point, simply right click it mid-air and it'll consume the item and give you a point. The point will automatically get added to the leaderboard in the main hall! 
+
+!!!IMPORTANT
+    This MUST be done in a Decked Out instance, NOT the main server lobby.
+
+!!!Info 
+    The normal boards are disabled. To claim a point, simply right click it mid-air and it'll consume the item and give you a point. The point will automatically get added to the leaderboard in the main hall! 
 
 ## Card Stacking _(Advanced)_ 
 Some cards can stack their effects to provide a larger bonus, while stacking others will have no effect. Every card tells you whether or not its effect can be stacked. For example, if you have 2 Soul Seeker I cards, you can put both of them in your shulker deck to gain a stronger effect. For cards that can stack, you can stack different levels. For example, you can use a Soul Seeker I and a Soul Seeker III card and you will get the effects of both cards. However, for cards that do not stack effects (such as Stealth), only the highest level will be used if you input multiple levels in (which is a waste of cards in this case).
