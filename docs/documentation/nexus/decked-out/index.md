@@ -11,7 +11,7 @@ This server was made to combat the singleplayer issue Decked Out suffers from. Y
 !!!NOTE  
     Everything after you enter the instance is vanilla and exactly how the game plays in survival mode. Command blocks just allow some quirks to work with the plugins.
 
-## How to play the server
+## How to Play
 The server is mostly the same as survival, just command assisted except the plotworld.
 
 ### Claiming board
