@@ -1,7 +1,7 @@
 # Decked Out: Slab Edition
 *Also known as the Decked Out: Crossover Server*
 
-This was the server created for the [Crossover event](../../../transparency/posts/2024/01-january.md#the-medium-stuff) where other communities played this version of the server. It has now been repurposedp for the Nexus Server.
+This was the server created for the [Crossover event](../../../transparency/posts/2024/01-january.md#the-medium-stuff) where other communities played this version of the server. It has now been repurposed for the Nexus Server.
 
 ![decked out image](../../../assets/images/nexus/decked-out.png)
 
