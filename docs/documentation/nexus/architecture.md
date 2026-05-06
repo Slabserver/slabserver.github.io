@@ -74,7 +74,7 @@ No per-server setup is needed. Adding a new game server to the network gives it 
 
 Game servers do not run constantly. When nobody is playing, a server shuts down to free up memory. The moment someone tries to join, NexusController starts it back up.
 
-### Joining a Sleeping Server
+### Joining an Offline Server
 
 1. You connect to the server (or type `/server <name>`) while it is offline.
 2. NexusController intercepts the connection before it fails.
@@ -99,7 +99,7 @@ sequenceDiagram
     P->>S: Connected!
 ```
 !!! info
-    If multiple players try to join a sleeping server at the same time, they queue together and teleport as a group the moment the server is ready.
+    If multiple players try to join an offline server at the same time, they queue together and teleport as a group the moment the server is ready.
 
 ## Auto-Shutdown
 

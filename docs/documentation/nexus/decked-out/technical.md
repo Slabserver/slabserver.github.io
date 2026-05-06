@@ -48,7 +48,7 @@
 # Technical changes
 
 ## Server changes
-Disabled nether and end.
+Disabled The Nether and End.
 
 ## Compasses
 I had to deal with the NBT data for the compass, The world changes every time they game is cloned. (overworld != deckedout_1). The compasses must be set to the correct world to work.

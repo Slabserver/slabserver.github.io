@@ -1,6 +1,6 @@
 # Spectator Servers
 
-The Spectator Server is a read-only archive of Slab's past worlds. Join, fly around, and explore the history of the server at your own pace. Nothing can be changed from when it was lasted saved.
+The Spectator Server is a read-only archive of Slab's past worlds. Join, fly around, and explore the history of the server at your own pace.
 
 ![spectator world](../../../assets/images/nexus/spectator.png)
 
@@ -18,7 +18,7 @@ When you join you get a menu item in your inventory. Open it to pick a world and
 - Fly is toggleable.
 - No clip lets you move through blocks to get inside builds.
 - You cannot place or break any blocks. The worlds are frozen exactly as they were.
-- Mobs are frozen in place
+- Mobs are frozen in place.
 - You can read any lectern books left in the world.
 
 ## Getting Around

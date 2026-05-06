@@ -19,7 +19,7 @@ The first is preservation with improvement. The game stays the same. The experie
 The second is exclusivity. Some content exists only here. Not ports of other servers. Things built around this community, available nowhere else.
 
 ## Help out
-If you think of a server that meets the Philosophy of the server and you want to add it. Message @gamingtwist on discord or Chester to relay the message.
+If you think of a server that meets the philosophy of the server and you want to add it. Message @gamingtwist on discord or Chester to relay the message.
 
 ## What's Available
 

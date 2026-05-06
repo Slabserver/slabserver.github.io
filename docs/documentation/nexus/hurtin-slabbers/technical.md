@@ -30,6 +30,6 @@
 
 ## Notes
 
-- The nether and end are disabled.
+- The Nether and End are disabled.
 - Instancing is handled by MythicDungeons, the same system used in Decked Out. Each session gets a fresh world copy. When the last player leaves, the instance is deleted.
 - The save system works through level cards issued by Parkour on level exit. These are physical items the player holds between sessions.

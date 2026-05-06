@@ -104,7 +104,7 @@ nav:
             - documentation/minecraft/tweaks/lightning-fire-nerf.md
             - documentation/minecraft/tweaks/enderman-griefing-nerf.md
       - Server Architecture: documentation/minecraft/server-architecture.md
-      - Nexus:
+      - Nexus Server:
         - Overview: documentation/nexus/index.md
         - Architecture: documentation/nexus/architecture.md
         - Servers:
