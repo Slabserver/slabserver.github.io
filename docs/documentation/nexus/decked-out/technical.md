@@ -51,17 +51,17 @@
 Disabled The Nether and End.
 
 ## Compasses
-I had to deal with the NBT data for the compass, The world changes every time they game is cloned. (overworld != deckedout_1). The compasses must be set to the correct world to work.
-Firstly I tried using commands but this got harder in multiplayer, since you can't modify the player directly. So I wrote a very simple plugin to listen to pick up and drop and convert it.
+The world changes every time they game is cloned. (overworld != deckedout_1). The compasses must be set to the correct world to work.
+A traditional approach using commands was attempted but this failed in multiplayer, due to limits of the game. A very simple plugin was instead used to listen to pick up and drop and convert it.
 
 ## Respawning
-The respawn mechanic in MythicDungeons isn't like how deckedout works. It uses a checkpoint system, where every player goes to the same point. This breaks CoOp so I made a commandblock watching for a death that tps the user into the respawn point for the team they joined when they entered the dungeon. (This means you don't actually need to sleep in the bed)
+The respawn mechanic in MythicDungeons isn't like how deckedout works. It uses a checkpoint system, where every player goes to the same point. This breaks CoOp command blocks watch for a death that tps the user into the respawn point for the team they joined when they entered the dungeon. (This means you don't need to sleep in the bed)
 
 ## Book stealing
-MythicDungeons didn't give a option to disable taking books from a lecterns, but you can't return them and you can soft lock the tutorial. So was just a simple plugin to cancel the event for those without the permission globally.
+MythicDungeons didn't give a option to disable taking books from a lecterns, but you can't return them and you can soft lock the tutorial. So a simple plugin to cancel the event for those without the permission globally.
 
 ## Leaderboards
-Honestly my favorite feature. This uses 3 plugins, ServerVariables, ajleaderboards and DecentHolograms. In the dungeon, I setup function events with redstone triggers to set the variables for the player using servervariables. This just runs a console command and injects the player names in the party. Then ajleaderboards will periodically check a players values via placeholderAPI and add them to a leader board. Then its just a simple as asking for a placeholder at the index of the position to show on the holograms.
+This uses 3 plugins, ServerVariables, ajleaderboards and DecentHolograms. In the dungeon, The redstone was edited to run commmand to update the stats for the run to ServerVariables. Then ajLeaderboards will periodically check a players values via placeholderAPI and will update the leader board. Then the values are shown on the holograms in the lobby.
 
 ## Boards
-Boards were a challenge. I never planned to do this for the crossover server but ended up doing so once the idea of more players taking part floated around. It relies on PlotSquared and its schematic feature. Thanks to Dex it allows the same board to generated across the world where players can claim it and have it protected.    
+Due to there being a limited number of boards in the lobby, A infinite solution was created. It relies on PlotSquared and its schematic feature. It allows the same board to generated across the world where players can claim it and have it protected.    
