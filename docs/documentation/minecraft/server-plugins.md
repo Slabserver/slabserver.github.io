@@ -21,7 +21,7 @@
 | :material-brush: [F3F4Perms](https://github.com/Lumine1909/F3F4Perms) | Enables gamemode switching via `F3` + `N`  and `F3` + `F4` on the Creative server
 | :material-sword: Fireworks :material-account-edit-outline:{.staff} | Adds firework recipes to the crafting recipe book |
 | :material-sword: [Gatekeeper](https://github.com/Slabserver/Gatekeeper) :material-account-edit-outline:{.staff} | Handles Resource World infrastructure (Paper level) |
-| :material-sword: [HuskSync](https://www.spigotmc.org/resources/husksync-sync-inventories-ender-chests-cross-server-advancements-map-art-stats-backups.97144/) | Synchronises player data to and from the Resource World |
+| :material-sword: [HuskSync](https://www.spigotmc.org/resources/husksync-sync-inventories-ender-chests-cross-server-advancements-map-art-stats-backups.97144/) :material-account-edit-outline:{.staff} | Synchronises player data to and from the Resource World |
 | :material-tools: [InvisItemFrames](https://github.com/Slabserver/InvisItemFrames) :material-account-edit-outline:{.staff} | Adds a feature to turn Item Frames invisible with a Splash Potion of Invisibility |
 | :material-sword: [LightningFire](https://www.spigotmc.org/resources/lightning-fire.64389/) :material-account-edit-outline:{.staff} | Prevents lightning from starting fires and torching bases |
 | :material-sword: [PassageWarden](https://github.com/Slabserver/PassageWarden) :material-account-edit-outline:{.staff} | Manages player instances within The Passage |
