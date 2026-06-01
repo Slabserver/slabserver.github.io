@@ -34,10 +34,10 @@ Dedicated Hetzner Server Cost² | -$137.04
 
 **Here's a recap of the staff team actions throughout the last month:**
 
-- I have officially taken ownership of the HuskSync plugin in support of Slabserver, to maintain the open-source plugin for future Minecraft versions and support our own Slabserver upgrades.
-    - This opportunity came about as our staff team were struggling to upgrade our servers to Minecraft 26.1 because of HuskSync's lack of official updates, and started to plan 'SlabSync', our own custom replacement that hoped to address HuskSync's shortcomings and lack of support.
-    - As we affirmed that SlabSync ultimately aimed to fix HuskSync's shortcomings rather than fundamentlaly rearchitect anything.  I then reached out to HuskSync's developer to get clarification on its future, and our discussions led to the opportunity of complete creative control and ownership over HuskSync.
-    - This is a huge step for us and one that I'm incredibly proud of, both personally and on Slabserver's behalf. We were offered ownership over HuskSync in no small part thanks to the reputation that our staff team and community has, and it's a testament to just how much we've grown since 2015.
+- I have officially taken ownership of the HuskSync plugin in support of Slabserver, to maintain the open-source project for future Minecraft versions and support our own Slabserver upgrades.
+    - This opportunity came about as our staff team were struggling to upgrade our servers to Minecraft 26.1 due to HuskSync's lack of official updates, and started to plan 'SlabSync' - our own custom replacement that we hoped would address the long-term support issues with HuskSync.
+    - As we affirmed that SlabSync aimed to fix HuskSync's shortcomings rather than fundamentally rearchitect anything, I reached out to HuskSync's developer to get clarification on its future, and our discussions led to the opportunity of creative control and ownership over HuskSync.
+    - This is a huge step for us and one that I'm incredibly proud of, both personally and on Slabserver's behalf. We were offered ownership over HuskSync thanks to the reputation our staff team and community has, and it's a testament to just how much we've grown since 2015.
 
 - We've added support for forwarding reactions to Chester, our modmail bot, to our staff `#modmail` channel, after the feature suggestion was made earlier this year in our `#feedback` channel.
 
