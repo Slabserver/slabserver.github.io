@@ -1,6 +1,6 @@
 # Basing Guidelines
 
-Building the right base can be one of the most rewarding experiences in Minecraft. To help ensure that everyone has the best experience possible, we ask all community members to follow these guidelines.
+When building a base on our server, we ask members to follow these guidelines, to ensure everyone has the fairest experience possible within the finite space available on our Minecraft server.
 
 ### Where to Build
 * Use [Pl3xMap](https://map.slabserver.org) to find an area with a reasonable distance from the nearest base. Ideally, you should keep any neighbouring bases outside of the server render distance, approximately 150 blocks away.
