@@ -39,7 +39,7 @@ Dedicated Hetzner Server Cost² | -$137.04
     - As we affirmed that SlabSync ultimately aimed to fix HuskSync's shortcomings rather than fundamentlaly rearchitect anything.  I then reached out to HuskSync's developer to get clarification on its future, and our discussions led to the opportunity of complete creative control and ownership over HuskSync.
     - This is a huge step for us and one that I'm incredibly proud of, both personally and on Slabserver's behalf. We were offered ownership over HuskSync in no small part thanks to the reputation that our staff team and community has, and it's a testament to just how much we've grown since 2015.
 
-- We've added support for forwarding reactions to Chester, our modmail bot, to our staff `#modmail` channel, after the feature suggestion was made earlier this year in our `#feedback` channel
+- We've added support for forwarding reactions to Chester, our modmail bot, to our staff `#modmail` channel, after the feature suggestion was made earlier this year in our `#feedback` channel.
 
 - We've made some minor adjustments to our [Slabserver-Bugs](https://github.com/Slabserver/Slabserver-Bugs/issues) templates - namely reducing the amount of field inputs when creating a new Bug Report, preventing blank issues from being opened to prioritise the Bug Report template, and adding additional contact link options for security related issues.
 
