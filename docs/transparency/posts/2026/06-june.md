@@ -45,7 +45,8 @@ Dedicated Hetzner Server Cost² | -$137.04
 
 - We've done some housecleaning with our Cloudflare DNS entries, to remove several records that were only used during our dedicated server migration from Ionos in 2024. These managed to cause some recent confusion for some members that found them, and have now been removed.
 
-- We've made some minor adjustments to our Backblaze account - namely fixing an issue where the daily backups weren't auto-deleting after seven days, and updating some billing information. N.B. Currently I still cover these backup costs, rather than billing from the Slabserver donation funds.
+- We've made some minor adjustments to our Backblaze account - namely fixing an issue where the daily backups weren't auto-deleting after seven days, and updating some billing information.
+    - N.B. Currently I still cover these backup costs, rather than billing from the Slabserver donation funds.
 
 ---
 
