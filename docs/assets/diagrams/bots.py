@@ -17,8 +17,8 @@ with Diagram(filename="../images/architecture/bots", show=True, direction="TB"):
             playerlistbot = Docker("Playerlist Bot")    
             snackerinactivitybot = Docker("Snacker/Inactvity Bot")
             musicbot = Docker("Music Bot")
-            chester = Docker("Chester")
-            ergobot = Docker("ErGoBot")
+            modmailbot = Docker("Modmail Bot")
+            ergobot = Docker("Ergo Bot")
 
-        bots = [ergobot, musicbot, playerlistbot, emojirolesbot, snackerinactivitybot, chester, modbot, applicationbot]
+        bots = [ergobot, musicbot, playerlistbot, emojirolesbot, snackerinactivitybot, modmailbot, modbot, applicationbot]
         pterodactyl >> Edge(color="#004da4") >> bots

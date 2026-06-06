@@ -72,8 +72,8 @@ We run bots on our dedicated server for the following use cases:
 *Sends server applications to an `#applications` channel, and whitelist commands to our servers*
 - **Modbot**  
 *Shares IPs, posts FAQs, checks pings, converts timezones, restarts servers, sends reminders (and plenty more!)*
-- **Chester**  
-*Forwards any DM or completed Member Report that you send it to a private staff channel*
+- **Modmailbot**  
+*Forwards any DM or completed Member Report that you send @Chester to a private staff channel*
 - **Emoji Roles**  
 *Assigns roles when reacting to certain messages, as seen in our #welcome channel*
 - **Playerlistbot**  
