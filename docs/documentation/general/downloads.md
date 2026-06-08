@@ -10,7 +10,7 @@
 ## Minecraft SMP - Season 4 Resources
 | Name | Year(s) | Notes
 | - | - | - |
-| [Voxy LODs](https://dl.slabserver.org/slabservers1.zip) | May 2026 | [Installation Guide provided on Etho Discord](https://discord.com/channels/146701388234227712/147017948912025601/1454293606373392494) |
+| [Voxy LODs](https://dl.slabserver.org/Voxy_LODs.zip) | May 2026 | [Installation Guide provided on Etho Discord](https://discord.com/channels/146701388234227712/147017948912025601/1454293606373392494) |
 | [DistantHorizons LODs](https://dl.slabserver.org/Slabserver_S2.zip) | September 2024 |
 
 ## Minecraft Modded Seasons
