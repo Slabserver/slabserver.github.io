@@ -1,19 +1,20 @@
 # Initiation Candle
 
-When the Ender Dragon was first defeated, no Dragon Egg was ever found. Instead, four candles appeared where the Dragon Egg should have been, along with a book containing a cryptic message:
+When the Ender Dragon was first defeated in Season 4, no Dragon Egg was ever found. Instead, four candles appeared where the Dragon Egg should have been, along with a book containing a cryptic message:
 
 <figure markdown="span">
   ![image](../../../assets/images/tweaks/initiation-book.png){  width="50%" }
-  <figcaption>The written contents of the mysterious book</figcaption>
+  <!-- <figcaption>The written contents of the mysterious book</figcaption> -->
 </figure>
 
-
-
-And when the Ender Dragon is respawned and killed with Looting III, it drops an Initiation Candle...
+And when the Ender Dragon is respawned and killed with Looting III, it drops an Initiation Candle:
 
 <figure markdown="span">
     ![image](../../../assets/images/tweaks/initiation-candle.png){ width="50%" }
-  <figcaption>An Initiation Candle in an inventory slot</figcaption>
+  <!-- <figcaption>An Initiation Candle in an inventory slot</figcaption> -->
 </figure>
 
 _Where is the Dragon Egg? What is an Initiation Candle? Who wrote the book, and what is the final missing word?_
+
+<br>
+Complete the "Look to the Light" and "Dream of the Darkness" [advancements](custom-advancements.md#the-end) to begin your initiation...
