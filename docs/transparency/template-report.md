@@ -24,6 +24,8 @@ Dedicated Hetzner Server Cost² | -$
 ---|---
 **Remaining Donation Funds**³   |  **$**
 
+[Backblaze](./../../../documentation/minecraft/server-architecture.md#backups) costs in December were $xx.xx. This expense is currently not paid for via the server donation funds.
+
 ---
 
 ### State of the Slab
