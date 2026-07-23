@@ -31,9 +31,8 @@
 | :material-tools: [SimpleServerSender](https://github.com/Slabserver/SimpleServerSender) :material-account-edit-outline:{.staff} | Sends players to Slabserver servers via simple slash commands |
 | :material-sword: [Slabvancements](https://github.com/Slabserver/Slabvancements) :material-account-edit-outline:{.staff} | Handles awarding (most of) the custom Slabserver advancements |
 | :material-tools: Shrug :material-account-edit-outline:{.staff} | Adds the `/shrug` command to easily send the ¯\\\_(ツ)_/¯ emoticon in chat |
-| :material-sword: [ShulkerSaver](https://github.com/GoldenDelicios/ShulkerSaver) :material-account-edit-outline:{.staff}:material-delete-clock-outline:{.deprecate} | Prevents Shulker boxes being deleted by [MC-902](https://bugs.mojang.com/browse/MC-902), prior to the bugfix in Minecraft 1.21 |
-:material-brush: [SimpleBack](https://github.com/Slabserver/SimpleBack)  :material-account-edit-outline:{.staff}| Adds a `/back` command to return to your previous location |
-:material-brush: [SimpleReply](https://github.com/GoldenDelicios/SimpleReply/)  :material-account-edit-outline:{.staff}:material-delete-clock-outline:{.deprecate} | Adds a `/r` command to reply to private messages |
+| :material-brush: [SimpleBack](https://github.com/Slabserver/SimpleBack)  :material-account-edit-outline:{.staff}| Adds a `/back` command to return to your previous location |
+| :material-brush: [SimpleReply](https://github.com/GoldenDelicios/SimpleReply/)  :material-account-edit-outline:{.staff}:material-delete-clock-outline:{.deprecate} | Adds a `/r` command to reply to private messages |
 | :material-sword: [TAB](https://www.spigotmc.org/resources/tab-1-7-x-1-16-5-free-version.57806/) | Provides custom tablist configuration |
 | :material-sword: [TAB - Bridge](https://www.spigotmc.org/resources/tab-bridge.83966/) | Provides custom tablist configuration (Bungeecord level) |
 | :material-tools: [VentureChat](https://www.spigotmc.org/resources/venturechat.771/) | Adds various chat features, and syncs chat across the Survival servers via Bungeecord |
