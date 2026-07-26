@@ -51,7 +51,7 @@
 | :material-sword: DirectoryPlugin :material-account-edit-outline:{.staff} | Handles stock summaries in the Google Sheet for the directory |
 | :material-sword: [EntityDetection](https://www.spigotmc.org/resources/entitydetection-tile-entity-support.20588) | Helps with lagbusting by finding chunks with high amounts of entities |
 | :material-sword: [InventoryRollbackPlus](https://www.spigotmc.org/resources/inventory-rollback-plus-1-8-1-18-x.85811/) | Helps to easily restore player inventories if you die to glitches or bugs |
-| :material-sword: LessEndermanGriefing :material-account-edit-outline:{.staff} | Prevents Enderman from being able to pick up blocks |
+| :material-sword: LessEndermanGriefing :material-account-edit-outline:{.staff} | Prevents Endermen from being able to pick up blocks |
 | :material-brush: [Lite2Edit](https://github.com/GoldenDelicios/Lite2Edit) :material-account-edit-outline:{.staff} | Converts Litematics to WorldEdit schematics |
 | :material-tools: [LuckPerms](https://luckperms.net/) | Handles permission groups of staff and players |
 | :material-brush: [NoSignCommands](https://github.com/Slabserver/NoSignCommands) :material-account-edit-outline:{.staff} | Prevents players from running commands via signs with a [`click_event`](https://minecraft.wiki/w/Text_component_format#Click_events) |
