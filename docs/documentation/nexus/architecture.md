@@ -1,5 +1,7 @@
 # Architecture
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/11.15.0/mermaid.min.js"></script>
+
 ## Overview
 When you join the network, you first connect to the proxy that places you in the Lobby. From there, you can connect to any server at any time.
 
@@ -8,30 +10,18 @@ The game servers don’t run constantly. If a server is offline and you try to j
 Because everything connects through the proxy, features like cross-server chat, permissions and the Discord integration across every server.
 
 ```mermaid
-graph TD
-    Player1["Player\n*GamingTwist*"]
-    Player2["Player\n*TamingGwist*"]
-    Player3["Player\n*TwistCoin*"]
+flowchart LR
 
-    Proxy["BungeeCord \n nexus.slabserver.org"]
+Proxy(("BungeeCord Proxy\nnexus.slabserver.org"))
+Controller["Nexus Controller"]
+Panel[("Pterodactyl")]
+Servers[Servers]
 
-    Lobby["Lobby\n● Online"]
-    HS["Hurtin' Slabbers\n● Online"]
-    DO["Decked Out\n○ Offline"]
-    Panel["Pterodactyl Panel"]
-
-    Player1 --> Proxy
-    Player2 --> Proxy
-    Player3 --> Proxy
-
-    Proxy -->|"always on"| Lobby
-    Proxy -.->|"player connected"| HS
-    Proxy -.->|"empty"| DO
-
-    Proxy <-->|"start / stop"| Panel
-    Panel --- Lobby
-    Panel --- HS
-    Panel --- DO
+Panel <-.-> |provides|Servers
+Proxy <--> | players connect | Servers
+Proxy <-->|player info| Controller
+Controller -->|API| Panel
+Panel -->|status| Controller
 ```
 
 ## Core Plugins
