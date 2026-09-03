@@ -36,7 +36,7 @@ Dedicated Hetzner Server Cost² | -$137.34
 
 **Here's a recap of the staff team actions throughout the last month:**
 
-- We fixed our Survival server's Advancement messages appearing twice in chat on both the Main World and Resource World, and managed to fix this on both our Minecraft and Discord chat.
+- We fixed our Survival server's advancement messages appearing twice in chat on both the Main World and Resource World, and managed to fix this on both our Minecraft and Discord chat.
     - Special thanks to the DiscordSRV devs for accepting our [pull request](https://github.com/DiscordSRV/DiscordSRV/pull/1881) to support this behaviour natively, and in doing so allow other Minecraft communities to benefit from this change as well.
     - For over a year we'd thought there was no reasonable fix without hacky fixes or tradeoffs as a result, so we're very happy to have taken another look at it and put this one to rest!
 - We conducted some minor downtime and maintenance on our dedicated server, in order to upgrade its operating system to Debian 13.
