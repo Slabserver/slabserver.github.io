@@ -108,16 +108,9 @@ nav:
         - Overview: documentation/nexus/index.md
         - Architecture: documentation/nexus/architecture.md
         - Servers:
-          - Decked Out:
-            - Overview: documentation/nexus/decked-out/index.md
-            - Staff Help: documentation/nexus/decked-out/staff-help.md
-            - Technical Details: documentation/nexus/decked-out/technical.md
-          - Hurtin' Slabbers:
-            - Overview: documentation/nexus/hurtin-slabbers/index.md
-            - Technical Details: documentation/nexus/hurtin-slabbers/technical.md
-          - Spectator Servers:
-            - Overview: documentation/nexus/spectator-servers/index.md
-            - Technical Details: documentation/nexus/spectator-servers/technical.md
+          - Decked Out: https://wiki.slabserver.org/nexus/decked-out/
+          - "Hurtin' Slabbers": https://wiki.slabserver.org/nexus/hurtin-slabbers/
+          - Spectator Servers: https://wiki.slabserver.org/nexus/spectator-servers/
       - Basing Guidelines: documentation/minecraft/basing-guidelines.md
       - Lagbusting Guidelines: documentation/minecraft/lag.md
       - Chunkloader Guidelines: documentation/minecraft/chunkloaders.md
