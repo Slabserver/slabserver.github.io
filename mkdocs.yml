@@ -14,7 +14,7 @@ theme:
     - navigation.sections
     - navigation.tabs
     - navigation.tracking
-  variant: classic
+  variant: modern
   custom_dir: overrides
   palette:
     # Palette toggle for automatic mode
@@ -25,7 +25,7 @@ theme:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: white
+      primary: custom
       accent: indigo
       toggle:
         icon: material/toggle-switch-off
@@ -33,7 +33,7 @@ theme:
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: black
+      primary: custom
       accent: indigo
       toggle:
         icon: material/toggle-switch

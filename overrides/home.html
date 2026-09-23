@@ -11,16 +11,19 @@
           </picture>
         </div>
         <div class="mdx-hero__content">
+          <br>
           <picture>
             <source srcset="assets/images/logo.jxl" type="image/jxl"/>
             <img src="assets/images/logo.png" alt="" draggable="false"/>
           </picture>
+          <br><br>
           <h1>Welcome to the Etho Community! We hope you've got your snacks...</h1>
-          <p>Welcome to <b>Slabserver</b> – the home of everything Etho. Founded in 2015, our community is a friendly, energetic, and inclusive space where fans of Etho can come to chat, connect, and create together.
+          <p>Welcome to <b>Slabserver</b> – the home of everything Etho. Founded in 2015, our community is a friendly and inclusive space where fans of Etho can come to <br> chat, connect, and create together.
             <br><br>
-            Whether joining the conversation on our Discord, playing on our Minecraft servers, or simply meeting like-minded friends and fans, Slabserver has it all.
+            Whether joining the conversation on our Discord, playing on our Minecraft servers, or meeting <br>other fans of Etho, Slabserver has it all.
             <br><br>
-            Join us below, and be a part of the community!</p>
+            Join us below, and be part of the community!</p>
+            <br>
             <div class="mdx-hero__buttons">
               <a href="https://slabserver.org/discord" title="Join our Discord" class="md-button md-button--discord">
                 <span class="twemoji discord">
@@ -42,16 +45,34 @@
   </section>
 
     <!-- Additional styles for landing page -->
-    <style>    
+    <style>
+        /* @import must be the first rule in a stylesheet or the browser
+           silently ignores it — it was buried below other rules here, so
+           this was never actually loading Roboto; the page fell back to
+           whatever "Roboto" (if any) happened to be installed locally.
+           Also request weight 700 explicitly: the hero heading is bold,
+           and without a real bold face the browser fakes it by fattening
+           the regular weight, which renders inconsistently wide across
+           browsers/OSes and can wrap differently than intended. */
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Lato&family=Nunito&family=Playfair+Display:ital@1&family=Prata&family=Raleway:ital,wght@1,100&family=Roboto:wght@400;700&family=Roboto+Condensed&family=Teko&display=swap');
+                /* Use Roboto for the hero text (heading, paragraph, buttons)
+                   only, rather than the site-wide Inter. The rest of this
+                   page (header, nav) keeps Inter like every other page. */
+                .mdx-hero__content {
+              font-family: "Roboto", -apple-system, "system-ui", Helvetica, Arial, sans-serif;
+            }
                 .md-main {
               height: 0;
               width:0;
               overflow:hidden;
+              /* Without this it still shares out a sliver of .md-container's
+                 flex-grow space with .mdx-container below, leaving a small
+                 gap at the bottom of the viewport. */
+              flex-grow: 0;
             }
             .md-main__inner {
               margin: 0;
             }
-        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Lato&family=Nunito&family=Playfair+Display:ital@1&family=Prata&family=Raleway:ital,wght@1,100&family=Roboto&family=Roboto+Condensed&family=Teko&display=swap');
         @media (min-width: 1220px) {
             .md-main {
               /* visibility: hidden; */
