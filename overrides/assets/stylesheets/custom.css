@@ -109,14 +109,14 @@ p {
 }
 
 .mdx-container {
-    background: 
+    background:
       linear-gradient(
         to bottom,
         var(--md-primary-fg-color),
         #648472 100%,
         var(--md-default-bg-color) 100%
       );
-    width: 100vw;
+    width: 100%;
     display: flex;
     /* .md-container (an ancestor) is already a flex column filling the
        exact space below the real, rendered header height. Growing to fill
@@ -196,11 +196,18 @@ background:
   .md-header__title {
     font-size: 0.64rem;
   }
-  /* At this width .mdx-hero stacks in a single column (image, then text,
-     then buttons), and the buttons were the last thing on the page with
-     nothing giving them breathing room before the viewport's bottom edge. */
+}
+
+/* .mdx-hero only switches to a side-by-side flex layout at 60em (see below)
+   — below that, all the way down to the smallest phone, it stacks in a
+   single column (image, then text, then buttons). The padding-bottom rule
+   was previously scoped to only the narrowest phones (29.984375em), so any
+   viewport between that and 60em got the stacked layout without it, which
+   is why changing its value had no visible effect: this is a phone/tablet
+   in that gap. Scope it to the whole stacked range instead. */
+@media screen and (max-width: 59.984375em) {
   .mdx-hero__buttons {
-    padding-bottom: 1.5rem;
+    padding-bottom: 2.5rem;
   }
 }
 
@@ -210,6 +217,16 @@ background:
     transform: translateX(3rem);
     max-width: 63%;
     /* width: 38rem; */
+    /* .mdx-hero__image and .mdx-hero__content both default to flex-shrink:
+       1, so when the row is too narrow for both to hit their preferred
+       size, something has to give — and Chrome and Safari disagree on how
+       to split that shrinkage between a replaced element (this image) and
+       a text block: Safari keeps the image at its full 63% and shrinks the
+       content column instead, Chrome does the opposite. Pin the image to
+       never shrink, so both browsers render it at the same (larger,
+       Safari-like) size and any squeeze falls on the content column, whose
+       own text already has a separate, smaller max-width that's unaffected. */
+    flex-shrink: 0;
   }
   .mdx-hero {
     align-items: stretch;
