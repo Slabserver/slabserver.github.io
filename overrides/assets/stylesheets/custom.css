@@ -4,6 +4,20 @@ body, html {
   padding: 0;
 }
 
+/* Zensical's `modern` variant sets scrollbar-gutter: stable on <html>,
+   which reserves the scrollbar's width unconditionally the moment the
+   browser/OS would use a real, space-consuming scrollbar (e.g. macOS's
+   "Automatically based on mouse or trackpad" setting switches to that mode
+   whenever a mouse is connected) — regardless of whether the current page
+   actually has enough content to scroll. That's what caused .md-tabs and
+   .mdx-container's background to fall short of the true right edge with a
+   mouse connected, even on pages with no scrollable overflow at all.
+   Material's own site never sets this (defaults to "auto", which only
+   reserves space once a page genuinely overflows) — match that. */
+html {
+  scrollbar-gutter: auto;
+}
+
 /* Inter (Zensical's `modern` default text font) renders noticeably wider
    than Roboto at the same nominal size, causing more line-wraps site-wide.
    Shrink just the actual text sizes (not the root rem unit, which also
