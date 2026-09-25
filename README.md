@@ -29,10 +29,7 @@ Before running this project locally, ensure the following are installed on your 
 - Install the `mkdocs-glightbox` plugin, used for enlarging images
     -   ```pip install mkdocs-glightbox```
 
-**Optional:**
-- Install the `diagrams` plugin, used when creating new [architecture](/docs//assets/diagrams/) diagrams
-  - ```pip install diagrams```
-  - This also requires [Graphviz](https://www.graphviz.org), which can be installed via typical package managers for [Linux](https://www.graphviz.org/download/#linux) and [MacOS](https://www.graphviz.org/download/#mac), or downloaded via other methods from the Graphviz [website](https://www.graphviz.org/download/).
+Architecture diagrams (see [`server-architecture.md`](docs/documentation/minecraft/server-architecture.md)) are written as [Mermaid](https://mermaid.js.org) diagrams directly in Markdown, rendered client-side via `pymdownx.superfences`—no extra tooling required.
 
 ### Running Locally
 - Navigate to the project directory in your terminal
