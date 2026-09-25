@@ -5,7 +5,7 @@ These architecture diagrams are generated using [Diagram as Code](https://diagra
 Diagrams provides a relatively consistent, elegant, and simple way of programmatically visualising our architecture, without having to worry about manual diagrams potentially changing in style as they require gradually updated over the years.
 
 ## Installation
-Install steps are included in the main [README.md](../../../README.md) file, or found on the Diagram [site](https://diagrams.mingrammer.com/docs/getting-started/installation).
+Install steps are included in the main README.md file, or found on the Diagram [site](https://diagrams.mingrammer.com/docs/getting-started/installation).
 
 ## Creating a Diagram
 

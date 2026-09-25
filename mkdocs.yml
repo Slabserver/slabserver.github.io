@@ -14,7 +14,7 @@ theme:
     - navigation.sections
     - navigation.tabs
     - navigation.tracking
-  name: material
+  variant: modern
   custom_dir: overrides
   palette:
     # Palette toggle for automatic mode
@@ -25,7 +25,7 @@ theme:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: white
+      primary: custom
       accent: indigo
       toggle:
         icon: material/toggle-switch-off
@@ -33,7 +33,7 @@ theme:
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: black
+      primary: custom
       accent: indigo
       toggle:
         icon: material/toggle-switch
@@ -45,7 +45,7 @@ plugins:
       post_url_format: "{slug}"
       post_excerpt_separator: 
   - search
-  - glightbox: # used for zoom functionality, see https://squidfunk.github.io/mkdocs-material/reference/images/#lightbox
+  - glightbox: # used for zoom functionality, see https://zensical.org/docs/compatibility/mkdocs/plugins/#glightbox
       width: 90%
 
 
@@ -56,8 +56,8 @@ markdown_extensions:
 - pymdownx.details     # used by admonitions
 - pymdownx.superfences # used by admonitions
 - pymdownx.emoji:
-    emoji_index: !!python/name:material.extensions.emoji.twemoji
-    emoji_generator: !!python/name:material.extensions.emoji.to_svg
+    emoji_index: !!python/name:zensical.extensions.emoji.twemoji
+    emoji_generator: !!python/name:zensical.extensions.emoji.to_svg
 - pymdownx.tabbed:
     alternate_style: true
     combine_header_slug: true

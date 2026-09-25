@@ -4,13 +4,24 @@ body, html {
   padding: 0;
 }
 
+/* Prevents Zensical reserving scrollbar space, even on non-scrolling pages if a mouse is connected */
+html {
+  scrollbar-gutter: auto;
+}
+
+/* Prevents Zensical rendering  an empty repo-link box even if `repo_url` isn't set */
+.md-header__source {
+  display: none;
+}
+
+/* Creates a gradual gradient background for an announcement banner (if one is enabled) */
 .md-banner {
   background-image: linear-gradient(to right, var(--md-primary-fg-color), var(--md-primary-fg-color), #851a1f, #851a1f, #a30e16, #851a1f, #851a1f, var(--md-primary-fg-color), var(--md-primary-fg-color));
-  /* background-color: #851a1f; */
   color: var(--md-accent-bg-color);
   text-align: center;
 }
 
+/* Makes the whole space within an announcement banner clickable (if one is enabled) */
 a.announcement-click {
   color: #ffffff;
   display: block;
@@ -22,44 +33,29 @@ a.announcement-click {
   overflow: visible;
 }
 
-.md-typeset {
-  /*1.25*/
-}
-
+/* Heading/hr/list spacing tweaks */
 .md-typeset h1 {
   margin-bottom: 0.625em;
-  /*1.25*/
 }
 
 .md-typeset h2 {
   margin-top: 1.2em;
-  /*1.6 */
   margin-bottom: 0.32em;
-  /*0.64 */
 }
 
 .md-typeset h3 {
   margin-top: 0.8em;
-  /*1.6 */
   margin-bottom: 0.32em;
-  /*0.64 */
 }
 
 .md-typeset h4 {
   margin-top: 0.5em;
-  /*1 */
   margin-bottom: 0.5em;
-  /*1 */
 }
 
 .md-typeset h2+h3 {
   margin-top: 0.25em;
   margin-bottom: 0.25em;
-}
-
-p {
-  /* margin-top: 0.65em;
-  margin-bottom: 0.65em; */
 }
 
 .md-typeset hr {
@@ -79,21 +75,18 @@ p {
   margin-bottom: 1.6rem;
 }
 
+/* Creates a adaptable gradient background for the home.html page, on both light/dark themes */
 .mdx-container {
-    background: 
+    background:
       linear-gradient(
         to bottom,
         var(--md-primary-fg-color),
         #648472 100%,
         var(--md-default-bg-color) 100%
       );
-    width: 100vw;
+    width: 100%;
     display: flex;
-    height: 100vh;
-    /* min-height: auto; */
-    /* box-sizing: border-box;
-    overflow-x: hidden;
-    overflow-y: hidden; */
+    flex-grow: 1;
 }
 [data-md-color-scheme="slate"] .mdx-container {
 background:
@@ -104,21 +97,39 @@ background:
     var(--md-default-bg-color) 100%
     );
 }
+
+/* Adds a slight fade-in animation to the home.html hero image */
 .mdx-hero {
   animation: 0.5s mdx-anim;
   color: var(--md-primary-bg-color);
   margin: 0 0.8rem;
 }
+
+/* Aligns the home.html hero content to the center of the content div */
+.mdx-hero__content {
+  text-align: center;
+}
+
+  /* Sets the hero content text's font-size and width, to avoid wrapping key phrases on desktop */
 .mdx-hero h1 {
   color: currentcolor;
   font-weight: 700;
-  /* margin-bottom: 1rem; */
   font-size: 1.2rem;
-  padding-left: 0.5em;
+  letter-spacing: -0.01em;
+  max-width: 19rem;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 1.25em
 }
 .mdx-hero p {
-  padding-left: 1em;
+  /* Adapt font-sizing and spacing for Roboto, as Zensical's .md-typeset default in 'modern' is tuned for Inter */
+  font-size: 0.8rem;
+  line-height: 1.6;
+  letter-spacing: normal;
+  /* Width ensures "Welcome to Slabserver – the home of everything Etho." fits on one line */
+  max-width: 19.75rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 .mdx-hero__buttons {
   display: flex;
@@ -137,18 +148,23 @@ background:
   .md-header__title {
     font-size: 0.64rem;
   }
+}
 
-  .mdx-container {
-    height: 100%;
+/* Provides padding for the hero buttons from the bottom of the screen on smaller screens and mobile devices */
+@media screen and (max-width: 59.984375em) {
+  .mdx-hero__buttons {
+    padding-bottom: 2.5rem;
   }
 }
 
+/* Adjusts hero image and content layout on large screens and aligns the hero image with header's search box */
 @media screen and (min-width: 60em) {
   .mdx-hero__image {
     order: 1;
     transform: translateX(3rem);
     max-width: 63%;
-    /* width: 38rem; */
+    
+    flex-shrink: 0; /* Prevents Chrome / Safari from shrinking the hero image and .mdx-hero__content differently */
   }
   .mdx-hero {
     align-items: stretch;
@@ -156,98 +172,61 @@ background:
   }
   .mdx-hero__content {
     margin-top: 3.5rem;
-    max-width: 19rem;
+    /* Wider than the h1/p (pinned above) so the centered button row shifts toward the middle without affecting text wrapping. */
+    max-width: 28rem;
   }
-  .mdx-container {
-   height: calc(100vh - (48px));
-  }
-  /* Maximum space for text block */
-  /* .md-grid {
-    max-width: 85%;
-  } */
 }
+
+/* Adjusts hero image layout on even larger screens by aligning the hero image with header's search box */
 @media screen and (min-width: 76.25em) {
   .mdx-hero__image {
-    transform: translateX(7.5rem);
+    transform: translateX(4rem);
   }
+}
 
-  .mdx-container {
-    display: flex;
-    /* height: calc(100vh - (52.8px * 2)); */
-  }
-}
-@media screen and (min-width:100em){
-  .mdx-container {
-    height: calc(100vh - (57.59px * 2));
-  }
-}
+/* Styles both hero buttons on the home.html page, with additional colour styling for Discord or Minecraft */
 .mdx-hero .md-button {
   color: var(--md-primary-bg-color);
   margin-left: 0.4rem;
-  /* margin-right: 0.5rem; */
   margin-top: 0.5rem;
-  padding-left: 0.8em;
-  padding-right: 0.8em;
+  padding: 0.5rem 0.8em;
+  font-size: 0.8rem;
+  border-radius: 0.4rem;
+  border-width: 2px;
+  border-style: solid;
 }
 .mdx-hero .md-button--discord:focus,
 .mdx-hero .md-button--discord:hover {
   background-color: #5865F2;
   border-color: var(--md-accent-fg-color);
   color: var(--md-accent-bg-color);
-  /* background-color: var(--md-accent-fg-color); */
 }
 .mdx-hero .md-button--discord {
   background-color: #ffffff;
   border-color: #ffffff;
-  /* color: #607C6A; */
   color: #648472;
-  /* padding-left: 1em; */
-  /* padding-right: 1em; */
 }
-
 .mdx-hero .md-button--minecraft:focus,
 .mdx-hero .md-button--minecraft:hover {
   background-color: #008c45;
   border-color: #008c45;
   color: var(--md-accent-bg-color);
-  /* background-color: var(--md-accent-fg-color); */
 }
 .mdx-hero .md-button--minecraft {
   background-color: #ffffff;
   border-color: #ffffff;
-  /* color: #607C6A; */
   color: #648472;
-  /* padding-left: 1em; */
-  /* padding-right: 1em; */
 }
 
-[data-md-color-scheme="slate"] .mdx-hero .md-button--primary {
-  /* background-color: var(--md-primary-bg-color);
-  border-color: var(--md-primary-bg-color);
-  color: #343745 */
-  /* padding-left: 1em;
-  padding-right: 1em; */
-}
-
+/* Adds a small gutter and slightly smaller text to the content column, to allow for more md-content space */
 [dir=ltr] .md-sidebar--primary:not([hidden])~.md-content>.md-content__inner {
   margin-left: 0.75rem;
   font-size: 0.725rem;
 }
-
 [dir=ltr] .md-sidebar--secondary:not([hidden])~.md-content>.md-content__inner,[dir=rtl] .md-sidebar--primary:not([hidden])~.md-content>.md-content__inner {
   margin-right: 0.75rem;
   font-size: 0.725rem;
-
-  /* font-size: 0.1rem; */
 }
-
-[dir=rtl] .md-sidebar--secondary:not([hidden])~.md-content>.md-content__inner {
-  margin-left: 0.75rem;
-  font-size: 0.725rem;
-
-  /* font-size: 0.1rem; */
-}
-
 @keyframes mdx-anim {
   0% {
     opacity: 0;
@@ -257,66 +236,81 @@ background:
   }
 }
 
+
+/* Adjusts tables and rows to fill the full width of the md-content container (see Transparency Report exception below) */
+.md-typeset__table table:not([class]) {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+/* Adjusts table wrappers to fill the full content width of the md-content container (see Transparency Report exception below) */
 .md-typeset__table {
   min-width: 100%;
 }
+/* Ensures the second table column starts at the same place on every table. */
+.md-typeset__table table:not([class]) th:first-child,
+.md-typeset__table table:not([class]) td:first-child {
+  width: 10.25rem;
+}
+/* Disables the above width/layout rules for Transparency Reports, so those tables get default rendering. */
+html:has(link[rel="canonical"][href*="/transparency/"]) .md-typeset__table {
+  min-width: revert;
+}
+html:has(link[rel="canonical"][href*="/transparency/"]) .md-typeset__table table:not([class]) {
+  display: revert;
+  width: revert;
+  table-layout: revert;
+}
+html:has(link[rel="canonical"][href*="/transparency/"]) .md-typeset__table table:not([class]) th:first-child,
+html:has(link[rel="canonical"][href*="/transparency/"]) .md-typeset__table table:not([class]) td:first-child {
+  width: revert;
+}
 
+/* Reduces the spacing for table cells */
 .md-typeset table:not([class]) th,
 .md-typeset table:not([class]) td {
-  padding-top: 0.625em;
+  /* padding-top: 0.625em;
   padding-right: 1.25em;
   padding-bottom: 0.625em;
-  padding-left: 1.25em;
-  white-space: nowrap;
-    /* padding: 8px 16px; */
+  padding-left: 1.25em; */
 }
 
-li {
-    /* font-size: 0.80rem; */
-}
-
+/* Adds GitHub-esque styling for nested list bullet points */
 article ul ul {
   list-style-type:  circle !important;
 }
 article ul ul ul {
   list-style-type:  square !important;
 }
-
+/* Adds GitHub-esque spacing for nested list bullet points */
 .md-typeset ul li {
-  margin-top: 0em; 
+  margin-top: 0em;
   margin-bottom: 0.5em;
 }
-
 .md-typeset ul li p {
-  margin-top: 0em; 
-  margin-bottom: 0em; 
+  margin-top: 0em;
+  margin-bottom: 0em;
 }
-
 .md-typeset ul li ul {
-  margin-top: 0em; 
-  margin-bottom: 0.25em; 
+  margin-top: 0em;
+  margin-bottom: 0.25em;
 }
-
 .md-typeset ul li ul li {
   margin-top: 0.25em;
   margin-bottom: 0.25em;
 }
-
 .md-typeset ul li ul li ul {
   margin-top: 0.125em;
   margin-bottom: 0.125em;
 }
-
 .md-typeset ul li ul li ul li {
   margin-top: 0.125em;
   margin-bottom: 0em;
 }
 
-
-/* .md-typeset ol li ol { margin: 0 0 0 0.625em; } .md-typeset ol li { margin-bottom: 0; } */
-
+/* Replaces the default permalink 'pilcrow' icon with an SVG icon of an interlocked link */
 .headerlink {
-	--permalink-size: 16px; /* for font-relative sizes, 0.6em is a good choice */
+	--permalink-size: 16px;
 	--permalink-spacing: 4px;
 
 	width: calc(var(--permalink-size) + var(--permalink-spacing));
@@ -332,11 +326,11 @@ article ul ul ul {
 	mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg>');
 	-webkit-mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg>');
 }
-
+/* Changes the permalink icon's colour when the specific URL ends in the permalinked heading */
 [id]:target .headerlink {
 	background-color: var(--md-typeset-a-color);
 }
-
+/* Changes the permalink icon's colour when the permalink icon is hovered over */
 .headerlink:hover {
 	background-color: var(--md-accent-fg-color) !important;
 }
@@ -346,6 +340,7 @@ p {
   margin-block-end: 0.5em;
 }
 
+/* Hides any body text for blog excerpts in the Transparency Report overview page */
 article.md-post--excerpt p, article.md-post--excerpt nav {
   display: none;
 }
