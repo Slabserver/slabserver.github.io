@@ -48,7 +48,6 @@
 | :material-sword: [Camera](https://github.com/GoldenDelicios/CameraPlugin) :material-account-edit-outline:{.staff} | Adds an improved survival-friendly spectator mode for staff |
 | :material-sword: [CollarCheck](https://github.com/GoldenDelicios/CollarCheck) :material-account-edit-outline:{.staff} | Allows staff to check the owner of a tameable animal |
 | :material-tools: [CoreProtect](https://www.spigotmc.org/resources/coreprotect.8631/) | Logs interactions in the world to a database |
-| :material-sword: DirectoryPlugin :material-account-edit-outline:{.staff} | Handles stock summaries in the Google Sheet for the directory |
 | :material-sword: [EntityDetection](https://www.spigotmc.org/resources/entitydetection-tile-entity-support.20588) | Helps with lagbusting by finding chunks with high amounts of entities |
 | :material-sword: [InventoryRollbackPlus](https://www.spigotmc.org/resources/inventory-rollback-plus-1-8-1-18-x.85811/) | Helps to easily restore player inventories if you die to glitches or bugs |
 | :material-sword: LessEndermanGriefing :material-account-edit-outline:{.staff} | Prevents Endermen from being able to pick up blocks |
