@@ -130,7 +130,6 @@ flowchart LR
     proxy <--> resource
 
 
-
     classDef container stroke:#3d8ec9,stroke-width:2px
     classDef invisible fill-opacity:0, stroke-opacity:0, color:#0000;
 
