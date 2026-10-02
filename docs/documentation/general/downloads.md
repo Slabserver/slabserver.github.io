@@ -5,12 +5,12 @@
 | - | - | - |
 | [Survival Season 3](https://dl.slabserver.org/Slabserver_S3.zip) | July 2019 - August 2024 |
 | [Survival Season 2](https://dl.slabserver.org/Slabserver_S2.zip) | February 2016 - July 2019 | 
-| [Survival Season 1](https://dl.slabserver.org/slabservers1.zip) | April 2015 - August 2015 | Partial, via World Downloader Mod. No other copy exists.
+| [Survival Season 1](https://dl.slabserver.org/slabservers1.zip) | April 2015 - August 2015 | Partial, via World Downloader Mod. No other copy of this world exists.
 
 ## Minecraft SMP - Season 4 Resources
 | Name | Year(s) | Notes
 | - | - | - |
-| [Voxy LODs](https://dl.slabserver.org/Voxy_LODs.zip) | May 2026 | [Installation Guide provided on Etho Discord](https://discord.com/channels/146701388234227712/147017948912025601/1454293606373392494) |
+| [Voxy LODs](https://dl.slabserver.org/Voxy_LODs.zip) | May 2026 | [Installation Guide on Discord](https://discord.com/channels/146701388234227712/147017948912025601/1454293606373392494) |
 | [DistantHorizons LODs](https://dl.slabserver.org/Slabserver_S2.zip) | September 2024 |
 
 ## Minecraft Modded Seasons
@@ -33,12 +33,12 @@
 | Name | Year(s) | Notes 
 | - | - | - |
 | [Episode 550 (latest)](https://dl.slabserver.org/ethoslab-lp-550.zip) | September 2020 | 
-| [Episodes 36 - 500](https://dl.slabserver.org/ethoslab-worlds.zip) | March 2011 - March 2018 | Mirror of the [ethoslab.world](https://ca-01.ethoslab.world/dl/) site contents
+| [Episodes 36 - 500](https://dl.slabserver.org/ethoslab-worlds.zip) | March 2011 - March 2018 | Mirror of the [ethoslab.world](https://ca-01.ethoslab.world/dl/) website
 
 ## Community Assets
 | Name | Year(s) | Notes
 | - | - | - |
-| [Slabserver Logo Model](https://dl.slabserver.org/Slabserver-Logo.zip) | May 2024 - Present | Contains How-To, Examples, and Usage Guidelines.
+| [Slabserver Logo Model](https://dl.slabserver.org/Slabserver-Logo.zip) | May 2024 - Present | Contains a How-to guide, several examples, and usage guidelines
 
 ## Community Videos
 | Name | Year(s) | Credits

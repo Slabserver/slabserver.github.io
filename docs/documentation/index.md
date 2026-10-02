@@ -8,20 +8,22 @@
 }
 </style>
 
-Welcome to the **Slabserver Documentation**, our open-source hub of docs, FAQs, and community resources. Our website and documentation are built with [Zensical](https://zensical.org), hosted on GitHub Pages, and lovingly crafted for **you**.
+Welcome to the **Slabserver Documentation**, an open-source hub of docs, FAQs, and resources. Our website and documentation is built with [Zensical](https://zensical.org), hosted on GitHub Pages, and lovingly crafted for **you**.
 
-Want to contribute? If you notice something missing, unclear, or in need of improvement, head on over to the [GitHub repository](https://github.com/Slabserver/slabserver.github.io/). Simply fork the repository, make some changes, and submit a pull request for us to review.
+<img src="/assets/images/banner.png" style="width:90%;display:block;margin:0 auto;"/>
 
 ## External Links
 
 <div class="grid cards" markdown>
 
-- :fontawesome-solid-earth-americas: __Pl3xMap__ – View our live map for [Survival S4](https://map.slabserver.org), or revisit the maps for our older [S3](https://s3map.slabserver.org/) & [S2](https://s2map.slabserver.org/) worlds.
+- :fontawesome-solid-earth-americas: __Map__ – View our live map for [Survival S4](https://map.slabserver.org), or revisit the maps for our older [S3](https://s3map.slabserver.org/) & [S2](https://s2map.slabserver.org/) worlds.
 
-- :material-shopping-search: **Directory** – Find information about bases in the [Nether Hub](https://slabserver.org/hub) or shops in the [Shopping District](https://slabserver.org/shops).
+- :material-shopping-search: **Directory** – Get directions for the Survival server's [Nether Hub](https://slabserver.org/hub) and [Shopping District](https://slabserver.org/shops).
 
-- :fontawesome-solid-bug: __Bugs__ – View our [known issues](https://github.com/Slabserver/Slabserver-Bugs/issues) being tracked internally, or raise a [new bug](https://github.com/Slabserver/Slabserver-Bugs/issues/new?assignees=&labels=Bug&projects=&template=bug_report.yml) with the staff team.
+- :fontawesome-solid-bug: __Bugs__ – View any [known bugs](https://github.com/Slabserver/Slabserver-Bugs/issues) we're trying to fix, or raise a [new bug](https://github.com/Slabserver/Slabserver-Bugs/issues/new?assignees=&labels=Bug&projects=&template=bug_report.yml) with the staff team.
 
-- :material-cash-multiple: **Donations** – Contribute to the monthly costs of our community servers via [Patreon](https://slabserver.org/patreon) or [Paypal](https://slabserver.org/paypal).
+- :material-cash-multiple: **Donations** – Contribute to our monthly [server costs](/transparency/) via our [Patreon](https://slabserver.org/patreon) or [Paypal](https://slabserver.org/paypal).
 
 </div>
+<br>
+<sup>If you notice something missing, unclear, or in need of improvement, please check out our [contributing guide](https://github.com/Slabserver/slabserver.github.io#contributing) on GitHub! <3</sup>

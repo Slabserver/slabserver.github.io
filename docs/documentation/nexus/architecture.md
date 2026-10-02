@@ -3,11 +3,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/11.15.0/mermaid.min.js"></script>
 
 ## Overview
-When you join the network, you first connect to the proxy that places you in the Lobby. From there, you can connect to any server at any time.
-
-The game servers don’t run constantly. If a server is offline and you try to join it, the network will automatically start it and move you there once it’s ready. When nobody is playing, servers shut down again to free up resources.
-
-Because everything connects through the proxy, features like cross-server chat, permissions and the Discord integration across every server.
+When joining, players connect to the Nexus proxy which places them in the Lobby. From there, players use the lobby to locate and connect to any of the [available servers](index.md#available-servers), which start [on-demand](#on-demand-servers) as required.
 
 ```mermaid
 flowchart LR
@@ -25,7 +21,7 @@ Panel -->|status| Controller
 ```
 
 ## Core Plugins
-Three plugins run at the proxy level. Every server in the network inherits their effects automatically.
+Three plugins run at the proxy level, and so their features work across every server automatically.
 
 ### Quick Reference
 
@@ -37,11 +33,11 @@ Three plugins run at the proxy level. Every server in the network inherits their
 | [Spicord](https://www.spigotmc.org/resources/spicord.64918/)   | Discord bot framework on the proxy         |
 | [SimpleProxyChat](https://modrinth.com/plugin/simpleproxychat) | Legacy Discord chat bridge                 |
 
-### How They Work
+### Plugin Descriptions
 
 #### NexusController
 
-NexusController is the automation layer. It watches every server, reacts to players joining, and talks to the hosting panel to start or stop servers on demand.
+NexusController is the automation layer, which watches every server, reacts to players joining, and talks to [Pterodactyl](../minecraft/server-architecture.md#introduction) to start or stop servers on demand.
 
 #### LuckPerms
 [LuckPerms](https://luckperms.net/) handles permissions across the whole network. Ranks and permissions set here apply to every server a player connects to. No per-server configuration is needed.
@@ -51,37 +47,37 @@ NexusController is the automation layer. It watches every server, reacts to play
 
 #### Spicord Ecosystem
 
-[Spicord](https://www.spigotmc.org/resources/spicord.64918/) Framework that loads a [JDA](https://github.com/discord-jda/JDA) environment on to the proxy. Really easy to extend without needing to redo boilerplate.
+[Spicord](https://www.spigotmc.org/resources/spicord.64918/) loads a [JDA](https://github.com/discord-jda/JDA) environment onto the proxy for extending Discord integration.
 
 ##### DCMessageBungee
-DCMessageBungee by Twist to relay message to the discord bot from servers on the network such as DeckedOut posting the messages to the discord using the Spicord API.
+DCMessageBungee by Twist relays message to the Discord bot from servers, such as DeckedOut posting the messages to the Discord using the Spicord API.
 
 ##### BungeePlayerList
-BungeePlayerList by Twist connects to the Spicord API and replys to the `playerlist` message showing where the players are on the network. Also uses [Levenshtein distance](https://en.wikipedia.org/wiki/Levenshtein_distance) to find misspelling and return a misspelt response back.
+BungeePlayerList by Twist connects to the Spicord API and replys to the `playerlist` message showing what Nexus server players are on. Also uses [Levenshtein distance](https://en.wikipedia.org/wiki/Levenshtein_distance) to find misspelling and return a misspelt response back.
 
 #### SimpleProxyChat Legacy
-[SimpleProxyChat](https://modrinth.com/plugin/simpleproxychat) *Planned to move away from to a Spicord approach* 
+[SimpleProxyChat](https://modrinth.com/plugin/simpleproxychat) provides Discord chat at the proxy level. *Planned to move to a Spicord approach*.
 
-Discord chat runs at the proxy level. Because it sits on the proxy, every server in the network shares the same integration automatically.
+As it sits on the proxy, every server in the network shares the same integrations automatically:
 
 - Messages sent in the linked Discord channel appear in-game on all servers.
 - Messages sent in-game appear in Discord.
 - Players on different servers see the same chat.
 - Switching servers does not interrupt the chat connection.
 
-No per-server setup is needed. Adding a new game server to the network gives it Discord chat without any extra work.
+No per-server setup is needed. Adding a new server to the network provides Discord chat by default.
 
 ## On-Demand Servers
 
-Game servers do not run constantly. When nobody is playing, a server shuts down to free up memory. The moment someone tries to join, NexusController starts it back up.
+Game servers do not run constantly. When nobody is playing, a server shuts down to free up memory. The moment someone tries to join, NexusController starts the server for them automatically.
 
 ### Joining an Offline Server
 
-1. You connect to the server (or type `/server <name>`) while it is offline.
+1. Players connect to the server (or type `/server <name>`) while it is offline.
 2. NexusController intercepts the connection before it fails.
-3. You get a message telling you the server is starting.
-4. The server boots in the background. This takes 20 to 60 seconds depending on the server.
-5. Once ready, you are moved there automatically. No action needed.
+3. Players get a message telling them the server is starting.
+4. The server starts in the background. This takes 20 to 60 seconds, depending on the server.
+5. Once the server is ready, players are moved to it automatically.
 
 ```mermaid
 sequenceDiagram
@@ -106,7 +102,7 @@ sequenceDiagram
 
 When the last player leaves a game server, NexusController starts a short countdown. If nobody rejoins within the grace period, the server stops automatically. This keeps memory free for other servers.
 
-The grace period covers short disconnections. If you drop and rejoin quickly, the server stays up.
+The grace period covers short disconnections. If players drop and rejoin quickly, the server stays online.
 
 ## Memory Management
 
@@ -131,4 +127,4 @@ When a server shuts down, its memory returns to the pool immediately.
 | Online | Running and accepting players |
 | Stopping | Shutdown signal sent |
 
-Status updates come from a live WebSocket connection to each server. If that connection drops, NexusController falls back to polling the panel every 20 seconds so status stays accurate.
+Status updates come from a live WebSocket connection to each server. If that connection drops, NexusController will fall back to polling the panel every 20 seconds so the status stays accurate.

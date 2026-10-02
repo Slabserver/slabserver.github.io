@@ -344,3 +344,51 @@ p {
 article.md-post--excerpt p, article.md-post--excerpt nav {
   display: none;
 }
+
+/* Creates the Nether tunnel finder widget in basing-guidelines.md */
+.tunnel-finder {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
+  margin: 1rem 0;
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.2rem;
+  background-color: var(--md-code-bg-color);
+}
+.tunnel-finder__inputs {
+  display: flex;
+  gap: 0.75rem;
+}
+.tunnel-finder__inputs label {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-weight: 700;
+}
+.tunnel-finder__inputs input {
+  width: 5rem;
+  padding: 0.3rem 0.5rem;
+  border: 1px solid var(--md-default-fg-color--lighter);
+  border-radius: 0.2rem;
+  background-color: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+  font-size: 0.8rem;
+}
+.tunnel-finder__result {
+  font-weight: 700;
+  padding-left: 0.75rem;
+  border-left: 3px solid var(--md-default-fg-color--lighter);
+}
+.tunnel-finder__result--east,
+.tunnel-finder__result--west,
+.tunnel-finder__result--south,
+.tunnel-finder__result--north {
+  border-left-color: var(--md-typeset-a-color);
+  color: var(--md-typeset-a-color);
+}
+.tunnel-finder__result--warning {
+  border-left-color: #ff9100;
+  color: #ff9100;
+}

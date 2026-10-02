@@ -15,7 +15,7 @@ We permit two types of macros on the server:
 - Auto-join scripts to rejoin the server after our daily server restarts.
 
 - Any action that can be achieved by just weighing down a button on your mouse or keyboard on a vanilla Minecraft client, such as holding right click for an AFK fish farm.
-    - This includes repeated actions on a timer _(e.g. swinging a sword)_, as this can also be done by toggling the `Options -> Controls -> Attack/Destroy` keybind within Minecraft, on 1.21.9 and above.
+    - This includes repeated actions on a timer _(e.g. swinging a sword)_, as this can also be done by toggling the `Options -> Controls -> Attack/Destroy` keybind within Minecraft's settings.
     
     - This includes repeated actions on a delay _(e.g. swinging a sword with a 1.5 second delay)_, as this can also be done via OS settings without the use of mods or external programs.
 
