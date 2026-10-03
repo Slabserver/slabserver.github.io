@@ -120,7 +120,7 @@ With our Staging setup, we are able to 'pull' everything from Main to the Stagin
 
 This lets us gradually prepare Staging over several days, test Staging before 'pushing' the changes, and minimise how long Slabserver is offline for the 'push' update. This is all managed via a bespoke [CLI](https://simple.wikipedia.org/wiki/Command-line_interface) tool known as [SlabCLI](https://github.com/Slabserver/slabcli).
 
-<!-- ## Databases
+## Databases
 
 The Proxy network uses a shared set of MySQL databases for a number of use cases:
 
@@ -147,7 +147,7 @@ In addition to the Proxy Databases, we use more MySQL databases in the main netw
     - Writes to this database to log player analytics
 
 For all of our databases, [phpMyAdmin](https://www.phpmyadmin.net/) provides a useful web interface for access and administration.
-<br> -->
+<br>
 
 
 ## Bots
