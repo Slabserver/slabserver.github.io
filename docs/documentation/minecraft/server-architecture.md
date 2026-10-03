@@ -1,10 +1,10 @@
 ## Introduction
 
-<img align="right" width="110" src="/assets/images/architecture/icons/pterodactyl.png"/>
+<img align="right" width="105" src="/assets/images/architecture/icons/pterodactyl.png"/>
 
-Our game servers are hosted on a dedicated Ubuntu server in Falkenstein, Germany, rented from Hetzner as a custom [AX42-U](https://www.hetzner.com/dedicated-rootserver/ax42-u/configurator/#/) machine. Alongside the standard 2x 512GB SSDs configured in RAID, we’ve added a 1TB SSD for non-Survival game servers, and a 22TB HDD for backups and cold storage.
+Our game servers are hosted on a dedicated Ubuntu server in Falkenstein, Germany, rented from Hetzner as a custom [AX42-U](https://www.hetzner.com/dedicated-rootserver/ax42-u/configurator/#/) machine. Alongside the standard 2x 512GB SSDs configured in RAID for our SMP servers, we’ve added a 1TB SSD for the non-SMP game servers, and a 22TB HDD for miscellaneous server backups and cold storage.
 
-To configure and manage our game servers and various community bots on this Ubuntu server, we rely on the [Pterodactyl](https://pterodactyl.io/) server management panel.
+To manage our game servers on this Ubuntu server, we use the [Pterodactyl](https://pterodactyl.io/) server management panel.
 
 ## Game Servers
 
@@ -15,30 +15,30 @@ flowchart TD
 
     subgraph server["Dedicated Ubuntu Server"]
         direction TB
-        pterodactyl["🦖 Pterodactyl"]
+        pterodactyl["🐦🎮\nPterodactyl"]
         subgraph games["Game Servers"]
             direction LR
-            proxy["🐳 Proxy"]
-            survival["🐳 Survival"]
-            resource["🐳 Resource"]
-            passage["🐳 Passage"]
-            creative["🐳 Creative"]
-            misc["🐳 Misc. Servers"]
+            survival["🐳\nSurvival"]
+            resource["🐳\nResource"]
+            passage["🐳\nPassage"]
+            creative["🐳\nCreative"]
+            snapshot["🐳\nSnapshot"]
+            misc["🐳\nMisc. Servers"]
         end
     end
 
-    pterodactyl --> proxy
     pterodactyl --> survival
     pterodactyl --> resource
     pterodactyl --> passage
     pterodactyl --> creative
+    pterodactyl --> snapshot
     pterodactyl --> misc
 
     classDef pdactyl stroke:#26519A,stroke-width:3px
     classDef container stroke:#3d8ec9,stroke-width:2px
 
     class pterodactyl pdactyl
-    class proxy,survival,resource,passage,creative,misc container
+    class survival,resource,passage,creative,snapshot,misc container
 
     style server stroke:#5c9fd6,stroke-width:1px
     style games stroke:#8fae7a,stroke-width:1px
@@ -48,9 +48,65 @@ flowchart TD
 
 ## Proxy Network
 
-We use a BungeeCord server (also known as our Proxy server) to connect several of our servers together, synchronising features such as [player list](https://minecraft.wiki/w/Multiplayer#Player_list) and [chat](https://minecraft.wiki/w/Chat) between them to create a shared Survival experience.
+We use a BungeeCord server (also known as our Proxy) to connect several of our servers together, synchronising features such as [player list](https://minecraft.wiki/w/Multiplayer#Player_list) and [chat](https://minecraft.wiki/w/Chat) between them to create a shared Survival experience.
 
 Our proxy network handles connections to and from the Survival, Resource, and Passage servers that sit 'below' the Proxy in the hierarchy, and these servers are collectively considered to be our **Main** server.
+
+```mermaid
+---
+config:
+  flowchart:
+    nodeSpacing: 10
+---
+flowchart LR
+    direction LR
+    subgraph nonbungee["Game Servers"]
+        subgraph fakeproxy2["NoProxy"]
+            direction TB
+            misc["🐳\nMisc. Servers"]
+            fakeserver2["🐳\ntest 2"]
+        end
+        subgraph fakeproxy1["NoProxy"]
+            direction TB
+            snapshot["🐳\nSnapshot"]
+            fakeserver1["🐳\ntest2"]
+        end
+        subgraph fakeproxy["NoProxy"]
+            direction TB
+            creative["🐳\nCreative"]
+            fakeserver["🐳\ntest"]
+        end
+        subgraph bungee["Proxy Network"]
+            direction TB
+            proxy["🐳\nProxy"]
+            survival["🐳\nSurvival"]
+            resource["🐳\nResource"]
+            passage["🐳\nPassage"]
+        end
+    end
+
+    proxy <--> survival
+    proxy <--> resource
+    proxy <--> passage
+
+    creative ~~~ fakeserver
+    snapshot ~~~ fakeserver1
+    misc ~~~ fakeserver2
+
+
+    classDef container stroke:#3d8ec9,stroke-width:2px
+    classDef invisible fill-opacity:0, stroke-opacity:0, color:#0000;
+
+    class proxy,survival,resource,passage container
+    class fakeproxy,fakeproxy1,fakeproxy2,fakeserver,fakeserver1,fakeserver2 invisible
+
+
+    style bungee stroke:#8fae7a,stroke-width:1px
+
+    linkStyle 0 stroke:#2e7d32,stroke-width:2px
+    linkStyle 1 stroke:#2e7d32,stroke-width:2px
+    linkStyle 2 stroke:#2e7d32,stroke-width:2px
+```
 
 ```mermaid
 flowchart TD
@@ -98,53 +154,15 @@ flowchart TD
 
 <img src="/assets/images/architecture/staging_lifecycle.png" style="width:45%;align:right;float:right;"/>
 
-The **Main** server has an equivalent **Test** server (also known as our [Staging](https://wikipedia.org/wiki/Deployment_environment#Staging) server), where we prepare server upgrades.
+The **Main** server has an equivalent **Test** server (also known as [**Staging**](https://wikipedia.org/wiki/Deployment_environment#Staging)), where we prepare server upgrades.
 
-As Minecraft updates have increased in both frequency and technical complexity, the work required for updating our plugins, datapacks, and server configuration also increased.
+As Minecraft updates increased in frequency from game drops, and became more technically complex, the work required to update our plugins, datapacks, and server configuration has also increased alongside it.
 
 With our Staging setup, we are able to 'pull' everything from Main to the Staging server, update our plugins and datapacks, and then 'push' those changes up to Main. 
 
 This lets us gradually prepare Staging over several days, test Staging before 'pushing' the changes, and minimise how long Slabserver is offline for the 'push' update. This is all managed via a bespoke [CLI](https://simple.wikipedia.org/wiki/Command-line_interface) tool known as [SlabCLI](https://github.com/Slabserver/slabcli).
 
 ## Databases
-
-```mermaid
-flowchart LR
-    subgraph server["Dedicated Ubuntu Server"]
-        subgraph bungee["Bungee Network"]
-            direction TB
-            survival["🐳 Survival"]
-            proxy["🐳 Proxy"]
-            passage["🐳 Passage"]
-            resource["🐳 Resource"]
-        end
-        subgraph notbungee["Non-Bungee Network"]
-            direction LR
-            creative["🐳 Creative"]
-            misc["🐳 Misc. Servers"]
-        end
-    end
-
-    proxy <--> survival
-    proxy <--> passage
-    proxy <--> resource
-
-
-
-    classDef container stroke:#3d8ec9,stroke-width:2px
-    classDef invisible fill-opacity:0, stroke-opacity:0, color:#0000;
-
-    class proxy,survival,resource,passage container
-    class notbungee,creative,misc invisible
-
-    style server stroke:#5c9fd6,stroke-width:1px
-    style bungee stroke:#8fae7a,stroke-width:1px
-
-    linkStyle 0 stroke:#2e7d32,stroke-width:2px
-    linkStyle 1 stroke:#2e7d32,stroke-width:2px
-    linkStyle 2 stroke:#2e7d32,stroke-width:2px
-
-```
 
 The Proxy server utilises a shared set of MySQL databases for a number of use cases:
 
@@ -182,15 +200,15 @@ Our bots are also hosted on the Ubuntu server and managed via Pterodactyl, just 
 flowchart TD
     subgraph server["Dedicated Ubuntu Server"]
         direction TB
-        pterodactyl["🦖 Pterodactyl"]
+        pterodactyl["🐦🎮\nPterodactyl"]
         subgraph bots["Bots"]
             direction LR
-            modbot["🐳 Modbot"]
-            modmailbot["🐳 Modmail Bot"]
-            applicationbot["🐳 Application Bot"]
-            playerlistbot["🐳 Playerlist Bot"]
-            musicbot["🐳 Music Bot"]
-            ergobot["🐳 ErgoBot"]
+            modbot["🐳\nModbot"]
+            modmailbot["🐳\nModmail Bot"]
+            applicationbot["🐳\nApplication Bot"]
+            playerlistbot["🐳\nPlayerlist Bot"]
+            musicbot["🐳\nMusic Bot"]
+            ergobot["🐳\nErgoBot"]
         end
     end
 
@@ -245,22 +263,22 @@ flowchart TD
     subgraph server["Dedicated Ubuntu Server"]
         subgraph games["Game Servers"]
             direction LR
-            proxy["🐳 Proxy"]
-            survival["🐳 Survival"]
-            resource["🐳 Resource"]
-            passage["🐳 Passage"]
-            creative["🐳 Creative"]
-            misc["🐳 Misc. Servers"]
+            survival["🐳\nSurvival"]
+            resource["🐳\nResource"]
+            passage["🐳\nPassage"]
+            creative["🐳\nCreative"]
+            snapshot["🐳\nSnapshot"]
+            misc["🐳\nMisc. Servers"]
         end
         restic(("🔄 Restic"))
     end
     backblaze["🔥 Backblaze B2 Storage"]
 
-    proxy <--> restic
     survival <--> restic
     resource <--> restic
     passage <--> restic
     creative <--> restic
+    snapshot <--> restic
     misc <--> restic
     restic <--> backblaze
 
@@ -268,7 +286,7 @@ flowchart TD
     classDef restic stroke:#a81c2b,stroke-width:2px
     classDef backblaze stroke:#7a1420,stroke-width:3px
 
-    class proxy,survival,resource,passage,creative,misc container
+    class survival,resource,passage,creative,snapshot,misc container
     class restic restic
     class backblaze backblaze
 
