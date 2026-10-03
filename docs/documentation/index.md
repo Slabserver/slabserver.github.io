@@ -8,7 +8,7 @@
 }
 </style>
 
-Welcome to the **Slabserver Documentation**, an open-source hub of docs, FAQs, and resources. Our website and documentation is built with [Zensical](https://zensical.org), hosted on GitHub Pages, and lovingly crafted for **you**.
+Welcome to the **Slabserver Documentation**, an [open-source](https://github.com/Slabserver/slabserver.github.io) hub of docs, FAQs, and resources. Our website and documentation is built with [Zensical](https://zensical.org), hosted on GitHub Pages, and lovingly crafted for **you**.
 
 <img src="/assets/images/banner.png" style="width:90%;display:block;margin:0 auto;"/>
 

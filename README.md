@@ -27,8 +27,6 @@ Before running this project locally, ensure the following are installed on your 
 **Required:**
 - Follow the Zensical [docs](https://zensical.org/docs/get-started/) to get started!
 
-Architecture diagrams (see [`server-architecture.md`](docs/documentation/minecraft/server-architecture.md)) are written as [Mermaid](https://mermaid.js.org) diagrams directly in Markdown, rendered client-side via `pymdownx.superfences`—no extra tooling required.
-
 ### Running Locally
 - Navigate to the project directory in your terminal
 - Run `zensical serve` from your terminal to build and serve the site 
