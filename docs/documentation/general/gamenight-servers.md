@@ -5,19 +5,19 @@ The **Gamenight Server Installer** (_affectionately known as the Slabserver Serv
 These servers automatically delete after 72 hours, meaning we take care of almost all server management aspects and allow you to focus on organizing your gamenight.
 
 !!! info
-    If you're looking to host a longer-term server or gamenight over several weeks, the staff team can create a gamenight server without auto-deletion. Please request one from the staff team or via Modmail, along with a brief justification.
+    If you need to host a longer-term server or gamenight over several weeks, the staff team can create a server without auto-deletion. Please request one from the staff team or via Modmail, along with a brief justification.
 
 ## Creating a Gamenight Server
 
 ### Basic Setup
 
-Simply type the `/gamenight` command to create a gamenight server. This will use the latest available [PaperMC](https://papermc.io/) version.
+Simply type the `/gamenight` command to create a server. This will use the latest [PaperMC](https://papermc.io/) version.
 
 ![Gamenight Discord Message](../../assets/images/gamenight/sethwing.png)
 
 ### Installing other Minecraft servers
 
-You can optionally provide a `server:` field, to install different Minecraft server types. The possible options are:
+You can optionally provide a `server:` field, to install different Minecraft server types:
 
 ```console
 /gamenight server:Paper (Recommended) 
@@ -25,9 +25,9 @@ You can optionally provide a `server:` field, to install different Minecraft ser
 /gamenight server:UHC
 ```
 
-- **Paper** is our recommended type of server installation due to offering plugins and better performance.
-- **UHC** is identical to Paper, but installs the latest version of the UhcCore plugin alongside the server.
-- **Vanilla** is Mojang's own server files, with no plugin support but will allow you to access much older versions of Minecraft, as covered below.
+- **Paper** is our recommended server installation, offering better performance and supporting plugins.
+- **UHC** is identical to Paper, but installs the latest version of the [UhcCore](https://www.spigotmc.org/resources/uhccore.102507/) plugin alongside the server.
+- **Vanilla** is Mojang's own server files, offering no plugin support but supports much older versions of Minecraft, as covered below.
 
 ### Installing other Minecraft versions
 
@@ -36,8 +36,6 @@ You can optionally provide a `version:` field, to install previous Minecraft ver
 - For Paper and UHC servers, the version must match one from the [Paper API](https://papermc.io/api/v2/projects/paper).
 
 - For Vanilla Minecraft, the version must match one from the [Vanilla manifest](https://launchermeta.mojang.com/mc/game/version_manifest.json).
-    
-    >Note: we can only support release version 1.2.5 or higher. All snapshot and pre-release versions from the manifest are also supported.
 
 Example options are:
 ```console
@@ -45,6 +43,9 @@ Example options are:
 /gamenight server:UHC version:1.15
 /gamenight server:Vanilla version:20w06a
 ```
+
+!!! info
+    `/gamenight` can only support Vanilla releases, pre-releases, or snapshots newer than Minecraft 1.2.5.
 
 ## Managing a Gamenight Server
 
@@ -62,9 +63,9 @@ The Console tab allows you to start, restart, stop and kill your server, as well
 
 The File Manager tab allows you interact with the server files.
 
-Prior to starting the server, only the `server.jar` and `server.properties` are present, with the remaining world and config files generated once you start the server for the first time. This means if you wish to use a whitelist, or add other plugins, you need to start the server at least once to generate the remaining files.
+At first, only the `server.jar` and `server.properties` are present. Other files are generated once you start the server for the first time, which you'll need to do to use a whitelist, or add other plugins.
 
-For larger or more frequent file transfers, Pterodactyl supports SFTP access. The credentials are available via the **Settings** tab.
+If you need to make frequent or larger file transfers, SFTP credentials are available via the **Settings** tab.
 
 ![File Manager UI](../../assets/images/gamenight/filemanager.png)
 
@@ -76,7 +77,7 @@ The Backups tab allows you to have your gamenight events or maps continue over s
 
 ### Creating a backup
 
-To get started, Click **Create Backup**. No name is required for the backup, leaving this field blank will default to `'Backup at <date> <time>'`. There should be no need to ignore files, directories, or lock the backup.
+To get started, Click **Create Backup**. No name is required, and leaving this field blank will default to `'Backup at <date> <time>'`. There should be no need to ignore files, directories, or lock the backup.
 
 Backups take the form of `.tar.gz` files for easy sharing, and are easily unzipped by common programs such as WinZip, 7Zip, WinRAR, or Archive Utility. 
 
@@ -87,15 +88,15 @@ Backups take the form of `.tar.gz` files for easy sharing, and are easily unzipp
 
 #### Existing servers
 
-When you wish to restore a backup for a currently installed server, select the `...` to the right hand side of the backup and then click 'Restore'. Make sure to select **Remove all files and folders before restoring this backup**, and then press **Restore Backup**.
+To restore a backup for an existing server, select `...` to the right side of the backup and then **Restore**. Select **Remove all files and folders before restoring this backup**, and then select **Restore Backup**.
 
 #### Newly installed servers
 
-When you wish to restore a backup to a newly installed server, simply delete the `server.jar` and `server.properties`, and upload the `.tar.gz` backup file you wish to restore. This can take several seconds to complete. Once this `.tar.gz` is visible in the File Manager, right click the file and select **Unarchive**.
+To restore a backup to a newly installed server, simply delete the `server.jar` and `server.properties`, and upload the `.tar.gz` backup file you wish to restore. This can take several seconds to complete. Once this `.tar.gz` is visible in the File Manager, right click the file and select **Unarchive**.
 
 ### Deleting a backup
 
-If you wish to delete a backup for a currently installed server, in order to make another backup, select the `...` to the right hand side of the backup and then click **Delete**.
+If you wish to delete a backup for a currently installed server, in order to make another backup, select `...` to the right hand side of the backup and then select **Delete**.
 
 !!! note
     If you have for some reason locked your backup, you will need to click 'Unlock' before being able to delete it.

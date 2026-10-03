@@ -1,6 +1,6 @@
 # Slabserver | The Etho Community
 
-The home for all things Slabserver—our community's landing page, documentation, Transparency Reports, and more. This repository is built with Material for MkDocs, hosted on GitHub Pages, and lovingly crafted for you.
+The home for all things Slabserver—our community's landing page, documentation, Transparency Reports, and more. This repository is built with [Zensical](https://zensical.org), hosted on GitHub Pages, and lovingly crafted for you.
 
 ## Contributing
 Want to contribute? If you notice something missing, unclear, or in need of improvement, simply fork the repository, make your changes, and submit a pull request for us to review.
@@ -25,18 +25,13 @@ Before running this project locally, ensure the following are installed on your 
 
 ### Installation
 **Required:**
-- Follow the Material for MkDocs [installation guide](https://squidfunk.github.io/mkdocs-material/getting-started/)
-- Install the `mkdocs-glightbox` plugin, used for enlarging images
-    -   ```pip install mkdocs-glightbox```
+- Follow the Zensical [docs](https://zensical.org/docs/get-started/) to get started!
 
-**Optional:**
-- Install the `diagrams` plugin, used when creating new [architecture](/docs//assets/diagrams/) diagrams
-  - ```pip install diagrams```
-  - This also requires [Graphviz](https://www.graphviz.org), which can be installed via typical package managers for [Linux](https://www.graphviz.org/download/#linux) and [MacOS](https://www.graphviz.org/download/#mac), or downloaded via other methods from the Graphviz [website](https://www.graphviz.org/download/).
+Architecture diagrams (see [`server-architecture.md`](docs/documentation/minecraft/server-architecture.md)) are written as [Mermaid](https://mermaid.js.org) diagrams directly in Markdown, rendered client-side via `pymdownx.superfences`—no extra tooling required.
 
 ### Running Locally
 - Navigate to the project directory in your terminal
-- Run `mkdocs serve` from your terminal to build and serve the site 
+- Run `zensical serve` from your terminal to build and serve the site 
 - In your browser, visit the local server URL provided in the terminal output
 
 ## Tips and Tricks
