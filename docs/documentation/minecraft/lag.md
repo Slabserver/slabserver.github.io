@@ -1,17 +1,17 @@
 # Lag Guidelines
 
-### **Villagers & Trading halls**
+### **Villagers & Trading Halls**
 
-Villagers are consistently terrible for server performance. For trading halls, best practices are:
+Villagers are consistently terrible for server performance. Best practices are:
 
 <img align="right" width="40%" src="/assets/images/lag/1.png"/>
 
-* To share them with other players where possible, or keep the villagers to the needed minimum if you're using them solo.
+* Share trading halls with other players where possible, or keep villagers to a minimum if you're using them solo.
 
-* To ensure they are loaded only when intended to be used, and are built 9+ chunks away from your base - particularly so for larger trading halls.
+* Ensure trading halls are loaded only when in use, and are built 9+ chunks away from your base.
 
-* To ensure sure your Villagers aren't perpetually scared by Zombies, as it'll **a)** cause small calculation bursts and **b)** spawn golems that cost even more performance in the long run.
-    *  Breaking line of sight between the mobs should prevent this from happening.
+* Ensure villagers aren't perpetually scared by zombies, as it **a)** causes small calculation bursts and **b)** spawns iron golems that will lag the server even more.
+    *  Breaking line of sight between villagers and zombies will prevent them from being perpetually scared.
 
 
 
@@ -21,24 +21,24 @@ For automatic farms in general (private or public), best practices are:
 
 <img align="right" width="40%" src="/assets/images/lag/2.png"/>
 
-* To consider whether you really need the farm. We have a wide variety of effective and efficient community farms for most essential items.
+* Use community farms instead -  there are a variety of effective and efficient farms for most essential items.
 
-* To have an overflow protection, so that items don't get bunched up anywhere when overproducing.
+* Use overflow protection in the farm design, so items don't get bunched up anywhere when overproducing.
 
-* To have the farm shut off completely, as soon as it reaches full storage capacity.
+* Make the farm shut down as soon as its storage is full.
 
-* To ensure that they are only loaded when intended to be used - particularly so for larger farms that require a lot of mob spawning or item dropping,.
+* Make sure the farm is only loaded when in use, especially farms with a lot of mob spawns or item drops.
 
-### **Bunched Up Mobs**
+### **Colliding Mobs**
 
 For animal farms, killing chamber, or any other similar situation, best practices are:
 
 <img align="right" width="40%" src="/assets/images/lag/3.png"/>
 
-* To ensure mobs are not bunched up in small areas, 1x1 holes or water streams, as mobs colliding is also notoriously terrible for server performance!
+* Ensure mobs are not crammed in small areas, 1x1 holes or water streams, as mob collisions are terrible for server performance and one of the main sources of lag.
 
-* To cull any colliding mobs to as few entities as possible, particularly so where mobs are bunched up for a prolongued amount of time. 
-    * For longer AFK sessions, please make sure to use wither roses or similar to kill mobs as efficiently as possible, and prevent them from bunching up. For animal farms, simply breed them again whenever required.
+* Cull any colliding mobs to as few entities as possible, particularly where mobs are bunched up for a long amounts of time. 
+    * For longer AFK sessions, use wither roses or similar mechanics to kill mobs as efficiently as possible.
+    * For animal farms, simply breed them when required.
 
-* To use vines (any vine should work) to reduce collisions, when you simply cannot avoid keeping multiple mobs in a smaller chamber.
-
+* Use vines to reduce collisions if you cannot avoid having multiple mobs in a smaller chamber.
