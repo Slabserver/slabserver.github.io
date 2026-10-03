@@ -73,7 +73,7 @@ There are four main Nether tunnels: North, South, West, and East. Your tunnel is
         return;
         }
         if (Math.abs(x) < 500 && Math.abs(z) < 500) {
-        result.textContent = "Your base cannot be built this close to Spawn";
+        result.textContent = "Your base would be too close to the Nether Hub";
         result.className = "tunnel-finder__result tunnel-finder__result--warning";
         return;
         }
