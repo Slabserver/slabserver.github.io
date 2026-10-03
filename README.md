@@ -5,6 +5,8 @@ The home for all things Slabserver—our community's landing page, documentation
 ## Contributing
 Want to contribute? If you notice something missing, unclear, or in need of improvement, simply fork the repository, make your changes, and submit a pull request for us to review.
 
+Where relevant, refer to the Minecraft Wiki's [style guide](https://minecraft.wiki/w/Minecraft_Wiki:Style_guide) for conventions when editing or writing any documentation that relates to or references Minecraft features.
+
 ### Getting Started
 Learning how to use [Visual Studio Code](https://code.visualstudio.com/docs/getstarted/getting-started) and its [built-in Git tools](https://code.visualstudio.com/docs/sourcecontrol/intro-to-git) is **highly** encouraged for those that would like to learn more industry-standard software.
 
