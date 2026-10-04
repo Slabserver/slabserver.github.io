@@ -40,7 +40,7 @@ Dedicated Hetzner Server Cost² | -$132.62
 - We updated Slabserver to Minecraft 26.3, and upgraded the majority of our plugins and datapacks to be compatible with this version. You can find the full patchnotes in our [#announcements](https://discord.com/channels/146701388234227712/146702455487463424/1555982130180526184) channel.
 
 - We updated The Passage to Minecraft 26.3, along with several important bugfixes. You can find the full patchnotes in our [#s4-puzzle](https://discord.com/channels/146701388234227712/614586586104987671/1555981317492048053) channel.
-    - This includes a workaround for a bug Mojang introduced in 26.3, which completely broke part of the puzzle. If you have a Mojira account, we'd really appreciate you voting for [MC-31227](https://bugs.mojang.com/browse/MC-312277).
+    - This includes a workaround for a bug Mojang introduced in 26.3, which completely broke part of the puzzle. If you have a Mojira account, we'd really appreciate you voting for [MC-312277](https://bugs.mojang.com/browse/MC-312277).
 
 - We updated this website to use [Zensical](https://zensical.org), a new static site generator replacing [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/). Zensical is made by the same team, due to their need to [move away from the MkDocs framework](https://squidfunk.github.io/mkdocs-material/blog/2026/02/18/mkdocs-2.0/#whats-changing-in-mkdocs-20).
     - As part of this upgrade, we've also made several changes to the website, including:
