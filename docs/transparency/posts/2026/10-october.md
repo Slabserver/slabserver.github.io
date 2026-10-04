@@ -50,7 +50,7 @@ Dedicated Hetzner Server Cost² | -$132.62
         - Rewording a number of pages, in an effort to keep the site's content concise and succinct.
         - Improving the formatting of the website homepage and documentation overview.
 
-- We fixed a bug where Ender Pearls  would persist between Resource World resets, which affected a number of players who were using stasis chanbers.
+- We fixed a bug where Ender Pearls  would persist between Resource World resets, which affected a number of players who were using stasis chambers.
 
 - We have been in touch with the other Hermit staff teams about another another cross-community event, which we hope to share more details about soon!
 
