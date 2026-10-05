@@ -15,14 +15,14 @@ search:
 
 Costs/Donations |      $
 ---|---
-Monthly Paypal Donations¹| $
-Monthly Patreon Donations¹| $
+Monthly Paypal Donations[^1]| $
+Monthly Patreon Donations[^1]| $
 Total Donations (Month)| $
 Existing Rollover Donations| $
 ---|---
-Dedicated Hetzner Server Cost² | -$
+Dedicated Hetzner Server Cost[^2] | -$  
 ---|---
-**Remaining Donation Funds**³   |  **$**
+**Remaining Donation Funds**[^3]   |  **$**
 
 [Backblaze](./../../../documentation/minecraft/server-architecture.md#backups) costs in December were $xx.xx. This expense is currently not paid for via the server donation funds.
 
@@ -30,7 +30,7 @@ Dedicated Hetzner Server Cost² | -$
 
 ### State of the Slab
 
-**Current staff tasks being tracked as of 1st January 2026⁴⁵:**
+**Current staff tasks being tracked as of 1st January 2026:** [^4] [^5]
 
 ![State of the Slab January 2026](./../../../assets/images/kanban/2026/January.png "State of the Slab January 2026")
 
@@ -52,12 +52,8 @@ Patreon: [https://slabserver.org/patreon](https://slabserver.org/patreon)
 
 ---
 
-<sup>¹ Donation amount listed is after transaction fees have taken place.</sup>
-
-<sup>² The dedicated server hosts all of our game servers, databases, as well as our various Discord bots. You can find more detail on this [in our documentation](../../../documentation/minecraft/server-architecture.md).</sup>
-
-<sup>³ Unless disclosed otherwise, this will always be put forward towards next months server costs, and will be displayed in ‘rollover donations’ within the transparency report.</sup>
-
-<sup>⁴ There will be occasions that certain items on the board are redacted, should they still be in [draft](https://docs.github.com/en/issues/planning-and-tracking-with-projects/managing-items-in-your-project/adding-items-to-your-project#creating-draft-issues), or contain sensitive tasks or information.</sup>
-
-<sup>⁵ The [Priority](../../../assets/images/kanban/Priority.png) and [Size](../../../assets/images/kanban/Size.png) labels for our State of the Slab Board are a rough estimate of the amount of work involved, and quite honestly are just assigned based on vibes.</sup>
+[^1]: Donation amounts shown reflect the amounts received after transaction fees charged by [PayPal](https://www.paypal.com/webapps/mpp/paypal-fees) and [Patreon](https://www.patreon.com/pricing).
+[^2]: The dedicated server hosts our game servers, databases, and bots. See [Server Architecture](../../../documentation/minecraft/server-architecture.md) for more details.
+[^3]: Unless otherwise disclosed, this will always be put forward towards next months server costs, and displayed in `Existing Rollover Donations` within the Transparency Report.
+[^4]: We will not show items from the kanban board that contain sensitive tasks and information, or are [draft issues](https://docs.github.com/en/issues/planning-and-tracking-with-projects/managing-items-in-your-project/adding-items-to-your-project#creating-draft-issues).
+[^5]: The [Priority](../../../assets/images/kanban/Priority.png) and [Size](../../../assets/images/kanban/Size.png) labels are a rough estimate of the work involved, and are purely assigned based on vibes.</sup>
