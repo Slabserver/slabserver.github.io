@@ -10,6 +10,7 @@ theme:
   features:
     - announce.dismiss
     - content.tooltips
+    - content.footnote.tooltips
     - navigation.indexes
     - navigation.sections
     - navigation.tabs
@@ -52,6 +53,7 @@ plugins:
 markdown_extensions:
 - admonition
 - attr_list
+- footnotes
 - md_in_html
 - pymdownx.details     # used by admonitions
 - pymdownx.superfences # used by admonitions
