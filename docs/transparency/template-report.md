@@ -15,14 +15,14 @@ search:
 
 Costs/Donations |      $
 ---|---
-Monthly Paypal Donations[^1]| $
-Monthly Patreon Donations[^1]| $
+Monthly Paypal Donations [^1]| $
+Monthly Patreon Donations [^1]| $
 Total Donations (Month)| $
 Existing Rollover Donations| $
 ---|---
-Dedicated Hetzner Server Cost[^2] | -$  
+Dedicated Hetzner Server Cost [^2] | -$  
 ---|---
-**Remaining Donation Funds**[^3]   |  **$**
+**Remaining Donation Funds** [^3]   |  **$**
 
 [Backblaze](./../../../documentation/minecraft/server-architecture.md#backups) costs in December were $xx.xx. This expense is currently not paid for via the server donation funds.
 
