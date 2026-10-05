@@ -26,7 +26,6 @@ Before running this project locally, ensure the following are installed on your 
     ```
 
 ### Installation
-**Required:**
 - Follow the Zensical [docs](https://zensical.org/docs/get-started/) to get started!
 
 ### Running Locally
