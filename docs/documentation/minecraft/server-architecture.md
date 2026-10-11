@@ -1,20 +1,20 @@
 ## Introduction
 
-<img align="right" width="105" src="/assets/images/architecture/icons/pterodactyl.png"/>
+<img align="right" width="105" src="/assets/images/architecture/icons/pelican.png"/>
 
 Our game servers are hosted on a dedicated Ubuntu server in Falkenstein, Germany, rented from Hetzner as a custom [AX42-U](https://www.hetzner.com/dedicated-rootserver/ax42-u/configurator/#/) machine. Alongside the standard 2x 512GB SSDs configured in RAID for our SMP servers, we’ve added a 1TB SSD for the non-SMP game servers, and a 22TB HDD for miscellaneous server backups and cold storage.
 
-To manage our game servers on this Ubuntu server, we use the [Pterodactyl](https://pterodactyl.io/) server management panel.
+To manage our game servers on this Ubuntu server, we use the [Pelican](https://pelican.dev) server management panel.
 
 ## Game Servers
 
-Pterodactyl runs all of our game servers in isolated Docker containers. We can then manage these game servers through the Pterodactyl UI panel, or the [SFTP](https://simple.wikipedia.org/wiki/SSH_file_transfer_protocol) access it provides.
+Pelican runs all of our game servers in isolated Docker containers. We can then manage these game servers through the Pelican UI panel, or the [SFTP](https://simple.wikipedia.org/wiki/SSH_file_transfer_protocol) access it provides.
 
 ```mermaid
 flowchart TD
     subgraph server["Dedicated Ubuntu Server"]
         direction TB
-        pterodactyl["🐦🎮\nPterodactyl"]
+        pelican["🐦\nPelican"]
         subgraph games["Game Servers"]
             direction LR
             survival["🐳\nSurvival"]
@@ -26,17 +26,17 @@ flowchart TD
         end
     end
 
-    pterodactyl --> survival
-    pterodactyl --> resource
-    pterodactyl --> passage
-    pterodactyl --> creative
-    pterodactyl --> snapshot
-    pterodactyl --> misc
+    pelican --> survival
+    pelican --> resource
+    pelican --> passage
+    pelican --> creative
+    pelican --> snapshot
+    pelican --> misc
 
     classDef pdactyl stroke:#26519A,stroke-width:3px
     classDef container stroke:#3d8ec9,stroke-width:2px
 
-    class pterodactyl pdactyl
+    class pelican pdactyl
     class survival,resource,passage,creative,snapshot,misc container
 
     style server stroke:#5c9fd6,stroke-width:1px
@@ -152,13 +152,13 @@ For all of our databases, [phpMyAdmin](https://www.phpmyadmin.net/) provides a u
 
 ## Bots
 
-Our bots are also hosted on the Ubuntu server and managed via Pterodactyl, just like any of our game servers. This helps the staff team to configure and manage most of our staff applications through a single application.
+Our bots are also hosted on the Ubuntu server and managed via Pelican, just like any of our game servers. This helps the staff team to configure and manage most of our staff applications through a single application.
 
 ```mermaid
 flowchart TD
     subgraph server["Dedicated Ubuntu Server"]
         direction TB
-        pterodactyl["🐦🎮\nPterodactyl"]
+        pelican["🐦\nPelican"]
         subgraph bots["Bots"]
             direction LR
             modbot["🐳\nModbot"]
@@ -170,17 +170,17 @@ flowchart TD
         end
     end
 
-    pterodactyl --> modbot
-    pterodactyl --> modmailbot
-    pterodactyl --> applicationbot
-    pterodactyl --> playerlistbot
-    pterodactyl --> musicbot
-    pterodactyl --> ergobot
+    pelican --> modbot
+    pelican --> modmailbot
+    pelican --> applicationbot
+    pelican --> playerlistbot
+    pelican --> musicbot
+    pelican --> ergobot
 
     classDef pdactyl stroke:#00337a,stroke-width:3px
     classDef container stroke:#3d8ec9,stroke-width:2px
 
-    class pterodactyl pdactyl
+    class pelican pdactyl
     class ergobot,musicbot,playerlistbot,modmailbot,modbot,applicationbot container
 
     style server stroke:#5c9fd6,stroke-width:1px
@@ -202,7 +202,7 @@ We run bots on our dedicated server for the following use cases:
 - **Music Bot**  
 *Plays YouTube and Soundcloud songs in our voice channels, utilising a [publicly available bot](https://github.com/arif-banai/MusicBot)*
 - **ErgoBot**  
-*Runs automation tasks on our Pterodactyl servers based on API responses from external services, for example Mojang's version manifest*
+*Runs automation tasks on our Pelican servers based on API responses from external services, for example Mojang's version manifest*
 
 ## Backups
 
