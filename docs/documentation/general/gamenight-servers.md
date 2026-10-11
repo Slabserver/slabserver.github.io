@@ -49,9 +49,9 @@ Example options are:
 
 ## Managing a Gamenight Server
 
-### Pterodactyl Panel
+### Pelican Panel
 
-When your gamenight server has installed, you'll be provided with a username, password, and link to our Pterodactyl panel where you can manage your server. Upon logging in, you'll see the server overview page, where clicking on your gamenight server will navigate you to the Console.
+When your gamenight server has installed, you'll be provided with a username, password, and link to our Pelican panel where you can manage your server. Upon logging in, you'll see the server overview page, where clicking on your gamenight server will navigate you to the Console.
 
 ### Server Console
 

@@ -10,7 +10,7 @@ flowchart LR
 
 Proxy(("BungeeCord Proxy\nnexus.slabserver.org"))
 Controller["Nexus Controller"]
-Panel[("Pterodactyl")]
+Panel[("Pelican")]
 Servers[Servers]
 
 Panel <-.-> |provides|Servers
@@ -37,7 +37,7 @@ Three plugins run at the proxy level, and so their features work across every se
 
 #### NexusController
 
-NexusController is the automation layer, which watches every server, reacts to players joining, and talks to [Pterodactyl](../minecraft/server-architecture.md#introduction) to start or stop servers on demand.
+NexusController is the automation layer, which watches every server, reacts to players joining, and talks to [Pelican](../minecraft/server-architecture.md#introduction) to start or stop servers on demand.
 
 #### LuckPerms
 [LuckPerms](https://luckperms.net/) handles permissions across the whole network. Ranks and permissions set here apply to every server a player connects to. No per-server configuration is needed.
@@ -83,7 +83,7 @@ Game servers do not run constantly. When nobody is playing, a server shuts down 
 sequenceDiagram
     participant P as Player
     participant NC as NexusController
-    participant Panel as Pterodactyl Panel
+    participant Panel as Pelican Panel
     participant S as Game Server
 
     P->>NC: /server decked-out
