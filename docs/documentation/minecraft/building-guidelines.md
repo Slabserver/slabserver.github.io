@@ -40,7 +40,7 @@ If you don't know who to message, please contact the staff team.
 
 There are four main Nether tunnels: North, South, West, and East. Your tunnel is determined by the F3 coordinates of your base, depending on:
 
-**a)** whether the X or Z coordinate is closer to 0
+**a)** whether the X or Z coordinate is further from 0
 
 **b)** whether it is positive or negative:
 
@@ -49,8 +49,8 @@ There are four main Nether tunnels: North, South, West, and East. Your tunnel is
 - Positive Z: South Tunnel
 - Negative Z: North Tunnel
 
-!!! example 
-    A base at `x-500, z1110` is closer to 0 on its `x` coordinate. As `x` is negative, the base connects to West Tunnel.
+!!! example
+    A base at `x-500, z1110` is further from 0 on its `z` coordinate. As `z` is positive, the base connects to South Tunnel.
     <div class="tunnel-finder">
     <div class="tunnel-finder__inputs">
         <label>X <input type="number" id="tunnel-x" placeholder="0" inputmode="numeric" /></label>
