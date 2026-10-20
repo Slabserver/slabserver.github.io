@@ -82,7 +82,7 @@ There are four main Nether tunnels: North, South, West, and East. Your tunnel is
         result.className = "tunnel-finder__result tunnel-finder__result--warning";
         return;
         }
-        var tunnel = Math.abs(x) <= Math.abs(z) ? (x >= 0 ? "East" : "West") : (z >= 0 ? "South" : "North");
+        var tunnel = Math.abs(x) >= Math.abs(z) ? (x >= 0 ? "East" : "West") : (z >= 0 ? "South" : "North");
         result.textContent = "Your base would connect to the " + tunnel + " Tunnel";
         result.className = "tunnel-finder__result tunnel-finder__result--" + tunnel.toLowerCase();
     }
