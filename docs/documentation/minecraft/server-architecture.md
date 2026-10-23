@@ -192,17 +192,17 @@ flowchart TD
 We run bots on our dedicated server for the following use cases:
 
 - **Modbot**  
-*Shares IPs, posts FAQs, checks pings, converts timezones, restarts servers, sends reminders, posts our Etho-themed join messages, assigns Snacker, Inactive, and self-assigned #welcome roles (and does plenty more!)*
+Shares IPs, posts FAQs, checks pings, converts timezones, restarts servers, sends reminders, posts our Etho-themed join messages, assigns Snacker, Inactive, and self-assigned #welcome roles (and does plenty more!)
 - **Modmail Bot**  
-*Forwards any DM or completed Member Report that you send @Chester to a private staff channel*
+Forwards any DM or completed Member Report that you send @Chester to a private staff channel
 - **Appbot**  
-*Sends server applications to an `#applications` channel, and whitelist commands to our servers*
+Sends server applications to an `#applications` channel, and whitelist commands to our servers
 - **Playerlist Bot**  
-*Checks player count and player statuses across the Proxy servers when `!playerlist` is used in `#ingamechat`*
+Checks player count and player statuses across the Proxy servers when `!playerlist` is used in `#ingamechat`
 - **Music Bot**  
-*Plays YouTube and Soundcloud songs in our voice channels, utilising a [publicly available bot](https://github.com/arif-banai/MusicBot)*
+Plays YouTube and Soundcloud songs in our voice channels, utilising a [publicly available bot](https://github.com/arif-banai/MusicBot)
 - **ErgoBot**  
-*Runs automation tasks on our Pterodactyl servers based on API responses from external services, for example Mojang's version manifest*
+Runs automation tasks on our Pterodactyl servers based on API responses from external services, for example Mojang's version manifest
 
 ## Backups
 
