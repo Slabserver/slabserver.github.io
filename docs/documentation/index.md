@@ -10,7 +10,7 @@
 
 Welcome to the **Slabserver Documentation**, an [open-source](https://github.com/Slabserver/slabserver.github.io) hub of docs, FAQs, and resources. Our website and documentation is built with [Zensical](https://zensical.org), hosted on GitHub Pages, and lovingly crafted for **you**.
 
-<img src="/assets/images/banner.png" style="width:90%;display:block;margin:0 auto;"/>
+<img src="/assets/images/banner.webp" alt="The Slabserver logo above a Minecraft town and mountain, with a statue of Etho" width="1600" height="900" fetchpriority="high" style="width:90%;display:block;margin:0 auto;"/>
 
 ## External Links
 
