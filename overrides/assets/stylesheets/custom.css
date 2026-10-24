@@ -204,18 +204,18 @@ background:
 .mdx-hero .md-button--discord {
   background-color: #ffffff;
   border-color: #ffffff;
-  color: #648472;
+  color: #5865F2;
 }
 .mdx-hero .md-button--minecraft:focus,
 .mdx-hero .md-button--minecraft:hover {
-  background-color: #008c45;
-  border-color: #008c45;
+  background-color: #008741;
+  border-color: #008741;
   color: var(--md-accent-bg-color);
 }
 .mdx-hero .md-button--minecraft {
   background-color: #ffffff;
   border-color: #ffffff;
-  color: #648472;
+  color: #008741;
 }
 
 /* Adds a small gutter and slightly smaller text to the content column, to allow for more md-content space */
