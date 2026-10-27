@@ -184,38 +184,273 @@ background:
   }
 }
 
-/* Styles both hero buttons on the home.html page, with additional colour styling for Discord or Minecraft */
-.mdx-hero .md-button {
-  color: var(--md-primary-bg-color);
-  margin-left: 0.4rem;
-  margin-top: 0.5rem;
+/* Styles both hero buttons on the home.html page, and the "Join our servers" dialog copy of the Discord button.
+   Styling for Discord or Minecraft below is the hero's; the dialog copy is coloured with the rest of the dialog */
+:is(.mdx-hero, .mdx-join) .md-button {
   padding: 0.5rem 0.8em;
   font-size: 0.8rem;
+  border: 2px solid;
   border-radius: 0.4rem;
-  border-width: 2px;
-  border-style: solid;
 }
-.mdx-hero .md-button--discord:focus,
+.mdx-hero .md-button {
+  margin: 0.5rem 0 0 0.4rem;
+}
+/* Shows hover colours for keyboard focus (:focus-visible), but not mouse focus, which would stick after a click
+   or once the "Join our servers" dialog closes. The resting colours also override Zensical's own :focus style */
+.mdx-hero .md-button--discord:focus-visible,
 .mdx-hero .md-button--discord:hover {
   background-color: #5865F2;
   border-color: var(--md-accent-fg-color);
   color: var(--md-accent-bg-color);
 }
-.mdx-hero .md-button--discord {
+.mdx-hero .md-button--discord,
+.mdx-hero .md-button--discord:focus:not(:focus-visible):not(:hover) {
   background-color: #ffffff;
   border-color: #ffffff;
   color: #5865F2;
+  opacity: 1;
 }
-.mdx-hero .md-button--minecraft:focus,
+.mdx-hero .md-button--minecraft:focus-visible,
 .mdx-hero .md-button--minecraft:hover {
   background-color: #008741;
   border-color: #008741;
   color: var(--md-accent-bg-color);
 }
-.mdx-hero .md-button--minecraft {
+.mdx-hero .md-button--minecraft,
+.mdx-hero .md-button--minecraft:focus:not(:focus-visible):not(:hover) {
   background-color: #ffffff;
   border-color: #ffffff;
   color: #008741;
+  opacity: 1;
+}
+
+/* Creates the "Join our servers" dialog on the home.html page, styled after Zensical's search window */
+.mdx-join {
+  /* The hero's Minecraft green in light mode, and a lighter green that's easier to read on the dark mode panel */
+  --mdx-join-accent: light-dark(#008741, #4cc38a);
+  /* Where the open / close animations start and end (see the keyframes at the end) */
+  --mdx-join-from: scale(1.1);
+  /* In px like Zensical's search, so it can't grow with the larger root font size on wide screens */
+  width: 720px;
+  max-height: 70vh;
+  padding: 0;
+  border: 1px solid rgb(var(--color-foreground) / .07);
+  border-radius: 16px;
+  /* The dialog itself takes focus when opened with a mouse or a link (see home.html), so needs no focus ring */
+  outline: none;
+  color: rgb(var(--color-foreground) / .7);
+  background-color: rgb(var(--color-background) / .7);
+  backdrop-filter: blur(8px);
+  box-shadow: 0 0 60px #0000000d;
+  font-size: .7rem;
+  line-height: 1.6;
+  animation: mdx-join-in .25s cubic-bezier(.16, 1, .3, 1);
+}
+.mdx-join::backdrop {
+  /* Fades in and out without zooming or sliding */
+  --mdx-join-from: none;
+  background-color: rgb(var(--color-backdrop) / .54);
+  backdrop-filter: blur(8px);
+  animation: mdx-join-in .25s;
+}
+/* Lays dialog out as a column, so the banner can give up height to keep the dialog within its max-height */
+.mdx-join[open] {
+  display: flex;
+  flex-direction: column;
+}
+/* Plays the closing animation before it closes the dialog, played by the script in home.html */
+.mdx-join.is-closing,
+.mdx-join.is-closing::backdrop {
+  animation: mdx-join-out .15s ease-in forwards;
+}
+/* Stops homepage scrolling behind the dialog */
+html:has(.mdx-join[open]) {
+  overflow: hidden;
+}
+
+/* Fades the banner into the panel, and fades it in once it's loaded. Cropped from the bottom on shorter screens */
+.mdx-join img {
+  width: 100%;
+  height: auto;
+  min-height: min(10rem, 28vw);
+  object-fit: cover;
+  object-position: top;
+  mask-image: linear-gradient(#000 62%, transparent);
+  opacity: 0;
+  transition: opacity .35s;
+}
+.mdx-join img.is-loaded {
+  opacity: 1;
+}
+/* Adds the close button, styled like Zensical's search window icons. Frosted too, as it sits on the banner rather than on a frosted panel */
+.mdx-join__close {
+  position: absolute;
+  top: .8rem;
+  right: .8rem;
+  display: grid;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  /* Zensical's hairline (.07), same as the dialog's border and the edges in its search window */
+  border: 1px solid rgb(var(--color-foreground) / .07);
+  border-radius: 8px;
+  /* Its focus ring (keyboard only) is in Zensical's accent colour, like Zensical's header buttons */
+  outline-color: var(--md-accent-fg-color);
+  color: rgb(var(--color-foreground) / .5);
+  /* Zensical's .54, same as its search window's backdrop */
+  background-color: rgb(var(--color-background) / .54);
+  backdrop-filter: blur(8px);
+  cursor: pointer;
+}
+.mdx-join__close svg {
+  width: 18px;
+}
+/* Adds the close button's and steps' hover highlights. Grow and fade in, like the highlights of Zensical's search window icons and results */
+.mdx-join__close::before,
+.mdx-join li::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  border-radius: 8px;
+  opacity: 0;
+  transition: transform 125ms, opacity 125ms;
+}
+/* Adds a see-through tint of the text colour instead, the same small step (lighter in dark mode, darker in light).
+   Zensical's icon highlight is opaque, which over the banner would hide the glow through the glass and go the opposite way. */
+.mdx-join__close::before {
+  background-color: rgb(var(--color-foreground) / .05);
+  transform: scale(.75);
+}
+.mdx-join__close:is(:hover, :focus-visible)::before {
+  opacity: 1;
+  transform: none;
+}
+/* Sizes the label icon to the text beside it */
+.mdx-join__eyebrow svg {
+  height: 1.3em;
+  fill: currentcolor;
+}
+/* Styles everything below the banner. It overlaps the banner's fade by 10% of the dialog's width (margin percentages are
+   of the width), keeping the overlap in proportion with the banner. Positioned, so it's drawn above the banner */
+.mdx-join__body {
+  position: relative;
+  margin-top: -10%;
+  padding: 0 6% 6%;
+}
+/* Creates the small green label above the heading */
+.mdx-join__eyebrow {
+  display: flex;
+  align-items: center;
+  gap: .5em;
+  color: var(--mdx-join-accent);
+  font-size: .6rem;
+  font-weight: 700;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+}
+.mdx-join h2 {
+  margin: .3rem 0 .5rem;
+  color: rgb(var(--color-foreground));
+  font-size: 1.1rem;
+  line-height: 1.3;
+  letter-spacing: -.02em;
+}
+.mdx-join p {
+  margin: 0;
+}
+.mdx-join strong {
+  color: rgb(var(--color-foreground) / .87);
+  font-weight: 600;
+}
+/* Styles the numbered steps in the dialog */
+.mdx-join ol {
+  display: grid;
+  gap: .2rem;
+  margin: .8rem 0 0;
+  padding: 0;
+  list-style: none;
+  counter-reset: step;
+}
+.mdx-join li {
+  position: relative;
+  padding: .45rem .6rem .45rem 2.3rem;
+  counter-increment: step;
+}
+/* Styles the step's number. Positioned, so the step's text needs no wrapper. */
+.mdx-join li::before {
+  content: counter(step);
+  position: absolute;
+  top: .45rem;
+  left: .6rem;
+  width: 1.12rem;
+  border-radius: 50%;
+  color: rgb(var(--color-background));
+  background-color: var(--mdx-join-accent);
+  font-size: .55rem;
+  font-weight: 700;
+  line-height: 1.12rem;
+  text-align: center;
+}
+/* Styles the step's highlight (see the shared highlight rule above). Mice only, as on touch screens it would stick after a tap */
+.mdx-join li::after {
+  background-color: rgb(var(--color-foreground) / .03);
+  transform: scale(.9);
+}
+@media (pointer: fine) {
+  .mdx-join li:hover::after {
+    opacity: 1;
+    transform: none;
+  }
+}
+/* Holds the copy of the hero's Discord button. md-typeset (in home.html) gives it Zensical's button styles, as in the hero */
+.mdx-join__action {
+  margin-top: 1.2rem;
+  text-align: center;
+}
+/* Adds copy of the Discord button. Blurple at rest, so it stands out on the light frosted panel.
+   On hover or keyboard focus it will shift towards the text colour, like the dialog's other hovers.
+   The doubled class outranks Zensical's button :hover and :focus styles, which would fade it and grey its text */
+.mdx-join .md-button.md-button--discord {
+  border-color: transparent;
+  color: #ffffff;
+  background-color: #5865F2;
+  opacity: 1;
+}
+.mdx-join .md-button.md-button--discord:is(:hover, :focus-visible) {
+  background-color: color-mix(in srgb, #5865F2, rgb(var(--color-foreground)) 10%);
+}
+
+/* On phones (under 480px wide), the dialog becomes a sheet that slides up from the bottom of the screen, within thumb
+   reach. The banner is only cropped on shorter phones */
+@media screen and (max-width: 29.984375em) {
+  .mdx-join {
+    --mdx-join-from: translateY(100%);
+    /* Slides up without fading, and more slowly than the desktop zoom, so the slide can be seen */
+    animation: mdx-join-rise .4s cubic-bezier(.32, .72, 0, 1);
+    max-width: 100%;
+    /* Back to the browser's default, nearly the full screen height */
+    max-height: revert;
+    margin-bottom: 0;
+    border-width: 1px 0 0;
+    border-radius: 16px 16px 0 0;
+  }
+}
+/* Keeps the fades, but drops the zoom and slide */
+@media (prefers-reduced-motion: reduce) {
+  .mdx-join {
+    --mdx-join-from: none;
+    animation-name: mdx-join-in;
+  }
+}
+@keyframes mdx-join-in {
+  from { opacity: 0; transform: var(--mdx-join-from); }
+}
+@keyframes mdx-join-out {
+  to { opacity: 0; transform: var(--mdx-join-from); }
+}
+@keyframes mdx-join-rise {
+  from { transform: var(--mdx-join-from); }
 }
 
 /* Adds a small gutter and slightly smaller text to the content column, to allow for more md-content space */

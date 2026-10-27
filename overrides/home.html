@@ -31,7 +31,8 @@
                 </span>
                 Join our Discord
               </a>
-              <a href="https://slabserver.org/discord" title="Join our servers" class="md-button md-button--minecraft">
+              <!-- Opens the #join-servers dialog below. The href is the no-JS fallback. -->
+              <a href="https://slabserver.org/discord" title="Join our servers" class="md-button md-button--minecraft" aria-haspopup="dialog" aria-controls="join-servers">
                 <span class="twemoji minecraft">
                   {% include ".icons/material/minecraft.svg" %}
                 </span>
@@ -44,10 +45,43 @@
     </div>
   </section>
 
+  <!-- "Join our servers" dialog, matching Zensical's search window (.mdx-join in custom.css) -->
+  <dialog id="join-servers" class="mdx-join" tabindex="-1" aria-labelledby="join-servers-title" aria-describedby="join-servers-text">
+    <!-- data-src, not src: lazy-loads the banner to keep it off the homepage's initial load -->
+    <img data-src="assets/images/banner.webp" alt="" width="1600" height="900" draggable="false"/>
+    <button type="button" class="mdx-join__close" aria-label="Close">
+      {% include ".icons/lucide/x.svg" %}
+    </button>
+    <div class="mdx-join__body">
+      <p class="mdx-join__eyebrow">
+        {% include ".icons/material/minecraft.svg" %}
+        Join our servers
+      </p>
+      <h2 id="join-servers-title">Join our Minecraft servers via the Etho Discord!</h2>
+      <div id="join-servers-text">
+        <p>Our servers are whitelist-only, to help us keep the community friendly and safe.<br>You can apply to our servers via the Etho Discord, and it only takes a few minutes:</p>
+        <ol>
+          <li><strong>Join our Etho Discord</strong> and say hello to the community.</li>
+          <li><strong>Apply to be whitelisted</strong> – we're usually quick to respond.</li>
+          <li><strong>Once accepted</strong>, you'll be whitelisted on all of our servers!</li>
+        </ol>
+      </div>
+      <!-- The hero's "Join our Discord" button, mostly sharing its styles (blurple at rest, see custom.css) -->
+      <div class="mdx-join__action md-typeset">
+        <a href="https://slabserver.org/discord" title="Join our Discord" class="md-button md-button--discord">
+          <span class="twemoji discord">
+            {% include ".icons/simple/discord.svg" %}
+          </span>
+          Join our Discord
+        </a>
+      </div>
+    </div>
+  </dialog>
+
     <!-- Additional styles for landing page -->
     <style>
                 /* Fonts are self-hosted in docs/assets/stylesheets/fonts.css. */
-                .mdx-hero__content {
+                .mdx-hero__content, .mdx-join__action {
               font-family: "Roboto", -apple-system, "system-ui", Helvetica, Arial, sans-serif;
             }
                 .md-main {
@@ -105,5 +139,71 @@
     </style>
     
     
+{% endblock %}
+{% block scripts %}
+  {{ super() }}
+  <!-- Inline rather than a separate .js file, as an extra request costs homepage Lighthouse performance -->
+  <script>
+    (() => {
+      const dialog = document.getElementById("join-servers");
+      const trigger = document.querySelector('[aria-controls="join-servers"]');
+      const banner = dialog.querySelector("img");
+      const discord = dialog.querySelector(".md-button--discord");
+      let pressedOutside = false;
+
+      const loadBanner = () => (banner.src ||= banner.dataset.src);
+      banner.addEventListener("load", () => banner.classList.add("is-loaded"), { once: true });
+
+      // Keyboard users start on the Discord button. Otherwise the dialog itself takes focus, so the button doesn't show a
+      // focus ring
+      const open = (fromKeyboard) => {
+        loadBanner();
+        dialog.showModal();
+        (fromKeyboard ? discord : dialog).focus();
+      };
+
+      // Plays the closing animation before actually closing (which returns focus to the button)
+      const close = () => {
+        dialog.classList.add("is-closing");
+        Promise.allSettled(dialog.getAnimations().map((a) => a.finished)).then(() => {
+          dialog.close();
+          dialog.classList.remove("is-closing");
+        });
+      };
+
+      trigger.addEventListener("click", (e) => {
+        // Leave modified clicks alone, so "open in new tab" etc. still go to Discord
+        if (e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+        e.preventDefault();
+        // Clicks from the keyboard (Enter) have no click count
+        open(e.detail === 0);
+      });
+      // Starts fetching the banner as soon as someone looks likely to click
+      for (const type of ["pointerenter", "focus", "touchstart"]) {
+        trigger.addEventListener(type, loadBanner, { once: true, passive: true });
+      }
+
+      dialog.querySelector(".mdx-join__close").addEventListener("click", close);
+      // Closes on backdrop clicks, which land on the dialog itself. The press must start outside the dialog's box, so
+      // dragging its scrollbar (on short screens), or selecting text and releasing over the backdrop, doesn't close it.
+      const isOutside = ({ clientX: x, clientY: y }) => {
+        const { left, right, top, bottom } = dialog.getBoundingClientRect();
+        return x < left || x > right || y < top || y > bottom;
+      };
+      dialog.addEventListener("pointerdown", (e) => (pressedOutside = isOutside(e)));
+      dialog.addEventListener("click", (e) => {
+        if (pressedOutside && e.target === dialog) close();
+      });
+      dialog.addEventListener("cancel", (e) => {
+        e.preventDefault();
+        close();
+      });
+
+      // Links to slabserver.org/#join-servers open the dialog straight away
+      const openFromHash = () => location.hash === "#join-servers" && open();
+      window.addEventListener("hashchange", openFromHash);
+      openFromHash();
+    })();
+  </script>
 {% endblock %}
 {% block footer %}{% endblock %}
