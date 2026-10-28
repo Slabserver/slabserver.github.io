@@ -1,3 +1,8 @@
+---
+tags:
+  - Server Tweaks
+---
+
 # Resource World
 
 The Resource World is an extension of Slabserver - a separate world that synchronises with the Main World, which has no worldborder but periodically resets with a new Overworld, Nether, and End. 

@@ -1,3 +1,8 @@
+---
+tags:
+  - Previous Seasons
+---
+
 # Slabserver: A History
 
 In the beginning, there was Etho.

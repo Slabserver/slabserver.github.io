@@ -1,3 +1,8 @@
+---
+tags:
+  - Formal Policies
+---
+
 # Bans & Appeals
 
 ## AdvancedBan

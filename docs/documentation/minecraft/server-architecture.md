@@ -1,3 +1,8 @@
+---
+tags:
+  - Infrastructure
+---
+
 ## Introduction
 
 <img align="right" width="105" src="/assets/images/architecture/icons/pterodactyl.png"/>

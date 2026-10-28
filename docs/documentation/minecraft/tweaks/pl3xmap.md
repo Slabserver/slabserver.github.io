@@ -1,3 +1,9 @@
+---
+tags:
+  - Server Tweaks
+  - Commands
+---
+
 # Pl3xMap
 
 Pl3xMap adds a world map viewer for our Survival server, which can be accessed at [map.slabserver.org](https://map.slabserver.org).

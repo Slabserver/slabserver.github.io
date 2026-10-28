@@ -1,3 +1,8 @@
+---
+tags:
+  - Nexus
+---
+
 # The Nexus
 
 The **Nexus** server acts as a hub for replaying community experiences which were previously created as one-off events or our previous Survival seasons. The server is created and maintained by GamingTwist.

@@ -1,3 +1,9 @@
+---
+tags:
+  - Server Guidelines
+  - Client Setups
+---
+
 # Client Mods
 
 **Note: If you have any further questions regarding additional mods, please contact the staff team and we'll be more than happy to update this list accordingly.**

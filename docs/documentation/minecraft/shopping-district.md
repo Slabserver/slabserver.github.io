@@ -1,3 +1,9 @@
+---
+tags:
+  - Server Guidelines
+  - Building
+---
+
 To help keep the Shopping District in tiptop shape, players must follow the guidelines below, and help to remind fellow community members of them too.
 
 ## Enforcement

@@ -1,3 +1,10 @@
+---
+tags:
+  - Server Tweaks
+  - Building
+  - Items
+---
+
 # Wrench
 
 The Wrench offers a convenient way to rotate blocks in Survival mode.

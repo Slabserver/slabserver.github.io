@@ -1,3 +1,10 @@
+---
+tags:
+  - Server Tweaks
+  - Items
+  - The End
+---
+
 # Initiation Candle
 
 When the Ender Dragon was first defeated in Season 4, no Dragon Egg was ever found. Instead, four candles appeared where the Dragon Egg should have been, along with a book containing a cryptic message:

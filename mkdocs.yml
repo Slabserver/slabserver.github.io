@@ -47,7 +47,8 @@ plugins:
       pagination_per_page: 12
       post_url_format: "{slug}"
       post_excerpt_separator: 
-  - search
+  - search # used for site-wide search functionality, see https://zensical.org/docs/setup/search/
+  - tags # used for additional search filters, see https://zensical.org/docs/setup/tags/
   - glightbox: # used for zoom functionality, see https://zensical.org/docs/compatibility/mkdocs/plugins/#glightbox
       width: 90%
 

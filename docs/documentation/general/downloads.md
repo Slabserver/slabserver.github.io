@@ -1,3 +1,9 @@
+---
+tags:
+  - Downloads
+  - Previous Seasons
+---
+
 # Assets & Downloads
 
 ## Minecraft SMP Seasons

@@ -1,3 +1,8 @@
+---
+tags:
+  - Infrastructure
+---
+
 # Server Plugins
 
 !!! info

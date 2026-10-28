@@ -1,3 +1,8 @@
+---
+tags:
+  - Server Tweaks
+---
+
 # Custom Advancements
 
 Slabserver features custom Minecraft advancements in order to gradually onboard new players to our community server, guiding them towards important server locations and our custom gameplay elements.

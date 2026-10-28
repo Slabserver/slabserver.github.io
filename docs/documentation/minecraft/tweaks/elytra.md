@@ -1,3 +1,10 @@
+---
+tags:
+  - Server Tweaks
+  - Items
+  - The End
+---
+
 # Elytra
 
 When the Ender Dragon is respawned and killed by a player, it has a 40% chance to drop Elytra. This increases by 20% for each level of the 'Looting' enchantment that the player has on their weapon.

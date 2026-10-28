@@ -1,3 +1,9 @@
+---
+tags:
+  - Server Tweaks
+  - Items
+---
+
 # Custom Recipes
 
 ## Dispensers

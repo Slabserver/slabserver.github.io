@@ -1,3 +1,9 @@
+---
+tags:
+  - Server Tweaks
+  - Sleep
+---
+
 # Sleeping Requirements
 
 Only 33% of active players in the Overworld, up to a maximum of 5 players total, need to be in bed to skip the night.

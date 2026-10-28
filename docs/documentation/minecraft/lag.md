@@ -1,3 +1,10 @@
+---
+tags:
+  - Server Guidelines
+  - Lag
+  - Mobs
+---
+
 # Lag Guidelines
 
 ### **Villagers & Trading Halls**

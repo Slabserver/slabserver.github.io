@@ -1,3 +1,9 @@
+---
+tags:
+  - Server Guidelines
+  - Client Setups
+---
+
 # Client Macros
 
 **Note: If you have any further questions regarding our macro rulesets, please contact the staff team and we'll be more than happy to clarify these rules further.**

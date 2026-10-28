@@ -1,3 +1,8 @@
+---
+tags:
+  - Gamenights
+---
+
 # Gamenight Servers
 
 The **Gamenight Server Installer** (_affectionately known as the Slabserver Server Server_) is a feature of our Discord Bots. It provides a temporary server in a matter of seconds, ready to be configured in any way you desire, with any settings, plugins, or maps.

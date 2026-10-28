@@ -1,3 +1,10 @@
+---
+tags:
+  - Server Tweaks
+  - Anti-Griefing
+  - Mobs
+---
+
 # Enderman Griefing Nerf
 
 To prevent destruction of player builds, Enderman cannot pick up blocks in the Main World.

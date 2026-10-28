@@ -1,3 +1,9 @@
+---
+tags:
+  - Server Guidelines
+  - Lag
+---
+
 # Chunkloader Guidelines
 
 !!! note

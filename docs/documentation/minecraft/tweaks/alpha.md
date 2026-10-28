@@ -1,3 +1,9 @@
+---
+tags:
+  - Server Tweaks
+  - Commands
+---
+
 # Alpha
 
 **Alpha** is the name of the 10-minute long credits song in Minecraft, composed by C418. It is normally only heard during the game's credits when traveling through The End's exit portal for the first time.

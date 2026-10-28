@@ -1,3 +1,9 @@
+---
+tags:
+  - Server Guidelines
+  - Building
+---
+
 # Building Guidelines
 
 ### Where to Build

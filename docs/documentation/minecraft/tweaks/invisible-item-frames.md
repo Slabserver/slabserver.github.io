@@ -1,3 +1,9 @@
+---
+tags:
+  - Server Tweaks
+  - Building
+---
+
 # Invisible Item Frames
 
 Item Frames can be made invisible by throwing a Splash or Lingering Potion of Invisibility. You can revert the invisibility using a Splash Water Bottle, or by just breaking the item frame.

@@ -1,3 +1,9 @@
+---
+tags:
+  - Server Tweaks
+  - Commands
+---
+
 # Discord Commands
 
 Our Discord channels, `#ingamechat` and `#creative-ingamechat`, are linked to their respective Minecraft server chats, letting you communicate with players in real time. You can also use a few helpful commands:
