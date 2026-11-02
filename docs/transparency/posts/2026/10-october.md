@@ -32,8 +32,8 @@ Dedicated Hetzner Server Cost [^2] | -$132.62
 
 **Current staff tasks being tracked as of 3rd October 2026:** [^4] [^5]
 
-![Image title](../../../assets/images/kanban/2026/October-light.png#only-light)
-![Image title](../../../assets/images/kanban/2026/October-dark.png#only-dark)
+![State of the Slab October 2026](../../../assets/images/kanban/2026/October-light.png#only-light "State of the Slab October 2026")
+![State of the Slab October 2026](../../../assets/images/kanban/2026/October-dark.png#only-dark "State of the Slab October 2026")
 
 **Here's a recap of the staff team actions throughout the last month:**
 
@@ -67,4 +67,4 @@ Patreon: [https://slabserver.org/patreon](https://slabserver.org/patreon)
 [^2]: The dedicated server hosts our game servers, databases, and bots. See [Server Architecture](../../../documentation/minecraft/server-architecture.md) for more details.
 [^3]: Unless otherwise disclosed, this will always be put forward towards next months server costs, and displayed in `Existing Rollover Donations` within the Transparency Report.
 [^4]: We will not show items from the kanban board that contain sensitive tasks and information, or are [draft issues](https://docs.github.com/en/issues/planning-and-tracking-with-projects/managing-items-in-your-project/adding-items-to-your-project#creating-draft-issues).
-[^5]: The [Priority](../../../assets/images/kanban/Priority.png) and [Size](../../../assets/images/kanban/Size.png) labels are a rough estimate of the work involved, and are purely assigned based on vibes.</sup>
+[^5]: The [Priority](../../../assets/images/kanban/Priority.png) and [Size](../../../assets/images/kanban/Size.png) labels are a rough estimate of the work involved, and are purely assigned based on vibes.
