@@ -39,8 +39,8 @@ Dedicated Hetzner Server Cost [^2] | -$131.79
 
 - We helped Mumbo's staff team host a Hermitfan 'Advancement Race' cross-community event on our server hardware, attended by five other Hermitcraft communities.
     - Admittedly, interest in this event within Slabserver was lower than we expected - so we'd appreciate any feedback on what part(s) didn't appeal to our community.
-- We announced our own 'WishLife' event, a new twist on the Life Series format coinciding with the Hermits' own 'Final Life' series.
-    - WishLife starts this weekend, so be sure to read the [announcement](https://discord.com/channels/146701388234227712/146702455487463424/1565835017500762252) for more information about the event, and how you can take part.
+- We announced our own 'Wish Life' event, a new twist on the Life Series format coinciding with the Hermits' own 'Final Life' series.
+    - Wish Life starts this weekend, so be sure to read the [announcement](https://discord.com/channels/146701388234227712/146702455487463424/1565835017500762252) for more information about the event, and how you can take part.
 - We've made some improvements to HuskSync when saving player data during server shutdown, in the hope of fixing the inventory duplication and rollback issues when the server restarts.
 - We patched our dedicated server to address the infamous [PHP vulnerabilities](https://www.php.net/archive/2026.php#2026-10-21-5) that were made public last month, which affected a significant number of internet-facing systems.
 - We've made several accessibility, performance and UX improvements to [slabserver.org](https://slabserver.org), including a dialog for the 'Join our servers' button on the homepage, and support for [Tags](https://zensical.org/docs/setup/tags/) to filter searches.
