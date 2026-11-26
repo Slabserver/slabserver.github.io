@@ -1,5 +1,5 @@
 ---
-date: 2026-01-01
+date: 2027-01-01
 authors: [DaUltraMarine]
 description: >
   Our monthly Transparency Reports, containing our monthly donations and summarising the progress our staff team has made recently.
@@ -8,7 +8,7 @@ search:
 
 ---
 
-# January 2026
+# January 2027
 <!-- more -->
 ### Donation Breakdown
 **Breakdown Between 1st Of December - 31st Of December:**
@@ -30,9 +30,9 @@ Dedicated Hetzner Server Cost [^2] | -$
 
 ### State of the Slab
 
-**Current staff tasks being tracked as of 1st January 2026:** [^4] [^5]
+**Current staff tasks being tracked as of 1st January 2027:** [^4] [^5]
 
-![State of the Slab January 2026](./../../../assets/images/kanban/2026/January.png "State of the Slab January 2026")
+![State of the Slab January 2027](./../../../assets/images/kanban/2027/January.png "State of the Slab January 2027")
 
 **Here's a recap of the staff team actions throughout the last month:**
 
