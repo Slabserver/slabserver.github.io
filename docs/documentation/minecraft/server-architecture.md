@@ -125,6 +125,16 @@ With our Staging setup, we are able to 'pull' everything from Main to the Stagin
 
 This lets us gradually prepare Staging over several days, test Staging before 'pushing' the changes, and minimise how long Slabserver is offline for the 'push' update. This is all managed via a bespoke [CLI](https://simple.wikipedia.org/wiki/Command-line_interface) tool known as [SlabCLI](https://github.com/Slabserver/slabcli).
 
+### Relays
+
+For those who experience connection issues to `slabserver.org` in Minecraft, we also provide relays as alternate connections to Slabserver.
+
+A relay is a lightweight server that sits between your Minecraft client and our Proxy, forwarding your connection to the Proxy network via a different internet route than it would normally take.
+
+If you are experiencing a bad connection, please try one of the following relays:
+
+- `r1.slabserver.org` - hosted in London, UK
+
 <!-- ## Databases
 
 The Proxy network uses a shared set of MySQL databases for a number of use cases:
